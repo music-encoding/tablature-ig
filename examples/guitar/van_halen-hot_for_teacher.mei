@@ -1,0 +1,234 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<mei xmlns='http://www.music-encoding.org/ns/mei' meiversion='3.0.0'>
+  <meiHead>
+    <fileDesc>
+      <titleStmt>
+        <title></title>
+      </titleStmt>
+      <pubStmt>
+        <respStmt>
+          <persName></persName>
+          <resp></resp>
+          <resp></resp>
+        </respStmt>
+      </pubStmt>
+      <sourceDesc>
+        <source>
+          <titleStmt>
+            <title></title>
+          </titleStmt>
+          <pubStmt>
+            <pubPlace></pubPlace>
+            <respStmt>
+              <persName></persName>
+              <resp></resp>
+            </respStmt>
+            <respStmt>
+              <persName></persName>
+              <resp></resp>
+            </respStmt>
+            <date></date>
+          </pubStmt>
+          <physDesc>
+            <physMedium></physMedium>
+            <dimensions></dimensions>
+          </physDesc>
+          <physLoc>
+            <provenance>
+              <repository>
+                <name></name>
+                <identifier></identifier>
+              </repository>
+            </provenance>
+          </physLoc>
+        </source>
+      </sourceDesc>
+    </fileDesc>
+    <workDesc>
+      <work>
+        <titleStmt>
+          <title>Hot for teacher</title>
+          <composer>
+            <name>
+              <persName>Van Halen</persName>
+            </name>
+          </composer>
+        </titleStmt>
+      </work>
+    </workDesc>
+  </meiHead>
+  <music>
+    <facsimile>
+      <surface>
+        <graphic/>
+      </surface>
+    </facsimile>
+    <body>
+      <mdiv n='1'>
+        <score>
+          <scoreDef>
+            <staffGrp>
+              <staffDef n='1' lines='6' notationtype='tab.guitar'>
+                <tuning tuning.standard='guitar'/>
+              </staffDef>
+            </staffGrp>
+          </scoreDef>
+          <section n='1'>
+            <measure n='1'>
+              <staff n='1'>
+                <layer n='1'>
+                  <tabGrp dur='2'>
+                    <note tab.course='5' tab.fret='0' tie='t' xml:id='m1.n1'/>
+                    <note tab.course='4' tab.fret='2' tie='t' xml:id='m1.n2'/>
+                    <note tab.course='3' tab.fret='2' tie='t' xml:id='m1.n3'/>
+                  </tabGrp>
+                  <tabGrp dur='8'/>
+                  <beam>
+                    <tabGrp dur='8'>
+                      <note tab.course='1' tab.fret='12' xml:id='m1.n4'/>
+                    </tabGrp>
+                    <tabGrp dur='8'>
+                      <note tab.course='1' tab.fret='5' xml:id='m1.n5'/>
+                    </tabGrp>
+                    <tabGrp dur='8'>
+                      <note tab.course='1' tab.fret='3' xml:id='m1.n6'/>
+                    </tabGrp>
+                  </beam>
+                </layer>
+              </staff>
+              <dir technique='tap-fing' startid='m1.n4'>T</dir>
+              <slur startid='m1.n4' endid='m1.n6' show.dirmark='true'/>
+            </measure>
+            <measure n='2'>
+              <staff n='1'>
+                <layer n='1'>
+                  <beam>
+                    <tabGrp dur='16'>
+                      <note tab.course='1' tab.fret='12' xml:id='m2.n1'/>
+                    </tabGrp>
+                    <tabGrp dur='16'>
+                      <note tab.course='1' tab.fret='8' xml:id='m2.n2'/>
+                    </tabGrp>
+                    <tabGrp dur='16'>
+                      <note tab.course='1' tab.fret='7' xml:id='m2.n3'/>
+                    </tabGrp>
+                    <tabGrp dur='16'>
+                      <note tab.course='1' tab.fret='5' xml:id='m2.n4'/>
+                    </tabGrp>
+                  </beam>
+                  <beam>
+                    <tabGrp dur='16'>
+                      <note tab.course='2' tab.fret='8' xml:id='m2.n5'/>
+                    </tabGrp>
+                    <tabGrp dur='16'>
+                      <note tab.course='2' tab.fret='12' xml:id='m2.n6'/>
+                    </tabGrp>
+                    <tabGrp dur='16'>
+                      <note tab.course='2' tab.fret='8' xml:id='m2.n7'/>
+                    </tabGrp>
+                    <tabGrp dur='16'>
+                      <note tab.course='2' tab.fret='7' xml:id='m2.n8'/>
+                    </tabGrp>
+                  </beam>
+                  <beam>
+                    <tabGrp dur='16'>
+                      <note tab.course='2' tab.fret='5' xml:id='m2.n9'/>
+                    </tabGrp>
+                    <tabGrp dur='8'>
+                      <note tab.course='3' tab.fret='8' xml:id='m2.n10'/>
+                    </tabGrp>
+                    <tabGrp dur='16'>
+                      <note tab.course='3' tab.fret='12' xml:id='m2.n11'/>
+                    </tabGrp>
+                  </beam>
+                  <beam>
+                    <tabGrp dur='16'>
+                      <note tab.course='3' tab.fret='8' xml:id='m2.n12'/>
+                    </tabGrp>
+                    <tabGrp dur='16'>
+                      <note tab.course='3' tab.fret='7' xml:id='m2.n13'/>
+                    </tabGrp>
+                    <tabGrp dur='16'>
+                      <note tab.course='3' tab.fret='5' xml:id='m2.n14'/>
+                    </tabGrp>
+                    <tabGrp dur='16'>
+                      <note tab.course='4' tab.fret='8' tie='i' xml:id='m2.n15'/>
+                    </tabGrp>
+                  </beam>
+                </layer>
+              </staff>
+              <dir technique='tap-fing' startid='m2.n1'>T</dir>
+              <slur startid='m2.n1' endid='m2.n4' show.dirmark='true'/>
+              <slur startid='m2.n5' show.dirmark='true'/>
+              <dir technique='tap-fing' startid='m2.n6'>T</dir>
+              <slur startid='m2.n6' endid='m2.n9' show.dirmark='true'/>
+              <slur startid='m2.n10' show.dirmark='true'/>
+              <dir technique='tap-fing' startid='m2.n11'>T</dir>
+              <slur startid='m2.n11' endid='m2.n14' show.dirmark='true'/>
+              <slur startid='m2.n15' show.dirmark='true'/>
+            </measure>
+            <measure n='3' right='dbl'>
+              <staff n='1'>
+                <layer n='1'>
+                  <beam>
+                    <tabGrp dur='16'>
+                      <note tab.course='4' tab.fret='8' tie='t' xml:id='m3.n1'/>
+                    </tabGrp>
+                    <tabGrp dur='16'>
+                      <note tab.course='4' tab.fret='12' xml:id='m3.n2'/>
+                    </tabGrp>
+                    <tabGrp dur='16'>
+                      <note tab.course='4' tab.fret='8' xml:id='m3.n3'/>
+                    </tabGrp>
+                    <tabGrp dur='16'>
+                      <note tab.course='4' tab.fret='7' xml:id='m3.n4'/>
+                    </tabGrp>
+                  </beam>
+                  <beam>
+                    <tabGrp dur='16'>
+                      <note tab.course='4' tab.fret='5' xml:id='m3.n5'/>
+                    </tabGrp>
+                    <tabGrp dur='8'>
+                      <note tab.course='5' tab.fret='8' xml:id='m3.n6'/>
+                    </tabGrp>
+                    <tabGrp dur='16'>
+                      <note tab.course='5' tab.fret='12' xml:id='m3.n7'/>
+                    </tabGrp>
+                  </beam>
+                  <beam>
+                    <tabGrp dur='16'>
+                      <note tab.course='5' tab.fret='8' xml:id='m3.n8'/>
+                    </tabGrp>
+                    <tabGrp dur='16'>
+                      <note tab.course='5' tab.fret='7' xml:id='m3.n9'/>
+                    </tabGrp>
+                    <tabGrp dur='16'>
+                      <note tab.course='5' tab.fret='5' xml:id='m3.n10'/>
+                    </tabGrp>
+                    <tabGrp dur='16'>
+                      <note tab.course='5' tab.fret='0' tie='i' xml:id='m3.n11'/>
+                    </tabGrp>
+                  </beam>
+                  <beam>
+                    <tabGrp dur='8'>
+                      <note tab.course='5' tab.fret='0' tie='t' xml:id='m3.n12'/>
+                    </tabGrp>
+                    <tabGrp dur='8'>
+                      <note tab.course='3' tab.fret='4' tie='i' xml:id='m3.n13'/>
+                    </tabGrp>
+                  </beam>
+                </layer>
+              </staff>
+              <dir technique='tap-fing' startid='m3.n2'>T</dir>
+              <slur startid='m3.n2' endid='m3.n5' show.dirmark='true'/>
+              <slur startid='m3.n6' show.dirmark='true'/>
+              <dir technique='tap-fing' startid='m3.n7'>T</dir>
+              <slur startid='m3.n7' endid='m3.n11' show.dirmark='true'/>
+              <pitchInflection startid='m3.n13' endid='m3.n13+1' dis='2'>Full</pitchInflection>
+            </measure>
+          </section>
+        </score>
+      </mdiv>
+    </body>
+  </music>
+</mei>

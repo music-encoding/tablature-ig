@@ -1,0 +1,213 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<mei xmlns='http://www.music-encoding.org/ns/mei' meiversion='3.0.0'>
+  <meiHead>
+    <fileDesc>
+      <titleStmt>
+        <title>Excerpt from: Intabolatura de lauto di Francesco da Milano, Libro primo</title>
+      </titleStmt>
+      <pubStmt>
+        <respStmt>
+          <persName>Reinier de Valk</persName>
+          <resp>Transcription</resp>
+          <resp>Encoding</resp>
+        </respStmt>
+      </pubStmt>
+      <sourceDesc>
+        <source>
+          <titleStmt>
+            <title>Intabolatura de lauto di Francesco da Milano, Libro primo</title>
+          </titleStmt>
+          <pubStmt>
+            <pubPlace>Venice</pubPlace>
+            <respStmt>
+              <persName>Antonio Gardane</persName>
+              <resp>Printer</resp>
+            </respStmt>
+            <respStmt>
+              <persName>Francesco da Milano</persName>
+              <resp>Compiler</resp>
+            </respStmt>
+            <date>1546</date>
+          </pubStmt>
+          <physDesc>
+            <physMedium>Paper</physMedium>
+            <dimensions unit='mm'>145x210</dimensions>
+          </physDesc>
+          <physLoc>
+            <provenance>
+              <repository>
+                <name>British Library</name>
+                <identifier authURI='http://access.bl.uk/item/viewer/ark:/81055/vdc_100050806535.0x000001#?c=0&m=0&s=0&cv=0&xywh=-137%2C-747%2C2727%2C3092'>K.1.c.12</identifier>
+              </repository>
+            </provenance>
+          </physLoc>
+        </source>
+      </sourceDesc>
+    </fileDesc>
+    <workDesc>
+      <work>
+        <titleStmt>
+          <title>Fantesia di F. da Milano</title>
+          <composer>
+            <name>
+              <persName>Francesco da Milano</persName>
+            </name>
+          </composer>
+        </titleStmt>
+      </work>
+    </workDesc>
+  </meiHead>
+  <music>
+    <facsimile>
+      <surface>
+        <graphic target='milano-1546_6-no_8.png'/>
+      </surface>
+    </facsimile>
+    <body>
+      <mdiv n='1'>
+        <score>
+          <scoreDef>
+            <staffGrp>
+              <staffDef n='1' lines='6' notationtype='tab.lute.italian'>
+                <tuning tuning.standard='lute.renaissance.6'/>
+              </staffDef>
+            </staffGrp>
+          </scoreDef>
+          <section n='1'>
+            <measure n='1'>
+              <staff n='1'>
+                <layer n='1'>
+                  <tabGrp dur.ges='2'>
+                    <tabRhythm/>
+                    <note tab.course='1' tab.fret='5' xml:id='m1.n1'/>
+                  </tabGrp>
+                  <tabGrp dur.ges='4'>
+                    <tabRhythm/>
+                    <note tab.course='1' tab.fret='7' xml:id='m1.n2'/>
+                  </tabGrp>
+                  <tabGrp dur.ges='4'>
+                    <note tab.course='1' tab.fret='5' xml:id='m1.n3'/>
+                  </tabGrp>
+                </layer>
+              </staff>
+              <fing playingHand='right' playingFinger='1' startid='m1.n3'/>
+            </measure>
+            <measure n='2'>
+              <staff n='1'>
+                <layer n='1'>
+                  <tabGrp dur.ges='4'>
+                    <note tab.course='2' tab.fret='3' xml:id='m2.n1'/>
+                  </tabGrp>
+                  <tabGrp dur.ges='4'>
+                    <note tab.course='1' tab.fret='2' xml:id='m2.n2'/>
+                  </tabGrp>
+                  <tabGrp dur.ges='4'>
+                    <note tab.course='2' tab.fret='5' xml:id='m2.n3'/>
+                    <note tab.course='1' tab.fret='3' xml:id='m2.n4'/>
+                  </tabGrp>
+                  <tabGrp dur.ges='4'>
+                    <note tab.course='2' tab.fret='3' xml:id='m2.n5'/>
+                    <note tab.course='1' tab.fret='5' xml:id='m2.n6'/>
+                  </tabGrp>
+                </layer>
+              </staff>
+              <fing playingHand='right' playingFinger='1' startid='m2.n2'/>
+            </measure>
+            <measure n='3'>
+              <staff n='1'>
+                <layer n='1'>
+                  <tabGrp dur.ges='4'>
+                    <note tab.course='1' tab.fret='7' xml:id='m3.n1'/>
+                  </tabGrp>
+                  <tabGrp dur.ges='4'>
+                    <note tab.course='2' tab.fret='0' xml:id='m3.n2'/>
+                  </tabGrp>
+                  <tabGrp dur.ges='4'>
+                    <choice>
+                      <sic>
+                        <note tab.course='2' tab.fret='3' xml:id='m3.n3'/>
+                      </sic>
+                      <corr>
+                        <note tab.course='2' tab.fret='2' xml:id='m3.n3'/>
+                      </corr>
+                    </choice>
+                    <note tab.course='1' tab.fret='5' xml:id='m3.n4'/>
+                  </tabGrp>
+                  <tabGrp dur.ges='4'>
+                    <note tab.course='2' tab.fret='3' xml:id='m3.n5'/>
+                    <note tab.course='1' tab.fret='2' xml:id='m3.n6'/>
+                  </tabGrp>
+                </layer>
+              </staff>
+            </measure>
+            <measure n='4'>
+              <staff n='1'>
+                <layer n='1'>
+                  <tabGrp dur.ges='4'>
+                    <note tab.course='2' tab.fret='5' xml:id='m4.n1'/>
+                    <note tab.course='1' tab.fret='3' xml:id='m4.n2'/>
+                  </tabGrp>
+                  <tabGrp dur.ges='8'>
+                    <tabRhythm/>
+                    <note tab.course='1' tab.fret='2' xml:id='m4.n3'/>
+                  </tabGrp>
+                  <tabGrp dur.ges='8'>
+                    <note tab.course='1' tab.fret='0' xml:id='m4.n4'/>
+                  </tabGrp>
+                  <tabGrp dur.ges='4'>
+                    <tabRhythm/>
+                    <note tab.course='2' tab.fret='3' xml:id='m4.n5'/>
+                    <note tab.course='1' tab.fret='2' xml:id='m4.n6'/>
+                  </tabGrp>
+                  <tabGrp dur.ges='4'>
+                    <note tab.course='2' tab.fret='0' xml:id='m4.n7'/>
+                    <note tab.course='1' tab.fret='3' xml:id='m4.n8'/>
+                  </tabGrp>
+                </layer>
+              </staff>
+              <fing playingHand='right' playingFinger='1' startid='m4.n4'/>
+            </measure>
+            <measure n='5'>
+              <staff n='1'>
+                <layer n='1'>
+                  <tabGrp dur.ges='4'>
+                    <note tab.course='2' tab.fret='2' xml:id='m5.n1'/>
+                    <note tab.course='1' tab.fret='0' xml:id='m5.n2'/>
+                  </tabGrp>
+                  <tabGrp dur.ges='8'>
+                    <tabRhythm/>
+                    <choice>
+                      <sic>
+                        <note tab.course='2' tab.fret='4' xml:id='m5.n3'/>
+                      </sic>
+                      <corr>
+                        <note tab.course='2' tab.fret='0' xml:id='m5.n3'/>
+                      </corr>
+                    </choice>
+                    <note tab.course='1' tab.fret='5' xml:id='m5.n4'/>
+                  </tabGrp>
+                  <tabGrp dur.ges='8'>
+                    <note tab.course='3' tab.fret='3' xml:id='m5.n5'/>
+                  </tabGrp>
+                  <tabGrp dur.ges='8'>
+                    <note tab.course='2' tab.fret='0' xml:id='m5.n6'/>
+                  </tabGrp>
+                  <tabGrp dur.ges='8'>
+                    <note tab.course='1' tab.fret='3' xml:id='m5.n7'/>
+                  </tabGrp>
+                  <tabGrp dur.ges='4'>
+                    <tabRhythm/>
+                    <note tab.course='2' tab.fret='2' xml:id='m5.n8'/>
+                    <note tab.course='1' tab.fret='0' xml:id='m5.n9'/>
+                  </tabGrp>
+                </layer>
+              </staff>
+              <fing playingHand='right' playingFinger='1' startid='m5.n5'/>
+              <fing playingHand='right' playingFinger='1' startid='m5.n7'/>
+            </measure>
+          </section>
+        </score>
+      </mdiv>
+    </body>
+  </music>
+</mei>

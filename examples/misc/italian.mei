@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="2013">
+  <meiHead>
+    <fileDesc>
+      <titleStmt>
+        <title>Excerpt from: Gagliarda Prima</title>
+      </titleStmt>
+      <pubStmt>
+        <respStmt>
+          <persName>Richard Lewis</persName>
+          <resp>Encoding</resp>
+        </respStmt>
+      </pubStmt>
+      <sourceDesc>
+        <source n="1">
+          <titleStmt>
+            <title>Primo Libro d'Intavolatura de balli</title>
+          </titleStmt>
+          <pubStmt>
+            <date>1592</date>
+            <respStmt>
+              <persName>Giovanni Maria Radino</persName>
+            </respStmt>
+          </pubStmt>
+        </source>
+      </sourceDesc>
+    </fileDesc>
+    <workDesc>
+      <work>
+        <titleStmt>
+          <title>Gagliarda Prima</title>
+        </titleStmt>
+        <perfMedium>
+          <instrumentation>
+            <instrVoice code="lute" xml:id="instr-3c36f07a-bd01-11e4-8fe2-0021ccd2abe3" solo="true" />
+          </instrumentation>
+        </perfMedium>
+      </work>
+    </workDesc>
+  </meiHead>
+  <music>
+    <facsimile>
+      <surface>
+        <graphic target="italian_orig.png" />
+      </surface>
+    </facsimile>
+    <body>
+      <mdiv n="1">
+        <parts>
+          <part n="1">
+            <section n="1">
+              <staff n="1" decls="instr-3c36f07a-bd01-11e4-8fe2-0021ccd2abe3">
+                <staffDef n="1" lines="6" tab.strings="g4 d4 a4 f3 c3 g2" />
+                <layer n="1">
+                  <rest xml:id="r-a9d98b02-bd05-11e4-b790-0021ccd2abe3" dur="2" />
+                  <chord xml:id="c-6a85fc3e-bd04-11e4-b79d-0021ccd2abe3" dur="4">
+                    <note xml:id="n-7d5940aa-bd04-11e4-8b54-0021ccd2abe3" tab.string="1" tab.fret="2" />
+                    <note xml:id="n-81563f3c-bd04-11e4-99e5-0021ccd2abe3" tab.string="2" tab.fret="3" />
+                    <note xml:id="n-82dc8fe6-bd04-11e4-8d1a-0021ccd2abe3" tab.string="3" tab.fret="3" />
+                    <note xml:id="n-8433ea74-bd04-11e4-b1c8-0021ccd2abe3" tab.string="4" tab.fret="o" />
+                  </chord>
+                  <barLine xml:id="bl-9ed9d74e-bd04-11e4-a124-0021ccd2abe3" rend="single" />
+                  <chord xml:id="c-72c5df2c-bd04-11e4-9bad-0021ccd2abe3" dur="4" dots="1">
+                    <note xml:id="n-85bfa32e-bd04-11e4-b5f7-0021ccd2abe3" tab.string="1" tab.fret="2" />
+                    <note xml:id="n-8777d6be-bd04-11e4-ab85-0021ccd2abe3" tab.string="2" tab.fret="3" />
+                    <note xml:id="n-88c3d25c-bd04-11e4-bc02-0021ccd2abe3" tab.string="3" tab.fret="3" />
+                    <note xml:id="n-8b04d93a-bd04-11e4-bcb8-0021ccd2abe3" tab.string="4" tab.fret="o" />
+                  </chord>
+                  <chord xml:id="c-996d79e0-bd05-11e4-a04a-0021ccd2abe3" dur="4" dots="1">
+                    <note xml:id="n-63c2ff68-bd05-11e4-94b8-0021ccd2abe3" tab.string="1" tab.fret="2" />
+                    <note xml:id="n-6a72add6-bd05-11e4-aa36-0021ccd2abe3" tab.string="2" tab.fret="3" />
+                    <note xml:id="n-6ba13204-bd05-11e4-8572-0021ccd2abe3" tab.string="3" tab.fret="3" />
+                    <note xml:id="n-6cb84f56-bd05-11e4-835c-0021ccd2abe3" tab.string="4" tab.fret="o" />
+                  </chord>
+                  <chord xml:id="c-9be66740-bd05-11e4-8501-0021ccd2abe3" dur="8">
+                    <note xml:id="n-7057d4d8-bd05-11e4-9866-0021ccd2abe3" tab.string="1" tab.fret="3" />
+                    <note xml:id="n-7ed1fc6e-bd05-11e4-8794-0021ccd2abe3" tab.string="2" tab.fret="o" />
+                    <note xml:id="n-8221abbc-bd05-11e4-9fb7-0021ccd2abe3" tab.string="3" tab.fret="1" />
+                    <note xml:id="n-82797572-bd05-11e4-ad43-0021ccd2abe3" tab.string="4" tab.fret="2" />
+                  </chord>
+                  <chord xml:id="c-9c6543a8-bd05-11e4-9e0c-0021ccd2abe3" dur="4">
+                    <note xml:id="n-82e0bb7e-bd05-11e4-bfee-0021ccd2abe3" tab.string="1" tab.fret="5" />
+                    <note xml:id="n-839e7bfa-bd05-11e4-be5d-0021ccd2abe3" tab.string="2" tab.fret="3" />
+                    <note xml:id="n-83dcbfa0-bd05-11e4-a835-0021ccd2abe3" tab.string="3" tab.fret="o" />
+                    <note xml:id="n-841a7d86-bd05-11e4-b980-0021ccd2abe3" tab.string="4" tab.fret="o" />
+                  </chord>
+                  <barLine xml:id="bl-b098af7c-bd05-11e4-8a3d-0021ccd2abe3" rend="single" />
+                  <chord xml:id="c-9ceb8ed6-bd05-11e4-9f9a-0021ccd2abe3" dur="4">
+                    <note xml:id="n-845d14d4-bd05-11e4-bc5c-0021ccd2abe3" tab.string="1" tab.fret="7" />
+                    <note xml:id="n-849c09e6-bd05-11e4-b420-0021ccd2abe3" tab.string="2" tab.fret="o" />
+                    <note xml:id="n-84d35d6a-bd05-11e4-86cb-0021ccd2abe3" tab.string="4" tab.fret="o" />
+                    <note xml:id="n-850b275e-bd05-11e4-a9f2-0021ccd2abe3" tab.string="6" tab.fret="3" />
+                  </chord>
+                  <chord xml:id="c-9d595ace-bd05-11e4-ae5a-0021ccd2abe3" dur="8">
+                    <note xml:id="n-854a0050-bd05-11e4-b2cc-0021ccd2abe3" tab.string="1" tab.fret="5" />
+                    <note xml:id="n-857f7a0a-bd05-11e4-b729-0021ccd2abe3" tab.string="2" tab.fret="2" />
+                    <note xml:id="n-85b2f33a-bd05-11e4-88b8-0021ccd2abe3" tab.string="5" tab.fret="o" />
+                  </chord>
+                  <chord xml:id="c-9dcad032-bd05-11e4-b309-0021ccd2abe3" dur="4">
+                    <note xml:id="n-85f228ac-bd05-11e4-9044-0021ccd2abe3" tab.string="1" tab.fret="3" />
+                    <note xml:id="n-862941a2-bd05-11e4-b195-0021ccd2abe3" tab.string="2" tab.fret="o" />
+                    <note xml:id="n-86603e1e-bd05-11e4-923a-0021ccd2abe3" tab.string="5" tab.fret="2" />
+                  </chord>
+                  <chord xml:id="c-9e43a188-bd05-11e4-aea6-0021ccd2abe3" dur="8">
+                    <note xml:id="n-86ab165a-bd05-11e4-a27c-0021ccd2abe3" tab.string="1" tab.fret="3" />
+                    <note xml:id="n-86ea2f0c-bd05-11e4-b262-0021ccd2abe3" tab.string="5" tab.fret="4" />
+                  </chord>
+                  <barLine xml:id="bl-b63cf9ba-bd05-11e4-beb9-0021ccd2abe3" rend="single" />
+                  <chord xml:id="c-9ea912b6-bd05-11e4-bb19-0021ccd2abe3" dur="4" dots="1">
+                    <note xml:id="n-87289d64-bd05-11e4-bd45-0021ccd2abe3" tab.string="1" tab.fret="2" />
+                    <note xml:id="n-87664f6a-bd05-11e4-afc7-0021ccd2abe3" tab.string="2" tab.fret="3" />
+                    <note xml:id="n-879b0d86-bd05-11e4-b2fe-0021ccd2abe3" tab.string="3" tab.fret="3" />
+                    <note xml:id="n-87e371d4-bd05-11e4-a03e-0021ccd2abe3" tab.string="4" tab.fret="o" />
+                  </chord>
+                  <chord xml:id="c-9f2fbc94-bd05-11e4-a8b2-0021ccd2abe3" dur="8">
+                    <note xml:id="n-884855a4-bd05-11e4-ba63-0021ccd2abe3" tab.string="1" tab.fret="o" />
+                    <!-- etc. -->
+                  </chord>
+                </layer>
+              </staff>
+            </section>
+          </part>
+        </parts>
+      </mdiv>
+    </body>
+  </music>
+</mei>
+

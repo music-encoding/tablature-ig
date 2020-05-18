@@ -1,0 +1,180 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<mei xmlns='http://www.music-encoding.org/ns/mei' meiversion='3.0.0'>
+  <meiHead>
+    <fileDesc>
+      <titleStmt>
+        <title></title>
+      </titleStmt>
+      <pubStmt>
+        <respStmt>
+          <persName></persName>
+          <resp></resp>
+          <resp></resp>
+        </respStmt>
+      </pubStmt>
+      <sourceDesc>
+        <source>
+          <titleStmt>
+            <title></title>
+          </titleStmt>
+          <pubStmt>
+            <pubPlace></pubPlace>
+            <respStmt>
+              <persName></persName>
+              <resp></resp>
+            </respStmt>
+            <respStmt>
+              <persName></persName>
+              <resp></resp>
+            </respStmt>
+            <date></date>
+          </pubStmt>
+          <physDesc>
+            <physMedium></physMedium>
+            <dimensions></dimensions>
+          </physDesc>
+          <physLoc>
+            <provenance>
+              <repository>
+                <name></name>
+                <identifier></identifier>
+              </repository>
+            </provenance>
+          </physLoc>
+        </source>
+      </sourceDesc>
+    </fileDesc>
+    <workDesc>
+      <work>
+        <titleStmt>
+          <title>Not of this Earth</title>
+          <composer>
+            <name>
+              <persName>Joe Satriani</persName>
+            </name>
+          </composer>
+        </titleStmt>
+      </work>
+    </workDesc>
+  </meiHead>
+  <music>
+    <facsimile>
+      <surface>
+        <graphic/>
+      </surface>
+    </facsimile>
+    <body>
+      <mdiv n='1'>
+        <score>
+          <scoreDef>
+            <staffGrp>
+              <staffDef n='1' lines='6' notationtype='tab.guitar'>
+                <tuning tuning.standard='guitar'/>
+              </staffDef>
+            </staffGrp>
+          </scoreDef>
+          <section n='1'>
+            <measure n='1'>
+              <staff n='1'>
+                <layer n='1'>
+                  <!-- omitted from encoding -->
+                </layer>
+              </staff>
+            </measure>
+            <measure n='2'>
+              <staff n='1'>
+                <layer n='1'>
+                  <tabGrp dur='4'>
+                    <note tab.course='1' tab.fret='12' tab.muted='true' xml:id='m2.n1'/>
+                  </tabGrp>
+                  <tabGrp dur='4'>
+                    <note tab.course='2' tab.fret='13' tab.muted='true' xml:id='m2.n2'/>
+                  </tabGrp>
+                  <tabGrp dur='8'>
+                    <note tab.course='3' tab.fret='16' tab.muted='true' xml:id='m2.n3'/>
+                  </tabGrp>
+                  <tabGrp dur='4'>
+                    <note tab.course='4' tab.fret='16' tab.muted='true' xml:id='m2.n4'/>
+                  </tabGrp>
+                  <tabGrp dur='8'>
+                    <note tab.course='5' tab.fret='19' tab.muted='true' xml:id='m2.n5'/>
+                  </tabGrp>
+                </layer>
+              </staff>
+              <slur startid='m2.n1' show.dirmark='true'>
+                <gliss startid='m2.n1' slide.from='upwards' show.dirmark='true'/>
+              </slur>
+              <dir technique='tap-fing' startid='m2.n2'>
+                T<gliss startid='m2.n2' slide.from='upwards' show.dirmark='true'/>
+              </dir>
+              <slur startid='m2.n3' show.dirmark='true'>
+                <gliss startid='m2.n3' slide.from='upwards' show.dirmark='true'/>
+              </slur>
+              <dir technique='tap-fing' startid='m2.n4'>
+                T<gliss startid='m2.n4' slide.from='upwards' show.dirmark='true'/>
+              </dir>
+              <slur startid='m2.n5' show.dirmark='true'>
+                <gliss startid='m2.n5' slide.from='downwards' show.dirmark='true'/>
+              </slur>
+            </measure>
+            <measure n='3'>
+              <staff n='1'>
+                <layer n='1'>
+                  <beam>
+                    <tabGrp dur='8' dot='1'>
+                      <note tab.course='3' tab.fret='8' xml:id='m3.n1'/>
+                    </tabGrp>
+                    <tabGrp dur='16'>
+                      <note tab.course='3' tab.fret='9' xml:id='m3.n2'/>
+                    </tabGrp>
+                  </beam>
+                  <tabGrp dur='8'/>
+                  <tabGrp dur='8'>
+                    <note tab.course='3' tab.fret='11' xml:id='m3.n3'/>
+                  </tabGrp>
+                  <tabGrp dur='4'>
+                    <note tab.course='3' tab.fret='9' tie='i' xml:id='m3.n4'/>
+                  </tabGrp>
+                  <tabGrp dur='4'>
+                    <note tab.course='3' tab.fret='9' tie='t' xml:id='m3.n5'/>
+                  </tabGrp>
+                </layer>
+              </staff>
+              <gliss startid='m3.n3' slide.to='upwards' show.dirmark='true'/>
+              <vibrato startid='m3.n5' technique='vibrato-arm' show.dirmark='true'/>
+            </measure>
+            <measure n='4'>
+              <staff n='1'>
+                <layer n='1'>
+                  <beam>
+                    <tabGrp dur='8' dot='1'>
+                      <note tab.course='2' tab.fret='7' xml:id='m4.n1'/>
+                    </tabGrp>
+                    <tabGrp dur='16'>
+                      <note tab.course='2' tab.fret='8' xml:id='m4.n2'/>
+                    </tabGrp>
+                  </beam>
+                  <tabGrp dur='8'/>
+                  <tabGrp dur='8'>
+                    <note tab.course='2' tab.fret='10' xml:id='m4.n3'/>
+                  </tabGrp>
+                  <tabGrp dur='4'>
+                    <note tab.course='2' tab.fret='8' tie='i' xml:id='m4.n4'/>
+                  </tabGrp>
+                  <tabGrp dur='4'>
+                    <note tab.course='2' tab.fret='8' tie='t' xml:id='m4.n5'/>
+                  </tabGrp>
+                </layer>
+              </staff>
+              <gliss startid='m4.n1' slide.to='downwards' show.dirmark='true'/>
+              <gliss startid='m4.n3' slide.to='upwards' show.dirmark='true'/>
+              <dir technique='feedback' startid='m4.n5'>
+                Fdbk. pitch: D<vibrato startid='m4.n5' technique='vibrato-arm' show.dirmark='true'/>
+              </dir>
+            </measure>
+          </section>
+        </score>
+      </mdiv>
+    </body>
+  </music>
+</mei>

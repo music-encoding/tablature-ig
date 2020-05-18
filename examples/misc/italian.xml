@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="2013">
+  <meiHead>
+    <fileDesc>
+      <titleStmt>
+        <title>Exceprt from: Gagliarda Prima</title>
+      </titleStmt>
+      <pubStmt>
+        <respStmt>
+          <persName>Richard Lewis</persName>
+          <resp>Encoding</resp>
+        </respStmt>
+      </pubStmt>
+      <sourceDesc>
+        <source n="1">
+          <titleStmt>
+            <title>Primo Libro d'Intavolatura de balli</title>
+          </titleStmt>
+          <pubStmt>
+            <date>1592</date>
+            <respStmt>
+              <persName>Giovanni Maria Radino</persName>
+            </respStmt>
+          </pubStmt>
+        </source>
+      </sourceDesc>
+    </fileDesc>
+    <workDesc>
+      <work>
+        <titleStmt>
+          <title>Gagliarda Prima</title>
+        </titleStmt>
+        <perfMedium>
+          <instrumentation>
+            <instrVoice code="lute" xml:id="instr-a6fc9c84-daa3-11e3-a44c-0021ccd2abe3" solo="true">
+              <instrDesc>
+                <instrName>Lute</instrName>
+              </instrDesc>
+              <instrConfig label="renaissance">
+                <courseTuning>
+                  <course pname="g" oct="4">
+                    <string pname="" oct="" />
+                  </course>
+                  <course pname="d" oct="4">
+                    <string pname="" oct="" />
+                  </course>
+                  <course pname="a" oct="4">
+                    <string pname="" oct="" />
+                  </course>
+                  <course pname="f" oct="3">
+                    <string pname="" oct="" />
+                  </course>
+                  <course pname="c" oct="3">
+                    <string pname="" oct="" />
+                  </course>
+                  <course pname="g" oct="2">
+                    <string pname="" oct="" />
+                  </course>
+                </courseTuning>
+              </instrConfig>
+            </instrVoice>
+          </instrumentation>
+        </perfMedium>
+      </work>
+    </workDesc>
+  </meiHead>
+  <music>
+    <facsimile>
+      <surface>
+        <graphic target="italian_orig.png" />
+      </surface>
+    </facsimile>
+    <body>
+      <mdiv n="1">
+        <parts>
+          <part n="1">
+            <section n="1">
+              <staff n="1" decls="instr-a6fc9c84-daa3-11e3-a44c-0021ccd2abe3">
+                <staffDef lines="6" />
+                <layer n="1">
+                  <tabChord
+                      xml:id="c-8378ca3a-daa3-11e3-bc12-0021ccd2abe3"
+                      dur="2">
+                    <rhythmGlyph
+                        xml:id="rg-99bad9b4-daa3-11e3-a9d4-0021ccd2abe3"
+                        tabcode="H" flags="0" />
+                  </tabChord>
+                  <tabChord
+                      xml:id="c-8542877a-daa3-11e3-a2c8-0021ccd2abe3"
+                      dur="4">
+                    <rhythmGlyph
+                        xml:id="rg-9b9882ea-daa3-11e3-b7eb-0021ccd2abe3"
+                        tabcode="Q" flags="1" />
+                    <tabNote
+                        xml:id="tn-59384700-daa3-11e3-a2fa-0021ccd2abe3"
+                        course="1"
+                        fret="2">
+                      <fretGlyph>2</fretGlyph>
+                    </tabNote>
+                    <tabNote
+                        xml:id="tn-5b7ac272-daa3-11e3-985a-0021ccd2abe3"
+                        course="2"
+                        fret="3">
+                      <fretGlyph>3</fretGlyph>
+                    </tabNote>
+                    <tabNote
+                        xml:id="tn-5bcdb84c-daa3-11e3-ba4e-0021ccd2abe3"
+                        course="3"
+                        fret="3">
+                      <fretGlyph>3</fretGlyph>
+                    </tabNote>
+                    <tabNote
+                        xml:id="tn-5c00ebfe-daa3-11e3-970e-0021ccd2abe3"
+                        course="4"
+                        fret="0">
+                      <fretGlyph>0</fretGlyph>
+                    </tabNote>
+                  </tabChord>
+                  <barLine
+                      xml:id="bl-45f80d0a-daa9-11e3-a7de-0021ccd2abe3"
+                      rend="single" />
+                  <tabChord xml:id="c-85ba1bc8-daa3-11e3-b923-0021ccd2abe3" dur="4.">
+                    <rhythmGlyph xml:id="rg-9c08d1bc-daa3-11e3-8498-0021ccd2abe3" tabcode="Q." flags="1" dots="1" />
+                    <tabNote xml:id="tn-5c3cdb3c-daa3-11e3-8e6d-0021ccd2abe3" course="1" fret="2"><fretGlyph>2</fretGlyph></tabNote>
+                    <tabNote xml:id="tn-5d05180e-daa3-11e3-9e1e-0021ccd2abe3" course="2" fret="3"><fretGlyph>3</fretGlyph></tabNote>
+                    <tabNote xml:id="tn-5d3f5ece-daa3-11e3-a4c6-0021ccd2abe3" course="3" fret="3"><fretGlyph>3</fretGlyph></tabNote>
+                    <tabNote xml:id="tn-5d754d04-daa3-11e3-8776-0021ccd2abe3" course="4" fret="0"><fretGlyph>0</fretGlyph></tabNote>
+                  </tabChord>
+                  <tabChord xml:id="c-862a894e-daa3-11e3-a662-0021ccd2abe3" dur="8">
+                    <rhythmGlyph xml:id="rg-9c4ef160-daa3-11e3-8999-0021ccd2abe3" tabcode="E" flags="2" />
+                    <tabNote xml:id="tn-5db4c448-daa3-11e3-99d6-0021ccd2abe3" course="1" fret="3"><fretGlyph>3</fretGlyph></tabNote>
+                    <tabNote xml:id="tn-5ddf7134-daa3-11e3-818a-0021ccd2abe3" course="2" fret="0"><fretGlyph>0</fretGlyph></tabNote>
+                    <tabNote xml:id="tn-5dfe03c4-daa3-11e3-b01e-0021ccd2abe3" course="3" fret="1"><fretGlyph>1</fretGlyph></tabNote>
+                    <tabNote xml:id="tn-5e1a05a6-daa3-11e3-8299-0021ccd2abe3" course="4" fret="2"><fretGlyph>2</fretGlyph></tabNote>
+                  </tabChord>
+                  <tabChord xml:id="c-868fd704-daa3-11e3-8580-0021ccd2abe3" dur="4">
+                    <rhythmGlyph xml:id="rg-9c8dc8d6-daa3-11e3-ba94-0021ccd2abe3" tabcode="Q" flags="1" />
+                    <tabNote xml:id="tn-5e3b21be-daa3-11e3-a425-0021ccd2abe3" course="1" fret="5"><fretGlyph>5</fretGlyph></tabNote>
+                    <tabNote xml:id="tn-5e636f84-daa3-11e3-aebb-0021ccd2abe3" course="2" fret="3"><fretGlyph>3</fretGlyph></tabNote>
+                    <tabNote xml:id="tn-5e9b9c7e-daa3-11e3-b12d-0021ccd2abe3" course="3" fret="0"><fretGlyph>0</fretGlyph></tabNote>
+                    <tabNote xml:id="tn-5eb79424-daa3-11e3-b26d-0021ccd2abe3" course="4" fret="0"><fretGlyph>0</fretGlyph></tabNote>
+                  </tabChord>
+                  <barLine xml:id="bl-4990f710-daa9-11e3-badd-0021ccd2abe3" rend="single" />
+                  <tabChord xml:id="c-86ccea7c-daa3-11e3-ba24-0021ccd2abe3" dur="4">
+                    <tabNote xml:id="tn-5ed75872-daa3-11e3-9ac2-0021ccd2abe3" course="1" fret="7"><fretGlyph>7</fretGlyph></tabNote>
+                    <tabNote xml:id="tn-5eff2050-daa3-11e3-9367-0021ccd2abe3" course="2" fret="0"><fretGlyph>0</fretGlyph></tabNote>
+                    <tabNote xml:id="tn-5f2eb2ac-daa3-11e3-82cf-0021ccd2abe3" course="4" fret="0"><fretGlyph>0</fretGlyph></tabNote>
+                    <tabNote xml:id="tn-5f5fed9a-daa3-11e3-9a61-0021ccd2abe3" course="6" fret="3"><fretGlyph>3</fretGlyph></tabNote>
+                  </tabChord>
+                  <tabChord xml:id="c-870b2d96-daa3-11e3-845e-0021ccd2abe3" dur="8">
+                    <rhythmGlyph xml:id="rg-9cbc24c4-daa3-11e3-915a-0021ccd2abe3" tabcode="E" flags="2" />
+                    <tabNote xml:id="tn-5f9bd6f2-daa3-11e3-8409-0021ccd2abe3" course="1" fret="5"><fretGlyph>5</fretGlyph></tabNote>
+                    <tabNote xml:id="tn-5fddc4d6-daa3-11e3-a17b-0021ccd2abe3" course="2" fret="2"><fretGlyph>2</fretGlyph></tabNote>
+                    <tabNote xml:id="tn-5ffd7e20-daa3-11e3-a44e-0021ccd2abe3" course="5" fret="0"><fretGlyph>0</fretGlyph></tabNote>
+                  </tabChord>
+                  <tabChord xml:id="c-8749602a-daa3-11e3-87f7-0021ccd2abe3" dur="4">
+                    <rhythmGlyph xml:id="rg-9cf673b8-daa3-11e3-8e43-0021ccd2abe3" tabcode="Q" flags="1" />
+                    <tabNote xml:id="tn-60122a78-daa3-11e3-85ff-0021ccd2abe3" course="1" fret="3"><fretGlyph>3</fretGlyph></tabNote>
+                    <tabNote xml:id="tn-6033336c-daa3-11e3-9d0d-0021ccd2abe3" course="2" fret="0"><fretGlyph>0</fretGlyph></tabNote>
+                    <tabNote xml:id="tn-6052d82a-daa3-11e3-83d8-0021ccd2abe3" course="5" fret="2"><fretGlyph>2</fretGlyph></tabNote>
+                  </tabChord>
+                  <tabChord xml:id="c-878dbb12-daa3-11e3-b020-0021ccd2abe3" dur="8">
+                    <rhythmGlyph xml:id="rg-9d327232-daa3-11e3-a803-0021ccd2abe3" tabcode="E" flags="2" />
+                    <tabNote xml:id="tn-6072b8ac-daa3-11e3-89df-0021ccd2abe3" course="1" fret="3"><fretGlyph>3</fretGlyph></tabNote>
+                    <tabNote xml:id="tn-609c9be0-daa3-11e3-97a1-0021ccd2abe3" course="5" fret="4"><fretGlyph>4</fretGlyph></tabNote>
+                  </tabChord>
+                  <barLine xml:id="bl-4d0342c2-daa9-11e3-ba57-0021ccd2abe3" rend="single" />
+                  <tabChord xml:id="c-87e0c5c8-daa3-11e3-8cfb-0021ccd2abe3" dur="4.">
+                    <rhythmGlyph xml:id="rg-9d735694-daa3-11e3-a04e-0021ccd2abe3" tabcode="Q." flags="1" dots="1" />
+                    <tabNote xml:id="tn-60c2ebb0-daa3-11e3-910b-0021ccd2abe3" course="1" fret="2"><fretGlyph>2</fretGlyph></tabNote>
+                    <tabNote xml:id="tn-60ef8684-daa3-11e3-a3da-0021ccd2abe3" course="2" fret="3"><fretGlyph>3</fretGlyph></tabNote>
+                    <tabNote xml:id="tn-611115e2-daa3-11e3-bd79-0021ccd2abe3" course="3" fret="3"><fretGlyph>3</fretGlyph></tabNote>
+                    <tabNote xml:id="tn-6135fb8c-daa3-11e3-b30b-0021ccd2abe3" course="4" fret="0"><fretGlyph>0</fretGlyph></tabNote>
+                  </tabChord>
+                  <tabChord xml:id="c-88488794-daa3-11e3-b221-0021ccd2abe3" dur="8">
+                    <rhythmGlyph xml:id="rg-9e3cc948-daa3-11e3-bdc2-0021ccd2abe3" tabcode="E" flags="2" />
+                    <tabNote xml:id="tn-615d09e8-daa3-11e3-aac5-0021ccd2abe3" course="1" fret="0"><fretGlyph>0</fretGlyph><fingering target="tn-615d09e8-daa3-11e3-aac5-0021ccd2abe3" playingHand="left" playingFinger="1" symbol="dot"/></tabNote>
+                    <!-- etc. -->
+                  </tabChord>
+                </layer>
+              </staff>
+            </section>
+          </part>
+        </parts>
+      </mdiv>
+    </body>
+  </music>
+</mei>

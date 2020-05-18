@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="3.0.0">
+  <meiHead>
+    <fileDesc>
+      <titleStmt>
+        <title>Excerpt from: Pierre Phalèse, CARMINUM QUAE CHELY VEL TESTUDINE CANUNTUR</title>
+      </titleStmt>
+      <pubStmt>
+        <respStmt>
+          <persName>Richard Lewis</persName>
+          <resp>Transcription</resp>
+          <resp>Encoding</resp>
+        </respStmt>
+      </pubStmt>
+      <sourceDesc>
+        <source>
+          <titleStmt>
+            <title>Pierre Phalèse, CARMINUM QUAE CHELY VEL TESTUDINE CANUNTUR, liber primus</title>
+          </titleStmt>
+          <pubStmt>
+            <pubPlace>Louvain</pubPlace>
+            <date>1549</date>
+            <respStmt>
+              <persName>Pierre Phalèse</persName>
+              <resp>Compiler</resp>
+            </respStmt>
+          </pubStmt>
+          <physDesc>
+            <dimensions unit="cm">16x21</dimensions>
+          </physDesc>
+          <physLoc>
+            <provenance>
+              <repository>
+                <name>British Library</name>
+                <identifier authURI="http://search.bl.uk/primo_library/libweb/action/display.do?dscnt=1&amp;doc=BLL01004256067&amp;dstmp=1431704523819&amp;vid=BLVU1">K.1.c.8.(3.)</identifier>
+              </repository>
+            </provenance>
+          </physLoc>
+        </source>
+      </sourceDesc>
+    </fileDesc>
+    <workDesc>
+      <work>
+        <titleStmt>
+          <title>Recercar sexto</title>
+          <composer>
+            <name><persName>Giovanni Maria da Crema</persName></name>
+          </composer>
+        </titleStmt>
+        <perfMedium>
+          <perfResList>
+            <perfRes label="lute" xml:id="instr-f8e0a5d8-fb16-11e4-bd40-0021ccd2abe3" solo="true">
+              <instrConfig label="renaissance">
+                <courseTuning>
+                  <course n="1" pname="g" oct="4">
+                    <string pname="g" oct="4" />
+                  </course>
+                  <course n="2" pname="d" oct="4">
+                    <string pname="d" oct="4" />
+                  </course>
+                  <course n="3" pname="a" oct="4">
+                    <string pname="a" oct="4" />
+                    <string pname="a" oct="4" />
+                  </course>
+                  <course n="4" pname="f" oct="3">
+                    <string pname="f" oct="3" />
+                    <string pname="f" oct="4" />
+                  </course>
+                  <course n="5" pname="c" oct="3">
+                    <string pname="c" oct="4" />
+                    <string pname="c" oct="3" />
+                  </course>
+                  <course n="6" pname="g" oct="2">
+                    <string pname="g" oct="3" />
+                    <string pname="g" oct="2" />
+                  </course>
+                </courseTuning>
+              </instrConfig>
+            </perfRes>
+          </perfResList>
+        </perfMedium>
+      </work>
+    </workDesc>
+  </meiHead>
+  <music>
+    <body>
+      <mdiv n="1">
+        <parts>
+          <part n="1">
+            <section n="1">
+              <staff n="1" decls="instr-f8e0a5d8-fb16-11e4-bd40-0021ccd2abe3">
+                <staffDef lines="5" />
+                <layer n="1">
+                  <mensur sign="C" slash="1" />
+                  <chord xml:id="tc-8bce85d8-fae8-11e4-95cf-0021ccd2abe3" dur="2">
+                    <rhythmGlyph xml:id="rg-9c3a88fe-fae8-11e4-b364-0021ccd2abe3" flags="0" serif="true" />
+                    <note xml:id="tn-b5691192-fae8-11e4-8440-0021ccd2abe3" tab.course="4" tab.fret="2"><fretGlyph>c</fretGlyph></note>
+                    <note xml:id="tn-c8b03226-fae8-11e4-b74c-0021ccd2abe3" tab.course="6" tab.fret="0"><fretGlyph>a</fretGlyph></note>
+                  </chord>
+                  <chord xml:id="tc-e0bc3838-fae8-11e4-b520-0021ccd2abe3" dur="4" dots="1">
+                    <rhythmGlyph xml:id="rg-ed4b8b6c-fae8-11e4-b1d7-0021ccd2abe3" flags="1" dots="1" />
+                    <note xml:id="tn-09a22640-fae9-11e4-9929-0021ccd2abe3" tab.course="4" tab.fret="2"><fretGlyph>c</fretGlyph></note>
+                    <note xml:id="tn-0be9a388-fae9-11e4-acb8-0021ccd2abe3" tab.course="6" tab.fret="0"><fretGlyph>a</fretGlyph></note>
+                  </chord>
+                  <chord xml:id="tc-1461944e-fae9-11e4-bf8f-0021ccd2abe3" dur="8">
+                    <rhythmGlyph xml:id="rg-1e0cf54c-fae9-11e4-99e1-0021ccd2abe3" flags="2" />
+                    <note xml:id="tn-28785dbe-fae9-11e4-9b3c-0021ccd2abe3" tab.course="6" tab.fret="2"><fretGlyph>c</fretGlyph></note>
+                  </chord>
+                  <barLine xml:id="bl-41b09eae-fae9-11e4-981e-0021ccd2abe3" form="single" />
+                  <chord xml:id="tc-7ef2f596-fb0c-11e4-961b-0021ccd2abe3" dur="4">
+                    <rhythmGlyph xml:id="rg-87a7f646-fb0c-11e4-bd16-0021ccd2abe3" flags="1" />
+                    <note xml:id="tn-c30489de-fb0c-11e4-9e7e-0021ccd2abe3" tab.course="4" tab.fret="2"><fretGlyph>c</fretGlyph></note>
+                    <note xml:id="tn-de87a4ca-fb0c-11e4-936c-0021ccd2abe3" tab.course="6" tab.fret="3"><fretGlyph>d</fretGlyph></note>
+                  </chord>
+                  <chord xml:id="tc-164d010c-fb0d-11e4-b3fa-0021ccd2abe3" dur="4">
+                    <rhythmGlyph xml:id="rg-23e8ecf4-fb0d-11e4-8f6e-0021ccd2abe3" flags="1" />
+                    <note xml:id="tn-2fb385b2-fb0d-11e4-9957-0021ccd2abe3" tab.course="5" tab.fret="0"><fretGlyph>a</fretGlyph></note>
+                  </chord>
+                  <chord xml:id="tc-3e7d1108-fb0d-11e4-8c2c-0021ccd2abe3" dur="4">
+                    <rhythmGlyph xml:id="rg-4cdb08ae-fb0d-11e4-b5bc-0021ccd2abe3" flags="1" />
+                    <note xml:id="tn-63c3379e-fb0d-11e4-88a8-0021ccd2abe3" tab.course="4" tab.fret="2"><fretGlyph>c</fretGlyph></note>
+                    <note xml:id="tn-772903ea-fb0d-11e4-8f96-0021ccd2abe3" tab.course="6" tab.fret="3"><fretGlyph>d</fretGlyph></note>
+                  </chord>
+                  <chord xml:id="tc-a5243c7e-fb0d-11e4-bf54-0021ccd2abe3" dur="4">
+                    <rhythmGlyph xml:id="rg-aa7c91a8-fb0d-11e4-ae72-0021ccd2abe3" flags="1" />
+                    <note xml:id="tn-b5aec744-fb0d-11e4-95ab-0021ccd2abe3" tab.course="5" tab.fret="3"><fretGlyph>d</fretGlyph></note>
+                  </chord>
+                  <barLine xml:id="bl-240a8a0c-fb0e-11e4-b8ce-0021ccd2abe3" form="single" />
+                  <chord xml:id="tc-34bb88f8-fdff-11e4-ae29-0021ccd2abe3" dur="4">
+                    <rhythmGlyph xml:id="rg-3f95673a-fdff-11e4-a82e-0021ccd2abe3" flags="1" />
+                    <note xml:id="tn-51916768-fdff-11e4-8b01-0021ccd2abe3" tab.course="3" tab.fret="0"><fretGlyph>a</fretGlyph></note>
+                    <note xml:id="tb-68aa68be-fdff-11e4-959c-0021ccd2abe3" tab.course="5" tab.fret="2"><fretGlyph>c</fretGlyph></note>
+                  </chord>
+                  <chord xml:id="tc-807a8afa-fdff-11e4-b500-0021ccd2abe3" dur="4">
+                    <rhythmGlyph xml:id="rg-8c5e5aae-fdff-11e4-ad20-0021ccd2abe3" flags="1" />
+                    <note xml:id="tn-9a5b8dca-fdff-11e4-bbe2-0021ccd2abe3" tab.course="5" tab.fret="0"><fretGlyph>a</fretGlyph></note>
+                  </chord>
+                  <chord xml:id="tc-ac18857c-fdff-11e4-8fc9-0021ccd2abe3" dur="4">
+                    <rhythmGlyph xml:id="rg-b3775172-fdff-11e4-b4f6-0021ccd2abe3" flags="1" />
+                    <note xml:id="tn-bd37a112-fdff-11e4-bbc8-0021ccd2abe3" tab.course="3" tab.fret="0"><fretGlyph>a</fretGlyph></note>
+                  </chord>
+                  <chord xml:id="tc-d07e2fde-fdff-11e4-916d-0021ccd2abe3" dur="8">
+                    <rhythmGlyph xml:id="rg-dac6f764-fdff-11e4-9ccf-0021ccd2abe3" flags="2" />
+                    <note xml:id="tn-e92e0bb2-fdff-11e4-b7f9-0021ccd2abe3" tab.course="6" tab.fret="3"><fretGlyph>d</fretGlyph></note>
+                  </chord>
+                  <chord xml:id="tc-00688820-fe00-11e4-a698-0021ccd2abe3" dur="8">
+                    <rhythmGlyph xml:id="rg-09e7fcfa-fe00-11e4-b6a1-0021ccd2abe3" flags="2" />
+                    <note xml:id="tn-19ab9336-fe00-11e4-814a-0021ccd2abe3" tab.course="6" tab.fret="2"><fretGlyph>c</fretGlyph></note>
+                  </chord>
+                  <beamSpan startid="#rg-dac6f764-fdff-11e4-9ccf-0021ccd2abe3" endid="#rg-09e7fcfa-fe00-11e4-b6a1-0021ccd2abe3" />
+                  <barLine xml:id="bl-3f4f7648-fe00-11e4-9240-0021ccd2abe3" form="single" />
+                  
+                </layer>
+              </staff>
+            </section>
+          </part>
+        </parts>
+      </mdiv>
+    </body>
+  </music>
+</mei>

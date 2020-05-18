@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="2013">
+  <meiHead>
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+          <settlement>Besançon</settlement>
+          <repository>Bibliothèque municipale de Besançon</repository>
+          <idno type="RISM">B-F ms 279.152 and ms 279.153</idno>
+          <msName>Saizenay MS 1</msName>
+          <!-- Page location -->
+        </msIdentifier>
+      </msDesc>
+    </sourceDesc>
+    <workDesc>
+      <titleStmt>
+        <title>Allemande / de Mr. le Moyne / transposée du / théorbe.</title>
+      </titleStmt>
+      <respStmt>
+        <persName role="composer" authURI="">Étienne le Moyne</persName>
+      </respStmt>
+      <perfMedium>
+        <instrumentation>
+          <instrVoice solo="true" xml:id="lute">
+            <instrDesc>
+              <name>lute</name><!-- allow label and label.abbr -->
+              <type>baroque</type>
+              <courseCount>11</courseCount>
+            </instrDesc>
+            <instrConfig>
+              <courseTuning>
+                <course n="1" pname="f" oct="5">
+                  <string pname="f" oct="5"/>
+                </course>
+                <course n="2" pname="d" oct="5">
+                  <string pname="d" oct="5"/>
+                </course>
+                <course n="3" pname="a" oct="5">
+                  <string pname="a" oct="5"/>
+                  <string pname="a" oct="5"/>
+                </course>
+                <course n="4" pname="f" oct="4">
+                  <string pname="f" oct="4"/>
+                  <string pname="f" oct="4"/>
+                </course>
+                <course n="5" pname="d" oct="4">
+                  <string pname="d" oct="4"/>
+                  <string pname="d" oct="4"/>
+                </course>
+                <course n="6" pname="a" oct="4">
+                  <string pname="a" oct="4"/>
+                  <string pname="a" oct="3"/>
+                </course>
+                <course n="7" pname="g" oct="3">
+                  <string pname="g" oct="3"/>
+                  <string pname="g" oct="2"/>
+                </course>
+                <course n="8" pname="f" oct="3">
+                  <string pname="f" oct="3"/>
+                  <string pname="f" oct="2"/>
+                </course>
+                <course n="9" pname="e" oct="3">
+                  <string pname="e" oct="3"/>
+                  <string pname="e" oct="2"/>
+                </course>
+                <course n="10" pname="d" oct="3">
+                  <string pname="d" oct="3"/>
+                  <string pname="d" oct="2"/>
+                </course>
+                <course n="11" pname="c" oct="3">
+                  <string pname="c" oct="3"/>
+                  <string pname="c" oct="2"/>
+                </course>
+              </courseTuning>
+              <bassTuning pname="c" mode="major"/>
+            </instrConfig>
+          </instrVoice>
+        </instrumentation>
+      </perfMedium>
+    </workDesc>
+  </meiHead>
+  <music>
+    <facsimile>
+      <surface>
+        <graphic target="baroque_orig.png" />
+      </surface>
+    </facsimile>
+    <body>
+      <mdiv n="1">
+        <parts>
+          <part n="1">
+            <scoreDef>
+            </scoreDef>
+            <section n="1">
+              <staff n="1">
+                <staffDef>
+                  <instrument decls="lute"/>
+	                <tabType>french</tabType>
+                  <mensur sign="C" slashcount="1"/>
+                </staffDef>
+                <barre startid="cx1" fret="c"/>
+                <tabChord xml:id="cx1">
+                  <rhythmSign id="xxx" tabcode="E"/>
+                  <tabNote id="xxx" course="1" fret="2"><tabGlyph>c</tabGlyph></tabNote>
+                </tabChord>
+	              <barLine xml:id="xxx" rend="|" />
+                <tabChord xml:id="">
+                  <rhythmSign id="xxx" tabcode="H"/>
+                  <tabNote id="xxx" course="1" fret="2"><tabGlyph>c</tabGlyph></tabNote>
+                  <tabNote id="xxx" course="2" fret="2"><tabGlyph>c</tabGlyph></tabNote>
+                  <tabNote id="xx1" course="3" fret="3"><tabGlyph>d</tabGlyph></tabNote>
+                  <ensembleLine startid="xx1" endid="xx2"/>
+                  <tabNote id="xx2" course="6" fret="3"><tabGlyph>d</tabGlyph></tabNote>
+                </tabChord>
+                <tabChord xml:id="">
+                  <rhythmSign id="xxx" tabcode="E"/>
+                  <tabNote id="xxx" course="1" fret="2"><tabGlyph>c</tabGlyph></tabNote>
+                  <tabNote id="xx3" course="2" fret="2"><tabGlyph>c</tabGlyph></tabNote>
+                  <fingering target="xx3" playingHand="left" playingFinger="1" symbol="dot"/>
+                  <ensembleLine startid="xx3" endid="xx4"/>
+                  <tabNote id="xx4" fret="0" course="10"><tabGlyph>4</tabGlyph></tabNote>
+                </tabChord>
+                <tabChord>
+                  <tabNote id="xx5" course="1" fret="4"><tabGlyph>e</tabGlyph></tabNote>
+                </tabChord>
+                <abzug startid="xx5" endid="xx6"/>
+                <tabChord>
+                  <tabNote id="xx6" course="1" fret="2"><tabGlyph>c</tabGlyph></tabNote>
+                </tabChord>
+                <tabChord>
+                  <tabNote id="xx7" course="2" fret="3"><tabGlyph>d</tabGlyph></tabNote>
+                  <fingering target="xx3" playingHand="left" playingFinger="1" symbol="dot"/>
+                </tabChord>
+	              <barLine xml:id="xxx" rend="|" />
+                <tabChord>
+                  <rhythmSign id="xxx" tabcode="Q" dots="1"/>
+                  <tabNote id="xx8" course="2" fret="2"><tabGlyph>c</tabGlyph></tabNote>
+                  <abzug startid="xx8"/>
+                  <ensembleLine startid="xx8" endid="xx9"/>
+                  <tabNote id="xx9" course="6" fret="3"><tabGlyph>d</tabGlyph></tabNote>
+                </tabChord>
+                <connectingLine startid="xx9" endid="x11"/>
+                <tabChord>
+                  <rhythmSign id="xxx" tabcode="E"/>
+                  <tabNote id="x10" course="3" fret="3"><tabGlyph>d</tabGlyph></tabNote>
+                  <fingering target="x10" playingHand="left" playingFinger="1" symbol="dot"/>
+                </tabChord>
+                <tabChord>
+                  <rhythmSign id="xxx" tabcode="Q"/>
+                  <tabNote id="xxx" course="1" fret="0"><tabGlyph>a</tabGlyph></tabNote>
+                  <tabNote id="xxx" course="2" fret="0"><tabGlyph>a</tabGlyph></tabNote>
+                  <tabNote id="xxx" course="3" fret="0"><tabGlyph>a</tabGlyph></tabNote>
+                  <tabNote id="x11" course="5" fret="0"><tabGlyph>a</tabGlyph></tabNote>
+                  <fingering target="x11" playingHand="right" playingFinger="1"/>
+                </tabChord>
+                <tabChord>
+                  <rhythmSign id="xxx" tabcode="Q"/>
+                  <tabNote id="x12" course="1" fret="0"><tabGlyph>a</tabGlyph></tabNote>
+                  <fingering target="x12" playingHand="right" playingFinger="2"/>
+                  <separee startid="x12" endid="x13"/>
+                  <tabNote id="x13" course="2" fret="0"><tabGlyph>a</tabGlyph></tabNote>
+                  <fingering target="x13" playingHand="right" playingFinger="1"/>
+                </tabChord>
+	              <barLine xml:id="xxx" rend="|" />
+              </staff>
+            </section>
+          </part>
+        </parts>
+      </mdiv>
+    </body>
+  </music>
+</mei>
+  
+    

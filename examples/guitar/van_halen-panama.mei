@@ -1,0 +1,814 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="3.0.0">
+  <meiHead>
+    <fileDesc>
+      <titleStmt>
+        <title></title>
+      </titleStmt>
+      <pubStmt>
+        <respStmt>
+          <persName></persName>
+          <resp></resp>
+          <resp></resp>
+        </respStmt>
+      </pubStmt>
+      <sourceDesc>
+        <source>
+          <titleStmt>
+            <title></title>
+          </titleStmt>
+          <pubStmt>
+            <pubPlace></pubPlace>
+            <respStmt>
+              <persName></persName>
+              <resp></resp>
+            </respStmt>
+            <respStmt>
+              <persName></persName>
+              <resp></resp>
+            </respStmt>
+            <date></date>
+          </pubStmt>
+          <physDesc>
+            <physMedium></physMedium>
+            <dimensions></dimensions>
+          </physDesc>
+          <physLoc>
+            <provenance>
+              <repository>
+                <name></name>
+                <identifier></identifier>
+              </repository>
+            </provenance>
+          </physLoc>
+        </source>
+      </sourceDesc>
+    </fileDesc>
+    <workDesc>
+      <work>
+        <titleStmt>
+          <title></title>
+          <composer>
+            <name>
+              <persName></persName>
+            </name>
+          </composer>
+        </titleStmt>
+      </work>
+    </workDesc>
+  </meiHead>
+  <music>
+    <facsimile>
+      <surface>
+        <graphic/>
+      </surface>
+    </facsimile>
+    <body>
+      <mdiv n='1'>
+        <score>
+          <scoreDef>
+            <staffGrp>
+              <staffDef lines='6' notationtype='tab.guitar' n='1'>
+                <tuning tuning.standard='guitar'/>
+                <meterSig count='4' unit='4' />
+              </staffDef>
+            </staffGrp>
+          </scoreDef>
+          <section n='1'>
+            <measure n='1'>
+              <staff n='1'>
+                <layer n='1'>
+                  
+                  <rest dur='8'/>
+                  
+                  <beam>
+                    <tabGrp dur='8'>
+                      <note tab.string='4' tab.fret='9' />
+                      <note tab.string='3' tab.fret='9' />
+                      <note tab.string='2' tab.fret='9' />
+                    </tabGrp>
+                    <tabGrp dur='8'>
+                      <note tab.string='5' tab.fret='7' xml:id='note1' />
+                    </tabGrp>
+                    <tabGrp dur='8'>
+                      <note tab.string='5' tab.fret='7' xml:id='note2'/>
+                    </tabGrp>
+                  </beam>
+                  
+                  <beam>
+                    <tabGrp dur='8'>
+                      <note tab.string='4' tab.fret='9' />
+                      <note tab.string='3' tab.fret='9' />
+                      <note tab.string='2' tab.fret='10' />
+                    </tabGrp>
+                    <tabGrp dur='8'>
+                      <note tab.string='5' tab.fret='7' />
+                    </tabGrp>
+                    <tabGrp dur='8'>
+                      <note tab.string='5' tab.fret='7' />
+                    </tabGrp>
+                    <tabGrp dur='8'>
+                      <note tab.string='4' tab.fret='9' />
+                      <note tab.string='3' tab.fret='8' />
+                      <note tab.string='2' tab.fret='7' />
+                    </tabGrp>
+                  </beam>
+                
+                </layer>
+              </staff>
+              <dir technique='palm-muting' startid='#note1' endid='#note2'>P.M.</dir>
+
+            </measure>
+
+            <measure n='2'>
+              <staff n='1'>
+                <layer n='1'>
+                 
+                  <beam>  
+                    <tabGrp dur='8'>
+                      <note tab.string='5' tab.fret='7' />
+                    </tabGrp>
+                    <tabGrp dur='8'>
+                      <note tab.string='5' tab.fret='7' />
+                    </tabGrp>
+                    <tabGrp dur='8'>
+                      <note tab.string='4' tab.fret='9' />
+                      <note tab.string='3' tab.fret='9' />
+                      <note tab.string='2' tab.fret='9' />
+                    </tabGrp>
+                    <tabGrp dur='8'>
+                      <note tab.string='5' tab.fret='7' />
+                    </tabGrp>
+                  </beam>
+                  
+                  <beam>  
+                    <tabGrp dur='8'>
+                      <note tab.string='5' tab.fret='7' />
+                    </tabGrp>
+                    <tabGrp dur='8'>
+                      <note tab.string='4' tab.fret='9' />
+                      <note tab.string='3' tab.fret='9' />
+                      <note tab.string='2' tab.fret='10' />
+                    </tabGrp>
+                    <tabGrp dur='8'>
+                      <note tab.string='5' tab.fret='7' />
+                    </tabGrp>
+                    <tabGrp dur='8'>
+                      <note tab.string='4' tab.fret='9' />
+                      <note tab.string='3' tab.fret='8' />
+                      <note tab.string='2' tab.fret='7' />
+                    </tabGrp>
+                  </beam>
+
+                </layer>
+              </staff>
+            </measure>
+            
+            <measure n='3'>
+              <staff n='1'>
+                <layer n='1'>
+                  
+                  <tabGrp dur='8' grace='acc'>
+                    <note tab.string='5' tab.fret='7' xml:id="panama-fragment-3-1-1" />
+                  </tabGrp>
+                  
+                  <beam>
+                    <tabGrp dur='8'>
+                      <note tab.string='5' tab.fret='5' xml:id="panama-fragment-3-1-2" />
+                    </tabGrp>
+                    <tabGrp dur='8'>
+                      <note tab.string='4' tab.fret='7' />
+                      <note tab.string='3' tab.fret='7' />
+                      <note tab.string='2' tab.fret='7' />
+                    </tabGrp>
+                    <tabGrp dur='8'>
+                      <note tab.string='5' tab.fret='5' />
+                    </tabGrp>
+                    <tabGrp dur='8'>
+                      <note tab.string='5' tab.fret='5' />
+                    </tabGrp>
+                  </beam>
+                  
+                  <beam>
+                    <tabGrp dur='8'>
+                      <note tab.string='4' tab.fret='7' />
+                      <note tab.string='3' tab.fret='7' />
+                      <note tab.string='2' tab.fret='8' />
+                    </tabGrp>
+                    <tabGrp dur='8'>
+                      <note tab.string='5' tab.fret='5' />
+                    </tabGrp>
+                    <tabGrp dur='8'>
+                      <note tab.string='5' tab.fret='5' />
+                    </tabGrp>
+                    <tabGrp dur='8' tie='i'>
+                      <note tab.string='4' tab.fret='7' />
+                      <note tab.string='3' tab.fret='6' />
+                      <note tab.string='2' tab.fret='5' />
+                    </tabGrp>
+                  </beam>
+
+                </layer>
+              </staff>
+              <gliss startid="#panama-fragment-3-1-1" 
+                     endid="#panama-fragment-3-1-2" 
+                     slide="legato" /> 
+            </measure>
+
+            <sb>
+
+            <measure n='4'>
+              <staff n='1'>
+                <layer n='1'>
+                  
+                  <beam>
+                    <tabGrp dur='8' dot='1' tie='t'>
+                      <note tab.string='4' tab.fret='7' />
+                      <note tab.string='3' tab.fret='6' />
+                      <note tab.string='2' tab.fret='5' />
+                    </tabGrp>
+                    <tabGrp dur='32' >
+                      <note tab.string='4' tab.fret='x' />
+                    </tabGrp>
+                    <tabGrp dur='32' >
+                      <note tab.string='3' tab.fret='x' />
+                    </tabGrp>
+                  </beam>
+                  <tabGrp dur='4' tie='i' >
+                    <note tab.string='2' tab.fret='0' />
+                  </tabGrp>
+                  <tabGrp dur='4' dot='1' tie='t' >
+                    <note tab.string='2' tab.fret='0' />
+                  </tabGrp>
+                  <tabGrp dur='8' tie='i' >
+                    <note tab.string='6' tab.fret='0' />
+                  </tabGrp>  
+
+                </layer>
+              </staff>
+            </measure>
+
+            <measure n='5'>
+              <staff n='1'>
+                <layer n='1'>
+                 
+                 <beam>
+                    <tabGrp dur='8' tie='t' >
+                      <note tab.string='6' tab.fret='0' />
+                    </tabGrp>
+                    <tabGrp dur='8' >
+                      <note tab.string='4' tab.fret='9' />
+                      <note tab.string='3' tab.fret='9' />
+                      <note tab.string='2' tab.fret='9' />
+                    </tabGrp>
+                    <tabGrp dur='8' >
+                      <note tab.string='5' tab.fret='7' />
+                    </tabGrp>
+                    <tabGrp dur='8' >
+                      <note tab.string='5' tab.fret='7' />
+                  </beam>
+
+                  <beam>
+                    <tabGrp dur='8'>
+                      <note tab.string='4' tab.fret='9' />
+                      <note tab.string='3' tab.fret='9' />
+                      <note tab.string='2' tab.fret='10' />
+                    </tabGrp>
+                    <tabGrp dur='8'>
+                      <note tab.string='5' tab.fret='7' />
+                    </tabGrp>
+                    <tabGrp dur='8'>
+                      <note tab.string='5' tab.fret='7' />
+                    </tabGrp>
+                    <tabGrp dur='8'>
+                      <note tab.string='4' tab.fret='9' />
+                      <note tab.string='3' tab.fret='8' />
+                      <note tab.string='2' tab.fret='7' />
+                    </tabGrp>
+                  </beam>
+
+                </layer>
+              </staff>
+            </measure> 
+
+            <measure n='6'>
+              <staff n='1'>
+                <layer n='1'>
+                  
+                  <beam>  
+                    <tabGrp dur='8'>
+                      <note tab.string='5' tab.fret='7' />
+                    </tabGrp>
+                    <tabGrp dur='8'>
+                      <note tab.string='5' tab.fret='7' />
+                    </tabGrp>
+                    <tabGrp dur='8'>
+                      <note tab.string='4' tab.fret='9' />
+                      <note tab.string='3' tab.fret='9' />
+                      <note tab.string='2' tab.fret='9' />
+                    </tabGrp>
+                    <tabGrp dur='8'>
+                      <note tab.string='5' tab.fret='7' />
+                    </tabGrp>
+                  </beam>
+                  
+                  <beam>  
+                    <tabGrp dur='8'>
+                      <note tab.string='5' tab.fret='7' />
+                    </tabGrp>
+                    <tabGrp dur='8'>
+                      <note tab.string='4' tab.fret='9' />
+                      <note tab.string='3' tab.fret='9' />
+                      <note tab.string='2' tab.fret='10' />
+                    </tabGrp>
+                    <tabGrp dur='8'>
+                      <note tab.string='5' tab.fret='7' />
+                    </tabGrp>
+                    <tabGrp dur='8'>
+                      <note tab.string='4' tab.fret='9' />
+                      <note tab.string='3' tab.fret='8' />
+                      <note tab.string='2' tab.fret='7' />
+                    </tabGrp>
+                  </beam>
+
+                </layer>
+              </staff>
+            </measure>
+
+            <sb>
+
+            <measure n='7'>
+              <staff n='1'>
+                <layer n='1'>
+                 
+                  <tabGrp dur='8' grace='acc'>
+                    <note tab.string='5' tab.fret='7' slide='i' />
+                  </tabGrp>
+                  
+                  <beam>
+                    <tabGrp dur='8'>
+                      <note tab.string='5' tab.fret='5' slide='t' />
+                    </tabGrp>
+                    <tabGrp dur='8'>
+                      <note tab.string='4' tab.fret='7'  />
+                      <note tab.string='3' tab.fret='7' />
+                      <note tab.string='2' tab.fret='7' />
+                    </tabGrp>
+                    <tabGrp dur='8'>
+                      <note tab.string='5' tab.fret='5' />
+                    </tabGrp>
+                    <tabGrp dur='8'>
+                      <note tab.string='5' tab.fret='5' />
+                    </tabGrp>
+                  </beam>
+                  
+                  <beam>
+                    <tabGrp dur='8'>
+                      <note tab.string='4' tab.fret='7' />
+                      <note tab.string='3' tab.fret='7' />
+                      <note tab.string='2' tab.fret='8' />
+                    </tabGrp>
+                    <tabGrp dur='8'>
+                      <note tab.string='5' tab.fret='5' />
+                    </tabGrp>
+                    <tabGrp dur='8'>
+                      <note tab.string='5' tab.fret='5' />
+                    </tabGrp>
+                    <tabGrp dur='8' tie='i'>
+                      <note tab.string='4' tab.fret='7' />
+                      <note tab.string='3' tab.fret='6' />
+                      <note tab.string='2' tab.fret='5' />
+                    </tabGrp>
+                  </beam>
+                </layer>
+              </staff>
+            </measure>
+
+            <measure n='8'>
+              <staff n='1'>
+                <layer n='1'>
+                 
+                  <tabGrp dur='8' tie='t'>
+                    <note tab.string='4' tab.fret='7' />
+                    <note tab.string='3' tab.fret='6' />
+                    <note tab.string='2' tab.fret='5' />
+                  </tabGrp>
+
+                  <tabGrp dur='4' dots='1' tie='i'>
+                    <note tab.string='6' tab.fret='x' />
+                    <note tab.string='5' tab.fret='x' />
+                  </tabGrp>
+
+                  <tabGrp dur='4' dots='1' tie='t'>
+                    <note tab.string='6' tab.fret='x' />
+                    <note tab.string='5' tab.fret='x' />
+                  </tabGrp>
+
+                  <beam>
+                    <tabGrp dur='16'>
+                      <note tab.string='5' tab.fret='4' />
+                      <note tab.string='4' tab.fret='6' />
+                      <note tab.string='3' tab.fret='6' />
+                      <note tab.string='2' tab.fret='5' />
+                      <note tab.string='1' tab.fret='0' />
+                    </tabGrp>
+                    <tabGrp dur='16'>
+                      <note tab.string='5' tab.fret='4' />
+                      <note tab.string='4' tab.fret='6' />
+                      <note tab.string='3' tab.fret='6' />
+                      <note tab.string='2' tab.fret='5' />
+                      <note tab.string='1' tab.fret='0' />
+                    </tabGrp>
+                  </beam>  
+                </layer>
+              </staff>
+            </measure> 
+
+            <measure n='9'>
+              <staff n='1'>
+                <layer n='1'>
+                 
+                    <tabGrp dur='2' dots='1'>
+                      <note tab.string='5' tab.fret='4' />
+                      <note tab.string='4' tab.fret='6' />
+                      <note tab.string='3' tab.fret='6' />
+                      <note tab.string='2' tab.fret='5' />
+                      <note tab.string='1' tab.fret='0' />
+                    </tabGrp>
+
+                    <beam>
+                      <tabGrp dur='8'>
+                        <note tab.string='5' tab.fret='4' />
+                      </tabGrp>
+                      <tabGrp dur='8'>
+                        <note tab.string='5' tab.fret='4' />
+                      </tabGrp>  
+                    </beam>  
+
+                </layer>
+              </staff>
+            </measure>
+
+            <sb>
+
+            <measure n='10'>
+              <staff n='1'>
+                <layer n='1'>
+
+                  <beam>
+                    <tabGrp dur='8'>
+                      <note tab.string='5' tab.fret='4' />
+                    </tabGrp>
+                    <tabGrp dur='8'>
+                      <note tab.string='5' tab.fret='4' />
+                    </tabGrp>
+                    <tabGrp dur='8'>
+                      <note tab.string='5' tab.fret='4' />
+                    </tabGrp>
+                    <tabGrp dur='8' tie='i'>
+                      <note tab.string='4' tab.fret='4' />                      
+                      <note tab.string='3' tab.fret='4' />
+                      <note tab.string='2' tab.fret='4' />
+                    </tabGrp>                    
+                  </beam>  
+
+                  <beam>
+                    <tabGrp dur='8' tie='t'>
+                      <note tab.string='4' tab.fret='4' />
+                      <note tab.string='3' tab.fret='4' />
+                      <note tab.string='2' tab.fret='4' />
+                    </tabGrp>
+                    <tabGrp dur='8'>
+                      <note tab.string='4' tab.fret='4' tie='i' />
+                      <note tab.string='3' tab.fret='4' tie='i' />
+                      <note tab.string='2' tab.fret='5' xml:id="panama-fragment-10-1-6" />
+                    </tabGrp>
+                    <tabGrp dur='8'>
+                      <note tab.string='4' tab.fret='4' tie='t' />
+                      <note tab.string='3' tab.fret='4' tie='t' />
+                      <note tab.string='2' tab.fret='4' xml:id="panama-fragment-10-1-9" />
+                    </tabGrp>
+                    <tabGrp dur='8'>
+                      <note tab.string='5' tab.fret='0' />
+                    </tabGrp>                    
+                  </beam>  
+                </layer>
+              </staff>
+              <tabLegato startid="#panama-fragment-10-1-6" endid="#panama-fragment-10-1-9" symbols="true" />
+            </measure>
+
+            <measure n='11'>
+              <staff n='1'>
+                <layer n='1'>
+                 
+                  <beam>
+                    <tabGrp dur='8' >
+                      <note tab.string='3' tab.fret='4' />
+                      <note tab.string='2' tab.fret='4' />
+                    </tabGrp>
+                    <tabGrp dur='8' >
+                      <note tab.string='3' tab.fret='2' />
+                      <note tab.string='2' tab.fret='2' />
+                    </tabGrp>
+                  </beam>
+
+                  <rest dur='8'/>
+
+                  <tabGrp dur='8'>
+                    <note tab.string='5' tab.fret='0' />
+                    <note tab.string='4' tab.fret='2' />
+                    <note tab.string='3' tab.fret='2' />
+                    <note tab.string='2' tab.fret='2' />
+                  </tabGrp>
+
+                  <rest dur='8'/>
+
+                  <tabGrp dur='4' dots='1' tie='i'>
+                    <note tab.string='5' tab.fret='0' />
+                    <note tab.string='4' tab.fret='2' />
+                    <note tab.string='3' tab.fret='2' />
+                    <note tab.string='2' tab.fret='2' />
+                  </tabGrp>
+
+                </layer>
+              </staff>
+            </measure> 
+
+            <measure n='12'>
+              <staff n='1'>
+                <layer n='1'>
+                
+                  <beam>
+                    <tabGrp dur='8' tie='t'>
+                      <note tab.string='5' tab.fret='0' />
+                      <note tab.string='4' tab.fret='2' />
+                      <note tab.string='3' tab.fret='2' />
+                      <note tab.string='2' tab.fret='2' />
+                    </tabGrp>
+                    <tabGrp dur='8' tie='i'>
+                      <note tab.string='5' tab.fret='2' />
+                    </tabGrp>
+                  </beam>
+
+                  <tabGrp dur='2' tie='t'>
+                    <note tab.string='5' tab.fret='2' />
+                  </tabGrp>
+
+                  <beam>
+                    <tabGrp dur='8'>
+                      <note tab.string='5' tab.fret='0' />
+                    </tabGrp>
+                    <tabGrp dur='16'>
+                      <note tab.string='5' tab.fret='4' />
+                      <note tab.string='4' tab.fret='6' />
+                      <note tab.string='3' tab.fret='6' />
+                    </tabGrp>
+                    <tabGrp dur='16'>
+                      <note tab.string='5' tab.fret='4' />
+                      <note tab.string='4' tab.fret='6' />
+                      <note tab.string='3' tab.fret='6' />
+                    </tabGrp>
+                  </beam>
+
+                </layer>
+              </staff>
+            </measure>            
+
+            <measure n='13'>
+              <staff n='1'>
+                <layer n='1'>
+                
+                  <tabGrp dur='2' >
+                    <note tab.string='5' tab.fret='4' />
+                    <note tab.string='4' tab.fret='6' />
+                    <note tab.string='3' tab.fret='6' />
+                  </tabGrp>
+
+                  <rest dur='8' />
+
+                  <beam>
+                    <tabGrp dur='8'>
+                      <note tab.string='2' tab.fret='4' />
+                    </tabGrp>
+                    <tabGrp dur='8'>
+                      <note tab.string='3' tab.fret='6' />
+                    </tabGrp>
+                    <tabGrp dur='8'>
+                      <note tab.string='4' tab.fret='6' />
+                    </tabGrp>                    
+                  </beam>
+                
+                </layer>
+              </staff>
+            </measure>           
+
+            <sb>
+
+            <measure n='14'>
+              <staff n='1'>
+                <layer n='1'>
+                
+                  <tabGrp dur='8'>
+                    <note tab.string='2' tab.fret='4' hammerOn='i' />
+                  </tabGrp>
+
+                  <tabGrp dur='4'>
+                    <note tab.string='2' tab.fret='5' hammerOn='t' />
+                  </tabGrp>
+
+                  <tabGrp dur='8'>
+                    <note tab.string='4' tab.fret='4' />
+                    <note tab.string='3' tab.fret='4' />
+                    <note tab.string='2' tab.fret='4' />
+                  </tabGrp>
+
+                  <beam>
+                    <tabGrp dur='8'>
+                      <note tab.string='4' tab.fret='4' />
+                      <note tab.string='3' tab.fret='4' />
+                      <note tab.string='2' tab.fret='4' />
+                    </tabGrp>
+                    <tabGrp dur='8' tie='i'>
+                      <note tab.string='4' tab.fret='5' pullOff='i' />
+                      <note tab.string='3' tab.fret='4' tie='i' />
+                      <note tab.string='2' tab.fret='4' tie='i' />
+                    </tabGrp>
+                    <tabGrp dur='8' tie='t'>
+                      <note tab.string='4' tab.fret='4' pullOff='t' />
+                      <note tab.string='3' tab.fret='4' tie='t' />
+                      <note tab.string='2' tab.fret='4' tie='t' />
+                    </tabGrp>
+                    <tabGrp dur='8'>
+                      <note tab.string='5' tab.fret='0' />
+                    </tabGrp>
+                  </beam>
+
+                </layer>
+              </staff>
+            </measure>
+
+            <measure n='15'>
+              <staff n='1'>
+                <layer n='1'>
+                 
+                  <beam>
+                    <tabGrp dur='8'>
+                      <note tab.string='3' tab.fret='4' />
+                      <note tab.string='2' tab.fret='4' />
+                    </tabGrp>
+                    <tabGrp dur='8'>
+                      <note tab.string='3' tab.fret='2' />
+                      <note tab.string='2' tab.fret='2' />
+                    </tabGrp>
+                  </beam>
+
+                  <rest dur='8'/>
+
+                  <tabGrp dur='8'>
+                    <note tab.string='5' tab.fret='0' />
+                    <note tab.string='4' tab.fret='2' />
+                    <note tab.string='3' tab.fret='2' />
+                    <note tab.string='2' tab.fret='2' />
+                  </tabGrp>
+
+                  <rest dur='8'/>
+
+                  <tabGrp dur='4' dots='1' tie='i'>
+                    <note tab.string='5' tab.fret='0' />
+                    <note tab.string='4' tab.fret='2' />
+                    <note tab.string='3' tab.fret='2' />
+                    <note tab.string='2' tab.fret='2' />
+                  </tabGrp>
+
+                </layer>
+              </staff>
+            </measure> 
+
+            <measure n='16'>
+              <staff n='1'>
+                <layer n='1'>
+                 
+                  <tabGrp dur='4' tie='t'>
+                    <note tab.string='5' tab.fret='0' />
+                    <note tab.string='4' tab.fret='2' />
+                    <note tab.string='3' tab.fret='2' />
+                    <note tab.string='2' tab.fret='2' />
+                  </tabGrp>
+
+                  <beam>
+                    <tabGrp dur='8'>
+                      <note tab.string='5' tab.fret='0' />
+                    </tabGrp>
+                    <tabGrp dur='8'>
+                      <note tab.string='5' tab.fret='0' />
+                    </tabGrp>
+                  </beam>
+
+                  <beam>
+                    <tabGrp dur='8'>
+                      <note tab.string='5' tab.fret='0' />
+                    </tabGrp>
+                    <tabGrp dur='8'>
+                      <note tab.string='5' tab.fret='0' />
+                    </tabGrp>
+                    <tabGrp dur='8'>
+                      <note tab.string='5' tab.fret='0' />
+                    </tabGrp>
+                    <tabGrp dur='8'>
+                      <note tab.string='5' tab.fret='2' />
+                      <note tab.string='4' tab.fret='4' />
+                      <note tab.string='3' tab.fret='4' />
+                      <note tab.string='2' tab.fret='4' />
+                    </tabGrp>
+                  </beam>                  
+                </layer>
+              </staff>
+            </measure>            
+
+            <measure n='17'>
+              <staff n='1'>
+                <layer n='1'>
+                 
+                  <rest dur='8'/>
+                  
+                  <beam>
+                    <tabGrp dur='8'>
+                      <note tab.string='1' tab.fret='0' />
+                    </tabGrp>
+                    <tabGrp dur='8'>
+                      <note tab.string='2' tab.fret='4' />
+                    </tabGrp>
+                    <tabGrp dur='8'>
+                      <note tab.string='3' tab.fret='4' />
+                    </tabGrp>
+                  </beam>
+
+                  <beam>
+                    <tabGrp dur='8'>
+                      <note tab.string='1' tab.fret='0' />
+                    </tabGrp>
+                    <tabGrp dur='8'>
+                      <note tab.string='2' tab.fret='4' />
+                    </tabGrp>
+                    <tabGrp dur='8'>
+                      <note tab.string='3' tab.fret='4' />
+                    </tabGrp>
+                    <tabGrp dur='8'>
+                      <note tab.string='1' tab.fret='5' />
+                    </tabGrp>
+                  </beam>
+
+                </layer>
+              </staff>
+            </measure>
+
+            <pb>
+
+            <measure n='18'>
+              <staff n='1'>
+                <layer n='1'>
+
+                  <beam>
+                    <tabGrp dur='8'>
+                      <note tab.string='2' tab.fret='4' />
+                    </tabGrp>
+                    <tabGrp dur='8'>
+                      <note tab.string='3' tab.fret='4' />
+                    </tabGrp>
+                    <tabGrp dur='8'>
+                      <note tab.string='1' tab.fret='5' />
+                    </tabGrp>
+                    <tabGrp dur='8'>
+                      <note tab.string='3' tab.fret='4' />
+                      <note tab.string='2' tab.fret='0' />
+                    </tabGrp>
+                  </beam>
+                 
+                  <beam>
+                    <tabGrp dur='8'>
+                      <note tab.string='3' tab.fret='4' />
+                      <note tab.string='2' tab.fret='0' />                      
+                    </tabGrp>
+                    <tabGrp dur='8'>
+                      <note tab.string='3' tab.fret='4' />
+                      <note tab.string='2' tab.fret='0' />
+                    </tabGrp>
+                    <tabGrp dur='8'>
+                      <note tab.string='3' tab.fret='4' />
+                      <note tab.string='2' tab.fret='0' />
+                    </tabGrp>
+                    <tabGrp dur='8' tie='i'>
+                      <note tab.string='6' tab.fret='0' />
+                    </tabGrp>
+                  </beam>
+
+                </layer>
+              </staff>
+            </measure>              
+
+          </section>
+        </score>
+      </mdiv>
+    </body>
+  </music>
+</mei>

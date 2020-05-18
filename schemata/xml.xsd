@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://www.w3.org/XML/1998/namespace" xmlns:mei="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <xs:import namespace="http://www.music-encoding.org/ns/mei" schemaLocation="mei.xsd"/>
+  <xs:import namespace="http://www.w3.org/1999/xlink" schemaLocation="xlink.xsd"/>
+  <xs:attribute name="base" type="mei:data.URI">
+    <xs:annotation>
+      <xs:documentation>provides a base URI reference with which applications can resolve relative URI references into absolute URI references.</xs:documentation>
+    </xs:annotation>
+  </xs:attribute>
+  <xs:attribute name="id" type="xs:ID">
+    <xs:annotation>
+      <xs:documentation>regularizes the naming of an element and thus facilitates building links between it and other resources. Each id attribute within a document must have a unique value.</xs:documentation>
+    </xs:annotation>
+  </xs:attribute>
+  <xs:attribute name="lang" type="xs:language">
+    <xs:annotation>
+      <xs:documentation>identifies the language of the element's content. The values for this attribute are language 'tags' as defined in BCP 47. All language tags that make use of private use sub-tags must be documented in a corresponding language element in the MEI header whose id attribute is the same as the language tag's value.</xs:documentation>
+    </xs:annotation>
+  </xs:attribute>
+  <xs:attribute name="space">
+    <xs:annotation>
+      <xs:documentation>allows one to signal to an application whether an element's white space is "significant". The behavior of xml:space cascades to all descendant elements, but it can be turned off locally by setting the xml:space attribute to the value "default".</xs:documentation>
+    </xs:annotation>
+    <xs:simpleType>
+      <xs:restriction base="xs:token">
+        <xs:enumeration value="default">
+          <xs:annotation>
+            <xs:documentation>allows the application to handle white space as necessary. Not including an xml:space attribute produces the same result as using the default value.</xs:documentation>
+          </xs:annotation>
+        </xs:enumeration>
+        <xs:enumeration value="preserve">
+          <xs:annotation>
+            <xs:documentation>instructs the application to maintain white space "as-is", suggesting that it might have meaning.</xs:documentation>
+          </xs:annotation>
+        </xs:enumeration>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:attribute>
+</xs:schema>

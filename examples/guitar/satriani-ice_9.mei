@@ -1,0 +1,217 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<mei xmlns='http://www.music-encoding.org/ns/mei' meiversion='3.0.0'>
+  <meiHead>
+    <fileDesc>
+      <titleStmt>
+        <title></title>
+      </titleStmt>
+      <pubStmt>
+        <respStmt>
+          <persName></persName>
+          <resp></resp>
+          <resp></resp>
+        </respStmt>
+      </pubStmt>
+      <sourceDesc>
+        <source>
+          <titleStmt>
+            <title></title>
+          </titleStmt>
+          <pubStmt>
+            <pubPlace></pubPlace>
+            <respStmt>
+              <persName></persName>
+              <resp></resp>
+            </respStmt>
+            <respStmt>
+              <persName></persName>
+              <resp></resp>
+            </respStmt>
+            <date></date>
+          </pubStmt>
+          <physDesc>
+            <physMedium></physMedium>
+            <dimensions></dimensions>
+          </physDesc>
+          <physLoc>
+            <provenance>
+              <repository>
+                <name></name>
+                <identifier></identifier>
+              </repository>
+            </provenance>
+          </physLoc>
+        </source>
+      </sourceDesc>
+    </fileDesc>
+    <workDesc>
+      <work>
+        <titleStmt>
+          <title>Ice 9</title>
+          <composer>
+            <name>
+              <persName>Joe Satriani</persName>
+            </name>
+          </composer>
+        </titleStmt>
+      </work>
+    </workDesc>
+  </meiHead>
+  <music>
+    <facsimile>
+      <surface>
+        <graphic/>
+      </surface>
+    </facsimile>
+    <body>
+      <mdiv n='1'>
+        <score>
+          <scoreDef>
+            <staffGrp>
+              <staffDef n='1' lines='6' notationtype='tab.guitar'>
+                <tuning tuning.standard='guitar'/>
+              </staffDef>
+            </staffGrp>
+          </scoreDef>
+          <section n='1'>
+            <measure n='1'>
+              <staff n='1'>
+                <layer n='1'>
+                  <tabGrp dur='8' grace='acc'>
+                    <note tab.course='2' tab.fret='11' xml:id='m1.n1'/>
+                  </tabGrp>
+                  <beam>
+                    <tuplet dur='8' num='3' numbase='2'>
+                      <tabGrp dur='16'>
+                        <note tab.course='2' tab.fret='10' xml:id='m1.n2'/>
+                      </tabGrp>
+                      <tabGrp dur='16'>
+                        <note tab.course='2' tab.fret='11' xml:id='m1.n3'/>
+                      </tabGrp>
+                      <tabGrp dur='16'>
+                        <note tab.course='2' tab.fret='14' xml:id='m1.n4'/>
+                      </tabGrp>
+                    </tuplet>
+                    <tuplet dur='8' num='6' numbase='2'>
+                      <tabGrp dur='32'>
+                        <note tab.course='2' tab.fret='13' xml:id='m1.n5'/>
+                      </tabGrp>
+                      <tabGrp dur='32'>
+                        <note tab.course='2' tab.fret='14' xml:id='m1.n6'/>
+                      </tabGrp>
+                      <tabGrp dur='32'>
+                        <note tab.course='1' tab.fret='11' xml:id='m1.n7'/>
+                      </tabGrp>
+                      <tabGrp dur='32'>
+                        <note tab.course='1' tab.fret='14' xml:id='m1.n8'/>
+                      </tabGrp>
+                      <tabGrp dur='16'>
+                        <note tab.course='1' tab.fret='11' xml:id='m1.n9'/>
+                      </tabGrp>
+                    </tuplet>
+                  </beam>
+                  <beam>
+                    <tuplet dur='8' num='3' numbase='2'>
+                      <tabGrp dur='16'>
+                        <note tab.course='2' tab.fret='14' xml:id='m1.n10'/>
+                      </tabGrp>
+                      <tabGrp dur='16'>
+                        <note tab.course='2' tab.fret='9' xml:id='m1.n11'/>
+                      </tabGrp>
+                      <tabGrp dur='16'>
+                        <note tab.course='2' tab.fret='11' xml:id='m1.n12'/>
+                      </tabGrp>
+                    </tuplet>
+                    <tabGrp dur='64'>
+                      <note tab.course='2' tab.fret='14' xml:id='m1.n13'/>
+                    </tabGrp>
+                    <tabGrp dur='64'>
+                      <note tab.course='2' tab.fret='13' xml:id='m1.n14'/>
+                    </tabGrp>
+                    <tabGrp dur='32'>
+                      <note tab.course='2' tab.fret='9' xml:id='m1.n15'/>
+                    </tabGrp>
+                    <tabGrp dur='32'>
+                      <note tab.course='2' tab.fret='11' xml:id='m1.n16'/>
+                    </tabGrp>
+                    <tabGrp dur='32'>
+                      <note tab.course='2' tab.fret='13' xml:id='m1.n17'/>
+                    </tabGrp>
+                  </beam>
+                  <beam>
+                    <tabGrp dur='32'>
+                      <note tab.course='2' tab.fret='11' xml:id='m1.n18'/>
+                    </tabGrp>
+                    <tabGrp dur='32'>
+                      <note tab.course='2' tab.fret='9' xml:id='m1.n19'/>
+                    </tabGrp>
+                    <tabGrp dur='32'>
+                      <note tab.course='3' tab.fret='13' xml:id='m1.n20'/>
+                    </tabGrp>
+                    <tabGrp dur='32'>
+                      <note tab.course='3' tab.fret='11' xml:id='m1.n21'/>
+                    </tabGrp>
+                    <tabGrp dur='16'>
+                      <note tab.course='3' tab.fret='13' xml:id='m1.n22'/>
+                    </tabGrp>
+                    <tuplet dur='16' num='3' numbase='2'>
+                    <tabGrp dur='32'>
+                      <note tab.course='3' tab.fret='11' xml:id='m1.n23'/>
+                    </tabGrp>
+                    <tabGrp dur='32'>
+                      <note tab.course='3' tab.fret='10' xml:id='m1.n24'/>
+                    </tabGrp>
+                    <tabGrp dur='32'>
+                      <note tab.course='3' tab.fret='8' xml:id='m1.n25'/>
+                    </tabGrp>
+                  </beam>
+                  <beam>
+                    <tabGrp dur='32'>
+                      <note tab.course='3' tab.fret='10' xml:id='m1.n26'/>
+                    </tabGrp>
+                    <tabGrp dur='32'>
+                      <note tab.course='3' tab.fret='11' xml:id='m1.n27'/>
+                    </tabGrp>
+                    <tabGrp dur='32'>
+                      <note tab.course='4' tab.fret='10' xml:id='m1.n28'/>
+                    </tabGrp>
+                    <tabGrp dur='32'>
+                      <note tab.course='3' tab.fret='8' xml:id='m1.n29'/>
+                    </tabGrp>
+                    <tabGrp dur='32'>
+                      <note tab.course='3' tab.fret='8' tab.muted='true' xml:id='m1.n30'/>
+                    </tabGrp>
+                    <tabGrp dur='32'>
+                      <note tab.course='3' tab.fret='8' xml:id='m1.n31'/>
+                    </tabGrp>
+                    <tabGrp dur='32'>
+                      <note tab.course='3' tab.fret='10' xml:id='m1.n32'/>
+                    </tabGrp>
+                    <tabGrp dur='32'>
+                      <note tab.course='3' tab.fret='11' xml:id='m1.n33'/>
+                    </tabGrp>
+                  </beam>
+                </layer>
+              </staff>
+              <slur startid='m1.n1-2' endid='m1.n1' show.dirmark='true'/>
+              <gliss startid='m1.n1' endid='m1.n2' slide='legato' show.dirmark='true'/>
+              <slur startid='m1.n2' endid='m1.n6' show.dirmark='true'>
+                <gliss startid='m1.n2' endid='m1.n3' slide='legato' show.dirmark='true'/>
+              </slur>
+              <slur startid='m1.n7' endid='m1.n8' show.dirmark='true'/>
+              <slur startid='m1.n10' endid='m1.n19' show.dirmark='true'>
+                <gliss startid='m1.n13' endid='m1.n14' slide='legato' show.dirmark='true'/>
+              </slur>
+              <slur startid='m1.n21' endid='m1.n25' show.dirmark='true'>
+                <gliss startid='m1.n24' endid='m1.n25' slide='legato' show.dirmark='true'/>
+              </slur>
+              <slur startid='m1.n26' endid='m1.n27' show.dirmark='true'/>
+              <gliss startid='m1.n30' endid='m1.n31' slide='shift' show.dirmark='true'/>
+              <slur startid='m1.n32' endid='m1.n33+2' show.dirmark='true'/>
+            </measure>
+          </section>
+        </score>
+      </mdiv>
+    </body>
+  </music>
+</mei>
