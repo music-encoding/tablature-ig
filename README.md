@@ -1,11 +1,23 @@
-## MEI Customisations for Transforming Musicology
+## Tablature Interest Group repository
 
-Contains customisations of [MEI](http://music-encoding.org/home) used
-in the
-[Transforming Musicology](http://www.transforming-musicology.org/)
-project.
+Contains example materials, draft documentation and MEI customisations to support the work of the Interest Group.
 
-Currently these comprise just:
+The aim of the Interest Group is to develop MEI for the encoding of repertories that use tablature notations. This involves making recommendations for extension, addition and amendment to future versions of the MEI schema and guidelines, and supporting the development of software tools to process MEI containing tablature. We ultimately aim to include as many tablature forms as possible, but are initially focussing on those for the guitar and lute family of instruments.
+
+### Examples
+
+Examples have been chosen to test a broad range of the notation types that are currently 'in scope'. Images of the original sources used are accompanied by sample encodings.
+
+### Documentation
+
+Documentation covers areas discussed in IG meetings. It is not yet complete or stable.
+
+### Schemata
+
+This will contain ODD customisations of the MEI schema for our recommendations. 
+Currently, they are customisations from previous work on this as part of the Transforming Musicology](http://www.transforming-musicology.org/) project.
+
+Comprising of:
 
 `instruments`
 
@@ -16,7 +28,7 @@ playing technique marking elements.
 
 Allows marking up of tablatures for fretted string instruments.
 
-### Using Roma with the ODDs
+#### Using Roma with the ODDs
 
 The customisations are contained in two ODD files (plus one container
 ODD file, `mei-frettab.odd`, that pulls in all of MEI plus the two new
