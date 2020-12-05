@@ -237,7 +237,7 @@
                     <note tab.course='6' tab.fret='0' xml:id='m4.n1'>
                       <fretGlyph symbol='1' symbol.mod='strikethrough'/>
                     </note>
-                    <note tab.course='3' tab.fret='1' tenuto='true' xml:id='m4.n2'>
+                    <note tab.course='3' tab.fret='1' xml:id='m4.n2'>
                       <fretGlyph symbol='c'/>
                     </note>
                   </tabGrp>
@@ -252,7 +252,7 @@
                     <note tab.course='5' tab.fret='2' xml:id='m4.n4'>
                       <fretGlyph symbol='f'/>
                     </note>
-                    <note tab.course='3' tab.fret='1' tenuto='true' xml:id='m4.n5'>
+                    <note tab.course='3' tab.fret='1' xml:id='m4.n5'>
                       <fretGlyph symbol='c'/>
                     </note>
                   </tabGrp>
@@ -264,6 +264,8 @@
                   </tabGrp>
                 </layer>
               </staff>
+              <tenuto startid='m4.n2' position='left' style='star'/>
+              <tenuto startid='m4.n5' position='left' style='star'/>
             </measure>
             <measure n='5'>
               <staff n='1'>
@@ -330,7 +332,7 @@
                   </tabGrp>
                   <tabGrp dur.ges='4'>
                     <tabRhythm/>
-                    <note tab.course='6' tab.fret='2' tenuto='true' xml:id='m6.n5'>
+                    <note tab.course='6' tab.fret='2' xml:id='m6.n5'>
                       <fretGlyph symbol='3' symbol.mod='strikethrough'/>
                     </note>
                   </tabGrp>
@@ -354,6 +356,7 @@
                   </choice>
                 </layer>
               </staff>
+              <tenuto startid='m6.n5' position='left' style='star'/>
             </measure>
           </section>
         </score>
