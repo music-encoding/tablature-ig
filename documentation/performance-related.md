@@ -16,13 +16,13 @@
 
 ### Pitch inflection: bends and vibrato arm techniques 
 
-Much of the core semantics of bends can be provided by `<bend>`. Currently, notes participating in a bend have explicit pitch. This is not the case in guitar tablature bends, where displacement from non-bent pitch must be specified. 
+**Much of the core semantics of bends can be provided by `<bend>`. Currently, notes participating in a bend have explicit pitch. This is not the case in guitar tablature bends, where displacement from non-bent pitch must be specified.** 
 
-Because bends can be both upwards and downwards in pitch (the latter achieved using the vibrato arm), and because both follow the same principle (pitch displacement in either upward or downward direction), we introduce the `<pitchInflection>` element. 
+**Because bends can be both upwards and downwards in pitch (the latter achieved using the vibrato arm), and because both follow the same principle (pitch displacement in either upward or downward direction), we introduce the `<pitchInflection>` element.** 
 
 **All notes that participate in a bend (apart from the first) must have `@inflection.startid` to point to the first (pitched) note that is included in the bend gesture. Those subsequent notes must not provide differing `@tab.course` or `@tab.fret` information.**
 
-Bend displacements (`@dis`) are specified in number of semitones, and the textual content of the element indicates how the bend is specified in the source. Negative displacements indicate vibrato arm bends.
+**Bend displacements (`@dis`) are specified in number of semitones, and the textual content of the element indicates how the bend is specified in the source. Negative displacements indicate vibrato arm bends.**
 
 The simplest bends involve two explicit notes:
 #### Two-note, whole-tone bend
@@ -52,7 +52,7 @@ Prebends use another new attribute `@prebend`:
     </tabGrp>
     <pitchInflection startid="#note1" dis="1" prebend="true">1/2</pitchInflection>
 ```
-A release may involve an explicit (parenthetical) repeat of the fret symbol. `@show.fret` may be provided on `<pitchInflection>`, which then refers back to the original fret symbol, or text content may be included if a different symbol is required. In the case of a multi-note bend, the notes after the first must refer to the initial note of the bend using `@pitchInflection.startid`.   
+**A release may involve an explicit (parenthetical) repeat of the fret symbol. `@show.fret` may be provided on `<pitchInflection>`, which then refers back to the original fret symbol, or text content may be included if a different symbol is required. In the case of a multi-note bend, the notes after the first must refer to the initial note of the bend using `@pitchInflection.startid`.**
 
 #### Two-note, whole-tone bend
 ```xml
