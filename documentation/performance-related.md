@@ -3,26 +3,26 @@
 ## Techniques
 ### Slides
 
-**Slides are to be encoded with the `<gliss>` element. The element has a tablature specific attribute `@slide` with possible values `legato` and `shift`. `@show.dirmark` indicates whether the `sl.` direction should be shown.**
+Slides are to be encoded with the `<gliss>` element. The element has a tablature specific attribute `@slide` with possible values `legato` and `shift`. `@show.dirmark` indicates whether the `sl.` direction should be shown.
 
-**`@slide.to` and `@slide.from` attributes can take values `upwards` and `downwards` for slides with only one note (e.g., with only `@startid`).**
+`@slide.to` and `@slide.from` attributes can take values `upwards` and `downwards` for slides with only one note (e.g., with only `@startid`).
 
 ### Legato techniques: hammer on & pull off 
 
-**Hammer on and pull off are notated in a similar way – a slur over notes on the same course. Additional letters (H and P respectively) may optionally indicate which is involved, but this can be deduced from the direction – `hammer on` is up the finger board, `pull off` is down.**
+Hammer on and pull off are notated in a similar way – a slur over notes on the same course. Additional letters (H and P respectively) may optionally indicate which is involved, but this can be deduced from the direction – `hammer on` is up the finger board, `pull off` is down.
 
-**`<slur>` indicates the set of notes covered (see guidelines option 2 for meaning 'performance technique'), using `@startid` and `@endid`. `@show.dirmark` indicates whether letters are present. For more complex cases, the element can contain `<dirMark>` subelements whose text content indicates the letters used and whose startid *must* give the first note of the gesture.**
+`<slur>` indicates the set of notes covered (see guidelines option 2 for meaning 'performance technique'), using `@startid` and `@endid`. `@show.dirmark` indicates whether letters are present. For more complex cases, the element can contain `<dirMark>` subelements whose text content indicates the letters used and whose startid *must* give the first note of the gesture.
 
 
 ### Pitch inflection: bends and vibrato arm techniques 
 
-**Much of the core semantics of bends can be provided by `<bend>`. Currently, notes participating in a bend have explicit pitch. This is not the case in guitar tablature bends, where displacement from non-bent pitch must be specified.** 
+Much of the core semantics of bends can be provided by `<bend>`. Currently, notes participating in a bend have explicit pitch. This is not the case in guitar tablature bends, where displacement from non-bent pitch must be specified.
 
-**Because bends can be both upwards and downwards in pitch (the latter achieved using the vibrato arm), and because both follow the same principle (pitch displacement in either upward or downward direction), we introduce the `<pitchInflection>` element.** 
+Because bends can be both upwards and downwards in pitch (the latter achieved using the vibrato arm), and because both follow the same principle (pitch displacement in either upward or downward direction), we introduce the `<pitchInflection>` element.
 
-**All notes that participate in a bend (apart from the first) must have `@inflection.startid` to point to the first (pitched) note that is included in the bend gesture. Those subsequent notes must not provide differing `@tab.course` or `@tab.fret` information.**
+All notes that participate in a bend (apart from the first) must have `@inflection.startid` to point to the first (pitched) note that is included in the bend gesture. Those subsequent notes must not provide differing `@tab.course` or `@tab.fret` information.
 
-**Bend displacements (`@dis`) are specified in number of semitones, and the textual content of the element indicates how the bend is specified in the source. Negative displacements indicate vibrato arm bends.**
+Bend displacements (`@dis`) are specified in number of semitones, and the textual content of the element indicates how the bend is specified in the source. Negative displacements indicate vibrato arm bends.
 
 The simplest bends involve two explicit notes:
 #### Two-note, whole-tone bend
@@ -52,7 +52,7 @@ Prebends use another new attribute `@prebend`:
     </tabGrp>
     <pitchInflection startid="#note1" dis="1" prebend="true">1/2</pitchInflection>
 ```
-**A release may involve an explicit (parenthetical) repeat of the fret symbol. `@show.fret` may be provided on `<pitchInflection>`, which then refers back to the original fret symbol, or text content may be included if a different symbol is required. In the case of a multi-note bend, the notes after the first must refer to the initial note of the bend using `@pitchInflection.startid`.**
+A release may involve an explicit (parenthetical) repeat of the fret symbol. `@show.fret` may be provided on `<pitchInflection>`, which then refers back to the original fret symbol, or text content may be included if a different symbol is required. In the case of a multi-note bend, the notes after the first must refer to the initial note of the bend using `@pitchInflection.startid`.
 
 #### Two-note, whole-tone bend
 ```xml
