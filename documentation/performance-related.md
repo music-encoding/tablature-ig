@@ -106,8 +106,4 @@ We can use `<dir>`, which needs a new attribute `@technique`, which itself will 
 
 ### TODO: harmonics, various performance
 
-See https://docs.google.com/document/d/1bi2G2mNB_3BLJa-frBLrJX7wBbkkSw9UrsOtixvMd38/edit#heading=h.s3cxvjo07bt1
-
-See also https://docs.google.com/document/d/1nln0yr5ZxkBeVf2A_e46xyblDXI4ud036nuTYNmT1n0/edit#
-
 ## TODO Fingerings
