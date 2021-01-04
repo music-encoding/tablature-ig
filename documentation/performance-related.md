@@ -18,26 +18,30 @@ Slides are techniques in which notes are sounded by means of a position change (
 ### Examples:
 * Legato slide/shift slide
 ```xml
-`<tabGrp dur='8'>`
-&nbsp;&nbsp;&nbsp;&nbsp;`<note tab.course='3' tab.fret='12' xml:id='n_1'/>`
-`</tabGrp>`
-`<tabGrp dur='8'>`
-&nbsp;&nbsp;&nbsp;&nbsp;`<note tab.course='3' tab.fret='14' xml:id='n_2'/>`
-`</tabGrp>` 
-`<gliss startid='n_1' endid='n_2' slide='legato' show.dirmark='true'/>` (use `@slide=shift'` for shift slide)
+<tabGrp dur='8'>
+    <note tab.course='3' tab.fret='12' xml:id='n_1'/>
+</tabGrp>
+<tabGrp dur='8'>
+    <note tab.course='3' tab.fret='14' xml:id='n_2'/>
+</tabGrp>
+<gliss startid='n_1' endid='n_2' slide='legato' show.dirmark='true'/> (use @slide='shift' for shift slide)
 ```
 
 * Slide-to
-`<tabGrp dur='8'>`
-&nbsp;&nbsp;&nbsp;&nbsp;`<note tab.course='3' tab.fret='12' xml:id='n_1'/>`
-`</tabGrp>`
-`<gliss startid='n_1' slide.to='upwards' show.dirmark='true'/>` (slide from below; use `@slide.to='downwards'` for slide from above)
+```xml
+<tabGrp dur='8'>
+    <note tab.course='3' tab.fret='12' xml:id='n_1'/>
+</tabGrp>
+<gliss startid='n_1' slide.to='upwards' show.dirmark='true'/> (slide from below; use @slide.to='downwards' for slide from above)
+```
 
 * Slide-from
-`<tabGrp dur='8'>`
-&nbsp;&nbsp;&nbsp;&nbsp;`<note tab.course='3' tab.fret='12' xml:id='n_1'/>`
-`</tabGrp>`
-`<gliss startid='n_1' slide.from='upwards' show.dirmark='true'/>` (slide up; use `@slide.from='downwards'` for slide down)
+```xml
+<tabGrp dur='8'>
+    <note tab.course='3' tab.fret='12' xml:id='n_1'/>
+</tabGrp>
+<gliss startid='n_1' slide.from='upwards' show.dirmark='true'/> (slide up; use @slide.from='downwards' for slide down)
+```
 
 ## Legato techniques: hammer-on, pull-off, and tap
 Legato techniques are techniques in which a note is sounded without picking/plucking it. There are two main types of legato techniques:
