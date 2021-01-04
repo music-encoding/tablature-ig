@@ -147,141 +147,172 @@ In total, there are four basic combinations (where a bend can be a bend, an unme
 ### Examples
 #### Bend and pre-release
 * Bend (ex. 1)
-`<tabGrp dur='8'>`
-&nbsp;&nbsp;&nbsp;&nbsp;`<note xml:id='n_1' tab.course='3' tab.fret='12' tie='i'/>`
-`</tabGrp>`
-`<tabGrp dur='8'>`
-&nbsp;&nbsp;&nbsp;&nbsp;`<note xml:id='n_2' tie='t' pitchInflection.startid='n_1'/>`
-`</tabGrp>`
-`<pitchInflection startid='n_1' endid='n_2 dis='2'>Full</pitchInflection>`
-* Unmeasured bend (ex. 2a)/pre-bend (ex. 3)
-`<tabGrp dur='4'>`
-&nbsp;&nbsp;&nbsp;&nbsp;`<note xml:id='n_1' tab.course='3' tab.fret='12'/>`
-`</tabGrp>`
-`<pitchInflection startid='n_1' dis='1'>1/2</pitchInflection>` (add `@prebend='true'` in case of pre-bend)
-* Unmeasured bend, crossing bar (2b)
-`<tabGrp dur='8'>`
-&nbsp;&nbsp;&nbsp;&nbsp;`<note xml:id='n_1' tab.course='3' tab.fret='12' tie='i'/>`
-`</tabGrp>`
-`<tabGrp dur='8'>`
-&nbsp;&nbsp;&nbsp;&nbsp;`<note xml:id='n_2' tie='t' pitchInflection.startid='n_1'/>`
-`</tabGrp>`
-`<pitchInflection startid='n_1' dis='1' show.fret='true' show.fret.enclose='paren'>1/2</pitchInflection>` TODO: `@show.fret` and `@show.fret.enclose` apply to `n_2`, which is not in this `<pitchInflection>`. Is this clear anyway? 
+```xml
+<tabGrp dur='8'>
+    <note xml:id='n_1' tab.course='3' tab.fret='12' tie='i'/>
+</tabGrp>
+<tabGrp dur='8'>
+    <note xml:id='n_2' tie='t' pitchInflection.startid='n_1'/>
+</tabGrp>
+<pitchInflection startid='n_1' endid='n_2 dis='2'>Full</pitchInflection>
+```
+
+* Unmeasured bend (ex. 2a)/pre-bend (ex. 3) (for pre-bend, add `@prebend='true'` on `<pitchInflection>`)
+```xml
+<tabGrp dur='4'>
+<note xml:id='n_1' tab.course='3' tab.fret='12'/>
+</tabGrp>
+<pitchInflection startid='n_1' dis='1'>1/2</pitchInflection>
+```
+* Unmeasured bend, crossing bar (2b) TODO: `@show.fret` and `@show.fret.enclose` apply to `n_2`, which is not in this `<pitchInflection>`. Is this clear anyway? 
+```xml
+<tabGrp dur='8'>
+    <note xml:id='n_1' tab.course='3' tab.fret='12' tie='i'/>
+</tabGrp>
+<tabGrp dur='8'>
+    <note xml:id='n_2' tie='t' pitchInflection.startid='n_1'/>
+</tabGrp>
+<pitchInflection startid='n_1' dis='1' show.fret='true' show.fret.enclose='paren'>1/2</pitchInflection>
+```
 
 #### Bend, hold, and pre-release
 * Bend (ex. 4)
-`<tabGrp dur='8'>`
-&nbsp;&nbsp;&nbsp;&nbsp;`<note xml:id='n_1' tab.course='3' tab.fret='12' tie='i'/>`
-`</tabGrp>`
-`<tabGrp dur='4'>`
-&nbsp;&nbsp;&nbsp;&nbsp;`<note xml:id='n_2' tie='t' pitchInflection.startid='n_1'/>`
-`</tabGrp>`
-`<tabGrp dur='8'>`
-&nbsp;&nbsp;&nbsp;&nbsp;`<note xml:id='n_3' tab.course='3' tab.fret='12' pitchInflection.startid='n_1'/>`
-`</tabGrp>`
-`<pitchInflection startid='n_1' endid='n_2 dis='2'>Full</pitchInflection>`
-* Unmeasured bend (ex. 5)/pre-bend (ex. 6)
-`<tabGrp dur='4' dots='1'>`
-&nbsp;&nbsp;&nbsp;&nbsp;`<note xml:id='n_1' tab.course='3' tab.fret='12'/>`
-`</tabGrp>`
-`<tabGrp dur='8'>`
-&nbsp;&nbsp;&nbsp;&nbsp;`<note xml:id='n_2' tab.course='3' tab.fret='12' pitchInflection.startid='n_1'/>`
-`</tabGrp>`
-`<pitchInflection startid='n_1' dis='2'>Full</pitchInflection>` (add `@prebend='true'` in case of pre-bend)
+```xml
+<tabGrp dur='8'>
+    <note xml:id='n_1' tab.course='3' tab.fret='12' tie='i'/>
+</tabGrp>
+<tabGrp dur='4'>
+    <note xml:id='n_2' tie='t' pitchInflection.startid='n_1'/>
+</tabGrp>
+<tabGrp dur='8'>
+    <note xml:id='n_3' tab.course='3' tab.fret='12' pitchInflection.startid='n_1'/>
+</tabGrp>
+<pitchInflection startid='n_1' endid='n_2 dis='2'>Full</pitchInflection>
+```
+
+* Unmeasured bend (ex. 5)/pre-bend (ex. 6) (for pre-bend, add `@prebend='true'` on `<pitchInflection>`)
+```xml
+<tabGrp dur='4' dots='1'>
+    <note xml:id='n_1' tab.course='3' tab.fret='12'/>
+</tabGrp>
+<tabGrp dur='8'>
+    <note xml:id='n_2' tab.course='3' tab.fret='12' pitchInflection.startid='n_1'/>
+</tabGrp>
+<pitchInflection startid='n_1' dis='2'>Full</pitchInflection>
+```
 
 #### Bend and release
 * Bend and release (ex. 7)
-`<tabGrp dur='4'>`
-&nbsp;&nbsp;&nbsp;&nbsp;`<note xml:id='n_1' tab.course='3' tab.fret='12' tie='i'/>`
-`</tabGrp>`
-`<tabGrp dur='8'>`
-&nbsp;&nbsp;&nbsp;&nbsp;`<note xml:id='n_2' tie='m' pitchInflection.startid='n_1'/>`
-`</tabGrp>`
-`<tabGrp dur='8'>`
-&nbsp;&nbsp;&nbsp;&nbsp;`<note xml:id='n_3' tie='t' pitchInflection.startid='n_1'/>`
-`</tabGrp>`
-`<pitchInflection startid='n_1' endid='n_2' dis='2'>Full</pitchInflection>`
-`<pitchInflection startid='n_2' endid='n_3' dis='0'/>`
+```xml
+<tabGrp dur='4'>
+    <note xml:id='n_1' tab.course='3' tab.fret='12' tie='i'/>
+</tabGrp>
+<tabGrp dur='8'>
+    <note xml:id='n_2' tie='m' pitchInflection.startid='n_1'/>
+</tabGrp>
+<tabGrp dur='8'>
+    <note xml:id='n_3' tie='t' pitchInflection.startid='n_1'/>
+</tabGrp>
+<pitchInflection startid='n_1' endid='n_2' dis='2'>Full</pitchInflection>
+<pitchInflection startid='n_2' endid='n_3' dis='0'/>
+```
+
 * Bend and unmeasured release (ex. 8)
-`<tabGrp dur='4'>`
-&nbsp;&nbsp;&nbsp;&nbsp;`<note xml:id='n_1' tab.course='3' tab.fret='12' tie='i'/>`
-`</tabGrp>`
-`<tabGrp dur='4'>`
-&nbsp;&nbsp;&nbsp;&nbsp;`<note xml:id='n_2' tie='t' pitchInflection.startid='n_1'/>`
-`</tabGrp>`
-`<pitchInflection startid='n_1' endid='n_2' dis='2'>Full</pitchInflection>`
-`<pitchInflection startid='n_2' dis='0'/>`
-* Unmeasured bend and release (ex. 9)/pre-bend and release (ex. 11)
-`<tabGrp dur='4'>`
-&nbsp;&nbsp;&nbsp;&nbsp;`<note xml:id='n_1' tab.course='3' tab.fret='12' tie='i'/>`
-`</tabGrp>`
-`<tabGrp dur='4'>`
-&nbsp;&nbsp;&nbsp;&nbsp;`<note xml:id='n_2' tie='t' pitchInflection.startid='n_1'/>`
-`</tabGrp>`
-`<pitchInflection startid='n_1' dis='2'>Full</pitchInflection>` (add `@prebend='true'` in case of pre-bend)
-`<pitchInflection startid='n_1' endid='n_2' dis='0'/>`
-* Unmeasured bend and unmeasured release (ex. 10)/pre-bend and unmeasured release (ex. 12)
-`<tabGrp dur='4'>`
-&nbsp;&nbsp;&nbsp;&nbsp;`<note xml:id='n_1' tab.course='3' tab.fret='12' tie='i'/>`
-`</tabGrp>`
-`<tabGrp dur='4'>`
-&nbsp;&nbsp;&nbsp;&nbsp;`<note xml:id='n_2' tie='t' pitchInflection.startid='n_1'/>`
-`</tabGrp>`
-`<pitchInflection startid='n_1' dis='2'>Full</pitchInflection>` (add `@prebend='true'` in case of pre-bend)
-`<pitchInflection startid='n_2' dis='0'/>` 
+```xml
+<tabGrp dur='4'>
+    <note xml:id='n_1' tab.course='3' tab.fret='12' tie='i'/>
+</tabGrp>
+<tabGrp dur='4'>
+    <note xml:id='n_2' tie='t' pitchInflection.startid='n_1'/>
+</tabGrp>
+<pitchInflection startid='n_1' endid='n_2' dis='2'>Full</pitchInflection>
+<pitchInflection startid='n_2' dis='0'/>
+```
+
+* Unmeasured bend and release (ex. 9)/pre-bend and release (ex. 11) (for pre-bend, add `@prebend='true'` on first `<pitchInflection>`)
+```xml
+<tabGrp dur='4'>
+    <note xml:id='n_1' tab.course='3' tab.fret='12' tie='i'/>
+</tabGrp>
+<tabGrp dur='4'>
+    <note xml:id='n_2' tie='t' pitchInflection.startid='n_1'/>
+</tabGrp>
+<pitchInflection startid='n_1' dis='2'>Full</pitchInflection> 
+`<pitchInflection startid='n_1' endid='n_2' dis='0'/>
+```
+
+* Unmeasured bend and unmeasured release (ex. 10)/pre-bend and unmeasured release (ex. 12) (for pre-bend, add `@prebend='true'` on first `<pitchInflection>`)
+```xml
+<tabGrp dur='4'>
+    <note xml:id='n_1' tab.course='3' tab.fret='12' tie='i'/>
+</tabGrp>
+<tabGrp dur='4'>
+    <note xml:id='n_2' tie='t' pitchInflection.startid='n_1'/>
+</tabGrp>
+<pitchInflection startid='n_1' dis='2'>Full</pitchInflection> 
+<pitchInflection startid='n_2' dis='0'/>
+``` 
 
 #### Bend, hold, and release
 * Bend, hold, and release (ex. 13)
-`<tabGrp dur='8'>`
-&nbsp;&nbsp;&nbsp;&nbsp;`<note xml:id='n_1' tab.course='3' tab.fret='12' tie='i'/>`
-`</tabGrp>`
-`<tabGrp dur='8'>`
-&nbsp;&nbsp;&nbsp;&nbsp;`<note xml:id='n_2' tie='m' pitchInflection.startid='n_1'/>`
-`</tabGrp>`
-`<tabGrp dur='8'>`
-&nbsp;&nbsp;&nbsp;&nbsp;`<note xml:id='n_3' tie='m' pitchInflection.startid='n_1'/>`
-`</tabGrp>`
-`<tabGrp dur='8'>`
-&nbsp;&nbsp;&nbsp;&nbsp;`<note xml:id='n_4' tie='t' pitchInflection.startid='n_1'/>`
-`</tabGrp>`
-`<pitchInflection startid='n_1' endid='n_2' dis='2'>Full</pitchInflection>`
-`<pitchInflection startid='n_3' endid='n_4' dis='0'/>`
+```xml
+<tabGrp dur='8'>
+    <note xml:id='n_1' tab.course='3' tab.fret='12' tie='i'/>
+</tabGrp>
+<tabGrp dur='8'>
+    <note xml:id='n_2' tie='m' pitchInflection.startid='n_1'/>
+</tabGrp>
+<tabGrp dur='8'>
+    <note xml:id='n_3' tie='m' pitchInflection.startid='n_1'/>
+</tabGrp>
+<tabGrp dur='8'>
+    <note xml:id='n_4' tie='t' pitchInflection.startid='n_1'/>
+</tabGrp>
+<pitchInflection startid='n_1' endid='n_2' dis='2'>Full</pitchInflection>
+<pitchInflection startid='n_3' endid='n_4' dis='0'/>
+```
 
 * Bend, hold, and unmeasured release (ex. 14)
-`<tabGrp dur='8'>`
-&nbsp;&nbsp;&nbsp;&nbsp;`<note xml:id='n_1' tab.course='3' tab.fret='12' tie='i'/>`
-`</tabGrp>`
-`<tabGrp dur='8'>`
-&nbsp;&nbsp;&nbsp;&nbsp;`<note xml:id='n_2' tie='m' pitchInflection.startid='n_1'/>`
-`</tabGrp>`
-`<tabGrp dur='4'>`
-&nbsp;&nbsp;&nbsp;&nbsp;`<note xml:id='n_3' tie='t' pitchInflection.startid='n_1'/>`
-`</tabGrp>`
-`<pitchInflection startid='n_1' endid='n_2' dis='2'>Full</pitchInflection>`
-`<pitchInflection startid='n_3' dis='0'/>`
+```xml
+<tabGrp dur='8'>
+<note xml:id='n_1' tab.course='3' tab.fret='12' tie='i'/>
+</tabGrp>
+<tabGrp dur='8'>
+    <note xml:id='n_2' tie='m' pitchInflection.startid='n_1'/>
+</tabGrp>
+<tabGrp dur='4'>
+    <note xml:id='n_3' tie='t' pitchInflection.startid='n_1'/>
+</tabGrp>
+<pitchInflection startid='n_1' endid='n_2' dis='2'>Full</pitchInflection>
+<pitchInflection startid='n_3' dis='0'/>
+```
 
-* Unmeasured bend, hold, and release (ex. 15)/pre-bend, hold, and release (ex. 17)
-`<tabGrp dur='4'>`
-&nbsp;&nbsp;&nbsp;&nbsp;`<note xml:id='n_1' tab.course='3' tab.fret='12' tie='i'/>`
-`</tabGrp>`
-`<tabGrp dur='8'>`
-&nbsp;&nbsp;&nbsp;&nbsp;`<note xml:id='n_2' tie='m' pitchInflection.startid='n_1'/>`
-`</tabGrp>`
-`<tabGrp dur='8'>`
-&nbsp;&nbsp;&nbsp;&nbsp;`<note xml:id='n_3' tie='t' pitchInflection.startid='n_1'/>`
-`</tabGrp>`
-`<pitchInflection startid='n_1' dis='2'>Full</pitchInflection>` (add `@prebend='true'` in case of pre-bend)
-`<pitchInflection startid='n_2' endid='n_3' dis='0'/>`
+* Unmeasured bend, hold, and release (ex. 15)/pre-bend, hold, and release (ex. 17) (for pre-bend, add `@prebend='true'` on first `<pitchInflection>`)
+```xml
+<tabGrp dur='4'>
+    <note xml:id='n_1' tab.course='3' tab.fret='12' tie='i'/>
+</tabGrp>
+<tabGrp dur='8'>
+    <note xml:id='n_2' tie='m' pitchInflection.startid='n_1'/>
+</tabGrp>
+<tabGrp dur='8'>
+    <note xml:id='n_3' tie='t' pitchInflection.startid='n_1'/>
+</tabGrp>
+<pitchInflection startid='n_1' dis='2'>Full</pitchInflection> 
+<pitchInflection startid='n_2' endid='n_3' dis='0'/>
+```
 
-* Unmeasured bend, hold, and unmeasured release (ex. 16)/pre-bend, hold, and unmeasured release (ex. 18)
-`<tabGrp dur='4'>`
-&nbsp;&nbsp;&nbsp;&nbsp;`<note xml:id='n_1' tab.course='3' tab.fret='12' tie='i'/>`
-`</tabGrp>`
-`<tabGrp dur='4'>`
-&nbsp;&nbsp;&nbsp;&nbsp;`<note xml:id='n_2' tie='t' pitchInflection.startid='n_1'/>`
-`</tabGrp>`
-`<pitchInflection startid='n_1' dis='2'>Full</pitchInflection>` (add `@prebend='true'` in case of pre-bend)
-`<pitchInflection startid='n_2' dis='0'/>`
+* Unmeasured bend, hold, and unmeasured release (ex. 16)/pre-bend, hold, and unmeasured release (ex. 18) (for pre-bend, add `@prebend='true'` on first `<pitchInflection>`)
+```xml
+<tabGrp dur='4'>
+<note xml:id='n_1' tab.course='3' tab.fret='12' tie='i'/>
+</tabGrp>
+<tabGrp dur='4'>
+    <note xml:id='n_2' tie='t' pitchInflection.startid='n_1'/>
+</tabGrp>
+<pitchInflection startid='n_1' dis='2'>Full</pitchInflection> 
+<pitchInflection startid='n_2' dis='0'/>
+```
 
 ## Pitch inflection: vibrato bar dives
 Vibrato bar dives lower the pitch by depressing the vibrato bar; the target pitch lies below the start (notated) pitch. The pitch displacement is measured in semitones ('1' for a semitone, '2' (_not_ 'Full'!) for a whole tone, '0.5' for a quarter tone, etc.). Vibrato bar dives may consist of up to three components, and, as they are essentially the opposite of bends, can be deconstructed similar to them (as shown above). There are a few minor differences:
@@ -309,20 +340,22 @@ The points on elements and attributes, as also listed for bends above, apply for
 
 ### Examples
 * Dive, hold, and release (ex. 19)
-`<tabGrp dur='8'>`
-&nbsp;&nbsp;&nbsp;&nbsp;`<note xml:id='n_1' tab.course='3' tab.fret='12' tie='i'/>`
-`</tabGrp>`
-`<tabGrp dur='8'>`
-&nbsp;&nbsp;&nbsp;&nbsp;`<note xml:id='n_2' tie='m' pitchInflection.startid='n_1'/>`
-`</tabGrp>`
-`<tabGrp dur='8'>`
-&nbsp;&nbsp;&nbsp;&nbsp;`<note xml:id='n_3' tie='m' pitchInflection.startid='n_1'/>`
-`</tabGrp>`
-`<tabGrp dur='8'>`
-&nbsp;&nbsp;&nbsp;&nbsp;`<note xml:id='n_4' tie='t' pitchInflection.startid='n_1'/>`
-`</tabGrp>`
-`<pitchInflection startid='n_1' endid='n_2' dis='-2' vibrato-bar='true'>Full</pitchInflection>`
-`<pitchInflection startid='n_3' endid='n_4' dis='0' vibrato-bar='true'/>`
+```xml
+<tabGrp dur='8'>
+    <note xml:id='n_1' tab.course='3' tab.fret='12' tie='i'/>
+</tabGrp>
+<tabGrp dur='8'>
+    <note xml:id='n_2' tie='m' pitchInflection.startid='n_1'/>
+</tabGrp>
+<tabGrp dur='8'>
+    <note xml:id='n_3' tie='m' pitchInflection.startid='n_1'/>
+</tabGrp>
+<tabGrp dur='8'>
+<note xml:id='n_4' tie='t' pitchInflection.startid='n_1'/>
+</tabGrp>
+<pitchInflection startid='n_1' endid='n_2' dis='-2' vibrato-bar='true'>Full</pitchInflection>
+<pitchInflection startid='n_3' endid='n_4' dis='0' vibrato-bar='true'/>
+```
 
 ## Miscellaneous performance techniques
 ### Harmonics
