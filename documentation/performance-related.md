@@ -238,7 +238,7 @@ In total, there are four basic combinations (where a bend can be a bend, an unme
   <note xml:id='n_2' tie='t' pitchInflection.startid='n_1'/>
 </tabGrp>
 <pitchInflection startid='n_1' dis='2'>Full</pitchInflection> 
-`<pitchInflection startid='n_1' endid='n_2' dis='0'/>
+<pitchInflection startid='n_1' endid='n_2' dis='0'/>
 ```
 
 * Unmeasured bend and unmeasured release (ex. 10)/pre-bend and unmeasured release (ex. 12) (for pre-bend, add `@prebend='true'` on first `<pitchInflection>`)
@@ -275,7 +275,7 @@ In total, there are four basic combinations (where a bend can be a bend, an unme
 * Bend, hold, and unmeasured release (ex. 14)
 ```xml
 <tabGrp dur='8'>
-<note xml:id='n_1' tab.course='3' tab.fret='12' tie='i'/>
+  <note xml:id='n_1' tab.course='3' tab.fret='12' tie='i'/>
 </tabGrp>
 <tabGrp dur='8'>
   <note xml:id='n_2' tie='m' pitchInflection.startid='n_1'/>
