@@ -62,47 +62,53 @@ Hammer-ons, pull-offs, or a mix of them are often combined into longer 'slurs', 
 
 ### Examples
 * Hammer-on/pull-off (for pull-of, reverse `n_1` and `n_2`) 
-`<tabGrp dur='8'>`
-&nbsp;&nbsp;&nbsp;&nbsp;`<note tab.course='3' tab.fret='12' xml:id='n_1'/>`
-`</tabGrp>`
-`<tabGrp dur='8'>`
-&nbsp;&nbsp;&nbsp;&nbsp;`<note tab.course='3' tab.fret='14' xml:id='n_2'/>`
-`</tabGrp>`
-`<slur startid='n_1' endid='n_2' show.dirmark='true'/>`
+```xml
+<tabGrp dur='8'>
+    <note tab.course='3' tab.fret='12' xml:id='n_1'/>
+</tabGrp>
+<tabGrp dur='8'>
+    <note tab.course='3' tab.fret='14' xml:id='n_2'/>
+</tabGrp>
+<slur startid='n_1' endid='n_2' show.dirmark='true'/>
+```
 
 * Single-note hammer-on
-`<tabGrp dur='8'>`
-&nbsp;&nbsp;&nbsp;&nbsp;`<note tab.course='3' tab.fret='12' xml:id='n_1'/>`
-`</tabGrp>`
-`<slur startid='n_1' show.dirmark='true'/>`
+```xml
+<tabGrp dur='8'>
+    <note tab.course='3' tab.fret='12' xml:id='n_1'/>
+</tabGrp>
+<slur startid='n_1' show.dirmark='true'/>
+```
 
 * Slur combining hammer-on, pull-off, legato slide, and tap.
-`<tabGrp dur='16'>`
-&nbsp;&nbsp;&nbsp;&nbsp;`<note tab.course='3' tab.fret='12' xml:id='n_1'/>`
-`</tabGrp>`
-`<tabGrp dur='16'>`
-&nbsp;&nbsp;&nbsp;&nbsp;`<note tab.course='3' tab.fret='14' xml:id='n_2'/>`
-`</tabGrp>`
-`<tabGrp dur='16'>`
-&nbsp;&nbsp;&nbsp;&nbsp;`<note tab.course='3' tab.fret='15' xml:id='n_3'/>`
-`</tabGrp>`
-`<tabGrp dur='16'>`
-&nbsp;&nbsp;&nbsp;&nbsp;`<note tab.course='3' tab.fret='17' xml:id='n_4'/>`
-`</tabGrp>`
-`<tabGrp dur='16'>`
-&nbsp;&nbsp;&nbsp;&nbsp;`<note tab.course='3' tab.fret='15' xml:id='n_5'/>`
-`</tabGrp>`
-`<tabGrp dur='16'>`
-&nbsp;&nbsp;&nbsp;&nbsp;`<note tab.course='3' tab.fret='14' xml:id='n_6'/>`
-`</tabGrp>`
-`<tabGrp dur='16'>`
-&nbsp;&nbsp;&nbsp;&nbsp;`<note tab.course='3' tab.fret='12' xml:id='n_7'/>`
-`</tabGrp>`
-`<slur startid='n_1' endid='n_7' show.dirmark='true'>`
-&nbsp;&nbsp;&nbsp;&nbsp;`<gliss startid='n_2' endid='n_3' slide='legato' show.dirmark='true'/>`
-&nbsp;&nbsp;&nbsp;&nbsp;`<dir technique='tap-fing' startid='n_4'>T</dir>`
-&nbsp;&nbsp;&nbsp;&nbsp;`<gliss startid='n_5' endid='n_6' slide='legato' show.dirmark='true'/>`
-`</slur>`
+```xml
+<tabGrp dur='16'>
+    <note tab.course='3' tab.fret='12' xml:id='n_1'/>
+</tabGrp>
+<tabGrp dur='16'>
+    <note tab.course='3' tab.fret='14' xml:id='n_2'/>
+</tabGrp>
+<tabGrp dur='16'>
+    <note tab.course='3' tab.fret='15' xml:id='n_3'/>
+</tabGrp>
+<tabGrp dur='16'>
+    <note tab.course='3' tab.fret='17' xml:id='n_4'/>
+</tabGrp>
+<tabGrp dur='16'>
+    <note tab.course='3' tab.fret='15' xml:id='n_5'/>
+</tabGrp>
+<tabGrp dur='16'>
+    <note tab.course='3' tab.fret='14' xml:id='n_6'/>
+</tabGrp>
+<tabGrp dur='16'>
+    <note tab.course='3' tab.fret='12' xml:id='n_7'/>
+</tabGrp>
+<slur startid='n_1' endid='n_7' show.dirmark='true'>
+    <gliss startid='n_2' endid='n_3' slide='legato' show.dirmark='true'/>
+    <dir technique='tap-fing' startid='n_4'>T</dir>
+    <gliss startid='n_5' endid='n_6' slide='legato' show.dirmark='true'/>
+</slur>
+```
 
 ## Pitch inflection: bends
 Bends raise the pitch; the target pitch lies above the start (notated) pitch. The pitch displacement is measured in semitones ('1' for a semitone, '2' (or 'Full') for a whole tone, '0.5' for a quarter tone, etc.). Bends may consist of up to three components:
