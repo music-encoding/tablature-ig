@@ -16,7 +16,7 @@ Slides are techniques in which notes are sounded by means of a position change (
 * @show.dirmark indicates whether the 'sl.' abbreviation is shown.
 
 ### Examples:
-* Legato slide/shift slide
+* Legato slide/shift slide (for shift slide, use `@slide='shift'` on `<gliss>`)
 ```xml
 <tabGrp dur='8'>
     <note tab.course='3' tab.fret='12' xml:id='n_1'/>
@@ -24,23 +24,23 @@ Slides are techniques in which notes are sounded by means of a position change (
 <tabGrp dur='8'>
     <note tab.course='3' tab.fret='14' xml:id='n_2'/>
 </tabGrp>
-<gliss startid='n_1' endid='n_2' slide='legato' show.dirmark='true'/> (use @slide='shift' for shift slide)
+<gliss startid='n_1' endid='n_2' slide='legato' show.dirmark='true'/>
 ```
 
-* Slide-to
+* Slide-to (from below; for slide from above, use `@slide.to='downwards'` on `<gliss>`
 ```xml
 <tabGrp dur='8'>
     <note tab.course='3' tab.fret='12' xml:id='n_1'/>
 </tabGrp>
-<gliss startid='n_1' slide.to='upwards' show.dirmark='true'/> (slide from below; use @slide.to='downwards' for slide from above)
+<gliss startid='n_1' slide.to='upwards' show.dirmark='true'/>
 ```
 
-* Slide-from
+* Slide-from (up; for slide down, use `@slide.from='downwards'` on `<gliss>`)
 ```xml
 <tabGrp dur='8'>
     <note tab.course='3' tab.fret='12' xml:id='n_1'/>
 </tabGrp>
-<gliss startid='n_1' slide.from='upwards' show.dirmark='true'/> (slide up; use @slide.from='downwards' for slide down)
+<gliss startid='n_1' slide.from='upwards' show.dirmark='true'/>
 ```
 
 ## Legato techniques: hammer-on, pull-off, and tap
