@@ -17,6 +17,7 @@ Slides are techniques in which notes are sounded by means of a position change (
 
 ### Examples:
 * Legato slide/shift slide
+```xml
 `<tabGrp dur='8'>`
 &nbsp;&nbsp;&nbsp;&nbsp;`<note tab.course='3' tab.fret='12' xml:id='n_1'/>`
 `</tabGrp>`
@@ -24,6 +25,7 @@ Slides are techniques in which notes are sounded by means of a position change (
 &nbsp;&nbsp;&nbsp;&nbsp;`<note tab.course='3' tab.fret='14' xml:id='n_2'/>`
 `</tabGrp>` 
 `<gliss startid='n_1' endid='n_2' slide='legato' show.dirmark='true'/>` (use `@slide=shift'` for shift slide)
+```
 
 * Slide-to
 `<tabGrp dur='8'>`
