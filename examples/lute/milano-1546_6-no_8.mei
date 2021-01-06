@@ -128,7 +128,7 @@
                         <note tab.course='2' tab.fret='3' xml:id='m3.n3'/>
                       </sic>
                       <corr>
-                        <note tab.course='2' tab.fret='2' xml:id='m3.n3'/>
+                        <note tab.course='2' tab.fret='2' xml:id='m3.n3-corr'/>
                       </corr>
                     </choice>
                     <note tab.course='1' tab.fret='5' xml:id='m3.n4'/>
@@ -181,7 +181,7 @@
                         <note tab.course='2' tab.fret='4' xml:id='m5.n3'/>
                       </sic>
                       <corr>
-                        <note tab.course='2' tab.fret='0' xml:id='m5.n3'/>
+                        <note tab.course='2' tab.fret='0' xml:id='m5.n3-corr'/>
                       </corr>
                     </choice>
                     <note tab.course='1' tab.fret='5' xml:id='m5.n4'/>

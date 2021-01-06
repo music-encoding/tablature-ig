@@ -124,16 +124,16 @@
                     <corr>
                       <tabGrp dur.ges='4' dots='1'>
                         <tabRhythm/>
-                        <note tab.course='6' tab.fret='0' xml:id='m1.n3'>
+                        <note tab.course='6' tab.fret='0' xml:id='m1.n3-corr'>
                           <fretGlyph symbol='1' symbol.mod='strikethrough'/>
                         </note>
-                        <note tab.course='4' tab.fret='2' xml:id='m1.n4'>
+                        <note tab.course='4' tab.fret='2' xml:id='m1.n4-corr'>
                           <fretGlyph symbol='g'/>
                         </note>
                       </tabGrp>
                       <tabGrp dur.ges='8'>
                         <tabRhythm/>
-                        <note tab.course='6' tab.fret='2' xml:id='m1.n5'>
+                        <note tab.course='6' tab.fret='2' xml:id='m1.n5-corr'>
                           <fretGlyph symbol='3' symbol.mod='strikethrough'/>
                         </note>
                       </tabGrp>
@@ -348,7 +348,7 @@
                     <corr>
                       <tabGrp dur.ges='4'>
                         <tabRhythm/>
-                        <note tab.course='4' tab.fret='1' xml:id='m6.n6'>
+                        <note tab.course='4' tab.fret='1' xml:id='m6.n6-corr'>
                           <fretGlyph symbol='b'/>
                         </note>
                       </tabGrp>
