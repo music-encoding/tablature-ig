@@ -96,8 +96,8 @@
                   </beam>
                 </layer>
               </staff>
-              <dir technique='tap-fing' startid='m1.n4'>T</dir>
-              <slur startid='m1.n4' endid='m1.n6' show.dirmark='true'/>
+              <dir technique='tap-fing' startid='#m1.n4'>T</dir>
+              <slur startid='#m1.n4' endid='#m1.n6' show.dirmark='true'/>
             </measure>
             <measure n='2'>
               <staff n='1'>
@@ -157,15 +157,15 @@
                   </beam>
                 </layer>
               </staff>
-              <dir technique='tap-fing' startid='m2.n1'>T</dir>
-              <slur startid='m2.n1' endid='m2.n4' show.dirmark='true'/>
-              <slur startid='m2.n5' show.dirmark='true'/>
-              <dir technique='tap-fing' startid='m2.n6'>T</dir>
-              <slur startid='m2.n6' endid='m2.n9' show.dirmark='true'/>
-              <slur startid='m2.n10' show.dirmark='true'/>
-              <dir technique='tap-fing' startid='m2.n11'>T</dir>
-              <slur startid='m2.n11' endid='m2.n14' show.dirmark='true'/>
-              <slur startid='m2.n15' show.dirmark='true'/>
+              <dir technique='tap-fing' startid='#m2.n1'>T</dir>
+              <slur startid='#m2.n1' endid='#m2.n4' show.dirmark='true'/>
+              <slur startid='#m2.n5' show.dirmark='true'/>
+              <dir technique='tap-fing' startid='#m2.n6'>T</dir>
+              <slur startid='#m2.n6' endid='#m2.n9' show.dirmark='true'/>
+              <slur startid='#m2.n10' show.dirmark='true'/>
+              <dir technique='tap-fing' startid='#m2.n11'>T</dir>
+              <slur startid='#m2.n11' endid='#m2.n14' show.dirmark='true'/>
+              <slur startid='#m2.n15' show.dirmark='true'/>
             </measure>
             <measure n='3' right='dbl'>
               <staff n='1'>
@@ -219,12 +219,12 @@
                   </beam>
                 </layer>
               </staff>
-              <dir technique='tap-fing' startid='m3.n2'>T</dir>
-              <slur startid='m3.n2' endid='m3.n5' show.dirmark='true'/>
-              <slur startid='m3.n6' show.dirmark='true'/>
-              <dir technique='tap-fing' startid='m3.n7'>T</dir>
-              <slur startid='m3.n7' endid='m3.n11' show.dirmark='true'/>
-              <pitchInflection startid='m3.n13' endid='m3.n13+1' dis='2'>Full</pitchInflection>
+              <dir technique='tap-fing' startid='#m3.n2'>T</dir>
+              <slur startid='#m3.n2' endid='#m3.n5' show.dirmark='true'/>
+              <slur startid='#m3.n6' show.dirmark='true'/>
+              <dir technique='tap-fing' startid='#m3.n7'>T</dir>
+              <slur startid='#m3.n7' endid='#m3.n11' show.dirmark='true'/>
+              <pitchInflection startid='#m3.n13' endid='#m3.n13+1' dis='2'>Full</pitchInflection>
             </measure>
           </section>
         </score>

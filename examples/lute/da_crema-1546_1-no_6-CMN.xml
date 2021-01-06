@@ -160,8 +160,8 @@
                                     </tabGrp>
                                 </layer>
                             </staff>
-                            <fing playingHand='right' playingFinger='1' startid='m3.n6'/>
-                            <fing playingHand='right' playingFinger='1' startid='m3.n8'/>
+                            <fing playingHand='right' playingFinger='1' startid='#m3.n6'/>
+                            <fing playingHand='right' playingFinger='1' startid='#m3.n8'/>
                         </measure>
                         <measure n='4'>
                             <staff n='1'>
@@ -243,7 +243,7 @@
                                     </tabGrp>
                                 </layer>
                             </staff>
-                            <fing playingHand='right' playingFinger='1' startid='m5.n6'/>
+                            <fing playingHand='right' playingFinger='1' startid='#m5.n6'/>
                         </measure>
                         <measure n='6'>
                             <staff n='1'>

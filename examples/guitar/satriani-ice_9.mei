@@ -193,21 +193,21 @@
                   </beam>
                 </layer>
               </staff>
-              <slur startid='m1.n1-2' endid='m1.n1' show.dirmark='true'/>
-              <gliss startid='m1.n1' endid='m1.n2' slide='legato' show.dirmark='true'/>
-              <slur startid='m1.n2' endid='m1.n6' show.dirmark='true'>
-                <gliss startid='m1.n2' endid='m1.n3' slide='legato' show.dirmark='true'/>
+              <slur startid='#m1.n1-2' endid='#m1.n1' show.dirmark='true'/>
+              <gliss startid='#m1.n1' endid='#m1.n2' slide='legato' show.dirmark='true'/>
+              <slur startid='#m1.n2' endid='#m1.n6' show.dirmark='true'>
+                <gliss startid='#m1.n2' endid='#m1.n3' slide='legato' show.dirmark='true'/>
               </slur>
-              <slur startid='m1.n7' endid='m1.n8' show.dirmark='true'/>
-              <slur startid='m1.n10' endid='m1.n19' show.dirmark='true'>
-                <gliss startid='m1.n13' endid='m1.n14' slide='legato' show.dirmark='true'/>
+              <slur startid='#m1.n7' endid='#m1.n8' show.dirmark='true'/>
+              <slur startid='#m1.n10' endid='#m1.n19' show.dirmark='true'>
+                <gliss startid='#m1.n13' endid='#m1.n14' slide='legato' show.dirmark='true'/>
               </slur>
-              <slur startid='m1.n21' endid='m1.n25' show.dirmark='true'>
-                <gliss startid='m1.n24' endid='m1.n25' slide='legato' show.dirmark='true'/>
+              <slur startid='#m1.n21' endid='#m1.n25' show.dirmark='true'>
+                <gliss startid='#m1.n24' endid='#m1.n25' slide='legato' show.dirmark='true'/>
               </slur>
-              <slur startid='m1.n26' endid='m1.n27' show.dirmark='true'/>
-              <gliss startid='m1.n30' endid='m1.n31' slide='shift' show.dirmark='true'/>
-              <slur startid='m1.n32' endid='m1.n33+2' show.dirmark='true'/>
+              <slur startid='#m1.n26' endid='#m1.n27' show.dirmark='true'/>
+              <gliss startid='#m1.n30' endid='#m1.n31' slide='shift' show.dirmark='true'/>
+              <slur startid='#m1.n32' endid='#m1.n33+2' show.dirmark='true'/>
             </measure>
           </section>
         </score>

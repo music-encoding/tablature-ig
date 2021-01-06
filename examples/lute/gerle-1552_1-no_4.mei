@@ -264,8 +264,8 @@
                   </tabGrp>
                 </layer>
               </staff>
-              <tenuto startid='m4.n2' position='left' style='star'/>
-              <tenuto startid='m4.n5' position='left' style='star'/>
+              <tenuto startid='#m4.n2' position='left' style='star'/>
+              <tenuto startid='#m4.n5' position='left' style='star'/>
             </measure>
             <measure n='5'>
               <staff n='1'>
@@ -356,7 +356,7 @@
                   </choice>
                 </layer>
               </staff>
-              <tenuto startid='m6.n5' position='left' style='star'/>
+              <tenuto startid='#m6.n5' position='left' style='star'/>
             </measure>
           </section>
         </score>

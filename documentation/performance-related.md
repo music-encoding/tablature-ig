@@ -24,7 +24,7 @@ Slides are techniques in which notes are sounded by means of a position change (
 <tabGrp dur='8'>
   <note tab.course='3' tab.fret='14' xml:id='n_2'/>
 </tabGrp>
-<gliss startid='n_1' endid='n_2' slide='legato' show.dirmark='true'/>
+<gliss startid='#n_1' endid='#n_2' slide='legato' show.dirmark='true'/>
 ```
 
 * Slide-to (from below; for slide from above, use `@slide.to='downwards'` on `<gliss>`
@@ -32,7 +32,7 @@ Slides are techniques in which notes are sounded by means of a position change (
 <tabGrp dur='8'>
   <note tab.course='3' tab.fret='12' xml:id='n_1'/>
 </tabGrp>
-<gliss startid='n_1' slide.to='upwards' show.dirmark='true'/>
+<gliss startid='#n_1' slide.to='upwards' show.dirmark='true'/>
 ```
 
 * Slide-from (up; for slide down, use `@slide.from='downwards'` on `<gliss>`)
@@ -40,7 +40,7 @@ Slides are techniques in which notes are sounded by means of a position change (
 <tabGrp dur='8'>
   <note tab.course='3' tab.fret='12' xml:id='n_1'/>
 </tabGrp>
-<gliss startid='n_1' slide.from='upwards' show.dirmark='true'/>
+<gliss startid='#n_1' slide.from='upwards' show.dirmark='true'/>
 ```
 
 ## Legato techniques: hammer-on, pull-off, and tap
@@ -69,7 +69,7 @@ Hammer-ons, pull-offs, or a mix of them are often combined into longer 'slurs', 
 <tabGrp dur='8'>
   <note tab.course='3' tab.fret='14' xml:id='n_2'/>
 </tabGrp>
-<slur startid='n_1' endid='n_2' show.dirmark='true'/>
+<slur startid='#n_1' endid='#n_2' show.dirmark='true'/>
 ```
 
 * Single-note hammer-on
@@ -77,7 +77,7 @@ Hammer-ons, pull-offs, or a mix of them are often combined into longer 'slurs', 
 <tabGrp dur='8'>
   <note tab.course='3' tab.fret='12' xml:id='n_1'/>
 </tabGrp>
-<slur startid='n_1' show.dirmark='true'/>
+<slur startid='#n_1' show.dirmark='true'/>
 ```
 
 * Slur combining hammer-on, pull-off, legato slide, and tap.
@@ -103,10 +103,10 @@ Hammer-ons, pull-offs, or a mix of them are often combined into longer 'slurs', 
 <tabGrp dur='16'>
   <note tab.course='3' tab.fret='12' xml:id='n_7'/>
 </tabGrp>
-<slur startid='n_1' endid='n_7' show.dirmark='true'>
-  <gliss startid='n_2' endid='n_3' slide='legato' show.dirmark='true'/>
-  <dir technique='tap-fing' startid='n_4'>T</dir>
-  <gliss startid='n_5' endid='n_6' slide='legato' show.dirmark='true'/>
+<slur startid='#n_1' endid='#n_7' show.dirmark='true'>
+  <gliss startid='#n_2' endid='#n_3' slide='legato' show.dirmark='true'/>
+  <dir technique='tap-fing' startid='#n_4'>T</dir>
+  <gliss startid='#n_5' endid='#n_6' slide='legato' show.dirmark='true'/>
 </slur>
 ```
 
@@ -152,9 +152,9 @@ In total, there are four basic combinations (where a bend can be a bend, an unme
   <note xml:id='n_1' tab.course='3' tab.fret='12' tie='i'/>
 </tabGrp>
 <tabGrp dur='8'>
-  <note xml:id='n_2' tie='t' pitchInflection.startid='n_1'/>
+  <note xml:id='n_2' tie='t' pitchInflection.startid='#n_1'/>
 </tabGrp>
-<pitchInflection startid='n_1' endid='n_2 dis='2'>Full</pitchInflection>
+<pitchInflection startid='#n_1' endid='#n_2 dis='2'>Full</pitchInflection>
 ```
 
 * Unmeasured bend (ex. 2a)/pre-bend (ex. 3) (for pre-bend, add `@prebend='true'` on `<pitchInflection>`)
@@ -162,7 +162,7 @@ In total, there are four basic combinations (where a bend can be a bend, an unme
 <tabGrp dur='4'>
   <note xml:id='n_1' tab.course='3' tab.fret='12'/>
 </tabGrp>
-<pitchInflection startid='n_1' dis='1'>1/2</pitchInflection>
+<pitchInflection startid='#n_1' dis='1'>1/2</pitchInflection>
 ```
 * Unmeasured bend, crossing bar (2b) TODO: `@show.fret` and `@show.fret.enclose` apply to `n_2`, which is not in this `<pitchInflection>`. Is this clear anyway? 
 ```xml
@@ -170,9 +170,9 @@ In total, there are four basic combinations (where a bend can be a bend, an unme
   <note xml:id='n_1' tab.course='3' tab.fret='12' tie='i'/>
 </tabGrp>
 <tabGrp dur='8'>
-  <note xml:id='n_2' tie='t' pitchInflection.startid='n_1'/>
+  <note xml:id='n_2' tie='t' pitchInflection.startid='#n_1'/>
 </tabGrp>
-<pitchInflection startid='n_1' dis='1' show.fret='true' show.fret.enclose='paren'>1/2</pitchInflection>
+<pitchInflection startid='#n_1' dis='1' show.fret='true' show.fret.enclose='paren'>1/2</pitchInflection>
 ```
 
 #### Bend, hold, and pre-release
@@ -182,12 +182,12 @@ In total, there are four basic combinations (where a bend can be a bend, an unme
   <note xml:id='n_1' tab.course='3' tab.fret='12' tie='i'/>
 </tabGrp>
 <tabGrp dur='4'>
-  <note xml:id='n_2' tie='t' pitchInflection.startid='n_1'/>
+  <note xml:id='n_2' tie='t' pitchInflection.startid='#n_1'/>
 </tabGrp>
 <tabGrp dur='8'>
-  <note xml:id='n_3' tab.course='3' tab.fret='12' pitchInflection.startid='n_1'/>
+  <note xml:id='n_3' tab.course='3' tab.fret='12' pitchInflection.startid='#n_1'/>
 </tabGrp>
-<pitchInflection startid='n_1' endid='n_2 dis='2'>Full</pitchInflection>
+<pitchInflection startid='#n_1' endid='#n_2 dis='2'>Full</pitchInflection>
 ```
 
 * Unmeasured bend (ex. 5)/pre-bend (ex. 6) (for pre-bend, add `@prebend='true'` on `<pitchInflection>`)
@@ -196,9 +196,9 @@ In total, there are four basic combinations (where a bend can be a bend, an unme
   <note xml:id='n_1' tab.course='3' tab.fret='12'/>
 </tabGrp>
 <tabGrp dur='8'>
-  <note xml:id='n_2' tab.course='3' tab.fret='12' pitchInflection.startid='n_1'/>
+  <note xml:id='n_2' tab.course='3' tab.fret='12' pitchInflection.startid='#n_1'/>
 </tabGrp>
-<pitchInflection startid='n_1' dis='2'>Full</pitchInflection>
+<pitchInflection startid='#n_1' dis='2'>Full</pitchInflection>
 ```
 
 #### Bend and release
@@ -208,13 +208,13 @@ In total, there are four basic combinations (where a bend can be a bend, an unme
   <note xml:id='n_1' tab.course='3' tab.fret='12' tie='i'/>
 </tabGrp>
 <tabGrp dur='8'>
-  <note xml:id='n_2' tie='m' pitchInflection.startid='n_1'/>
+  <note xml:id='n_2' tie='m' pitchInflection.startid='#n_1'/>
 </tabGrp>
 <tabGrp dur='8'>
-  <note xml:id='n_3' tie='t' pitchInflection.startid='n_1'/>
+  <note xml:id='n_3' tie='t' pitchInflection.startid='#n_1'/>
 </tabGrp>
-<pitchInflection startid='n_1' endid='n_2' dis='2'>Full</pitchInflection>
-<pitchInflection startid='n_2' endid='n_3' dis='0'/>
+<pitchInflection startid='#n_1' endid='#n_2' dis='2'>Full</pitchInflection>
+<pitchInflection startid='#n_2' endid='#n_3' dis='0'/>
 ```
 
 * Bend and unmeasured release (ex. 8)
@@ -223,10 +223,10 @@ In total, there are four basic combinations (where a bend can be a bend, an unme
   <note xml:id='n_1' tab.course='3' tab.fret='12' tie='i'/>
 </tabGrp>
 <tabGrp dur='4'>
-  <note xml:id='n_2' tie='t' pitchInflection.startid='n_1'/>
+  <note xml:id='n_2' tie='t' pitchInflection.startid='#n_1'/>
 </tabGrp>
-<pitchInflection startid='n_1' endid='n_2' dis='2'>Full</pitchInflection>
-<pitchInflection startid='n_2' dis='0'/>
+<pitchInflection startid='#n_1' endid='#n_2' dis='2'>Full</pitchInflection>
+<pitchInflection startid='#n_2' dis='0'/>
 ```
 
 * Unmeasured bend and release (ex. 9)/pre-bend and release (ex. 11) (for pre-bend, add `@prebend='true'` on first `<pitchInflection>`)
@@ -235,10 +235,10 @@ In total, there are four basic combinations (where a bend can be a bend, an unme
   <note xml:id='n_1' tab.course='3' tab.fret='12' tie='i'/>
 </tabGrp>
 <tabGrp dur='4'>
-  <note xml:id='n_2' tie='t' pitchInflection.startid='n_1'/>
+  <note xml:id='n_2' tie='t' pitchInflection.startid='#n_1'/>
 </tabGrp>
-<pitchInflection startid='n_1' dis='2'>Full</pitchInflection> 
-<pitchInflection startid='n_1' endid='n_2' dis='0'/>
+<pitchInflection startid='#n_1' dis='2'>Full</pitchInflection> 
+<pitchInflection startid='#n_1' endid='#n_2' dis='0'/>
 ```
 
 * Unmeasured bend and unmeasured release (ex. 10)/pre-bend and unmeasured release (ex. 12) (for pre-bend, add `@prebend='true'` on first `<pitchInflection>`)
@@ -247,10 +247,10 @@ In total, there are four basic combinations (where a bend can be a bend, an unme
   <note xml:id='n_1' tab.course='3' tab.fret='12' tie='i'/>
 </tabGrp>
 <tabGrp dur='4'>
-  <note xml:id='n_2' tie='t' pitchInflection.startid='n_1'/>
+  <note xml:id='n_2' tie='t' pitchInflection.startid='#n_1'/>
 </tabGrp>
-<pitchInflection startid='n_1' dis='2'>Full</pitchInflection> 
-<pitchInflection startid='n_2' dis='0'/>
+<pitchInflection startid='#n_1' dis='2'>Full</pitchInflection> 
+<pitchInflection startid='#n_2' dis='0'/>
 ``` 
 
 #### Bend, hold, and release
@@ -260,16 +260,16 @@ In total, there are four basic combinations (where a bend can be a bend, an unme
   <note xml:id='n_1' tab.course='3' tab.fret='12' tie='i'/>
 </tabGrp>
 <tabGrp dur='8'>
-  <note xml:id='n_2' tie='m' pitchInflection.startid='n_1'/>
+  <note xml:id='n_2' tie='m' pitchInflection.startid='#n_1'/>
 </tabGrp>
 <tabGrp dur='8'>
-  <note xml:id='n_3' tie='m' pitchInflection.startid='n_1'/>
+  <note xml:id='n_3' tie='m' pitchInflection.startid='#n_1'/>
 </tabGrp>
 <tabGrp dur='8'>
-  <note xml:id='n_4' tie='t' pitchInflection.startid='n_1'/>
+  <note xml:id='n_4' tie='t' pitchInflection.startid='#n_1'/>
 </tabGrp>
-<pitchInflection startid='n_1' endid='n_2' dis='2'>Full</pitchInflection>
-<pitchInflection startid='n_3' endid='n_4' dis='0'/>
+<pitchInflection startid='#n_1' endid='#n_2' dis='2'>Full</pitchInflection>
+<pitchInflection startid='#n_3' endid='#n_4' dis='0'/>
 ```
 
 * Bend, hold, and unmeasured release (ex. 14)
@@ -278,13 +278,13 @@ In total, there are four basic combinations (where a bend can be a bend, an unme
   <note xml:id='n_1' tab.course='3' tab.fret='12' tie='i'/>
 </tabGrp>
 <tabGrp dur='8'>
-  <note xml:id='n_2' tie='m' pitchInflection.startid='n_1'/>
+  <note xml:id='n_2' tie='m' pitchInflection.startid='#n_1'/>
 </tabGrp>
 <tabGrp dur='4'>
-  <note xml:id='n_3' tie='t' pitchInflection.startid='n_1'/>
+  <note xml:id='n_3' tie='t' pitchInflection.startid='#n_1'/>
 </tabGrp>
-<pitchInflection startid='n_1' endid='n_2' dis='2'>Full</pitchInflection>
-<pitchInflection startid='n_3' dis='0'/>
+<pitchInflection startid='#n_1' endid='#n_2' dis='2'>Full</pitchInflection>
+<pitchInflection startid='#n_3' dis='0'/>
 ```
 
 * Unmeasured bend, hold, and release (ex. 15)/pre-bend, hold, and release (ex. 17) (for pre-bend, add `@prebend='true'` on first `<pitchInflection>`)
@@ -293,13 +293,13 @@ In total, there are four basic combinations (where a bend can be a bend, an unme
   <note xml:id='n_1' tab.course='3' tab.fret='12' tie='i'/>
 </tabGrp>
 <tabGrp dur='8'>
-  <note xml:id='n_2' tie='m' pitchInflection.startid='n_1'/>
+  <note xml:id='n_2' tie='m' pitchInflection.startid='#n_1'/>
 </tabGrp>
 <tabGrp dur='8'>
-  <note xml:id='n_3' tie='t' pitchInflection.startid='n_1'/>
+  <note xml:id='n_3' tie='t' pitchInflection.startid='#n_1'/>
 </tabGrp>
-<pitchInflection startid='n_1' dis='2'>Full</pitchInflection> 
-<pitchInflection startid='n_2' endid='n_3' dis='0'/>
+<pitchInflection startid='#n_1' dis='2'>Full</pitchInflection> 
+<pitchInflection startid='#n_2' endid='#n_3' dis='0'/>
 ```
 
 * Unmeasured bend, hold, and unmeasured release (ex. 16)/pre-bend, hold, and unmeasured release (ex. 18) (for pre-bend, add `@prebend='true'` on first `<pitchInflection>`)
@@ -308,10 +308,10 @@ In total, there are four basic combinations (where a bend can be a bend, an unme
   <note xml:id='n_1' tab.course='3' tab.fret='12' tie='i'/>
 </tabGrp>
 <tabGrp dur='4'>
-  <note xml:id='n_2' tie='t' pitchInflection.startid='n_1'/>
+  <note xml:id='n_2' tie='t' pitchInflection.startid='#n_1'/>
 </tabGrp>
-<pitchInflection startid='n_1' dis='2'>Full</pitchInflection> 
-<pitchInflection startid='n_2' dis='0'/>
+<pitchInflection startid='#n_1' dis='2'>Full</pitchInflection> 
+<pitchInflection startid='#n_2' dis='0'/>
 ```
 
 ## Pitch inflection: vibrato bar dives
@@ -345,16 +345,16 @@ The points on elements and attributes, as also listed for bends above, apply for
   <note xml:id='n_1' tab.course='3' tab.fret='12' tie='i'/>
 </tabGrp>
 <tabGrp dur='8'>
-  <note xml:id='n_2' tie='m' pitchInflection.startid='n_1'/>
+  <note xml:id='n_2' tie='m' pitchInflection.startid='#n_1'/>
 </tabGrp>
 <tabGrp dur='8'>
-  <note xml:id='n_3' tie='m' pitchInflection.startid='n_1'/>
+  <note xml:id='n_3' tie='m' pitchInflection.startid='#n_1'/>
 </tabGrp>
 <tabGrp dur='8'>
-  <note xml:id='n_4' tie='t' pitchInflection.startid='n_1'/>
+  <note xml:id='n_4' tie='t' pitchInflection.startid='#n_1'/>
 </tabGrp>
-<pitchInflection startid='n_1' endid='n_2' dis='-2' vibrato-bar='true'>Full</pitchInflection>
-<pitchInflection startid='n_3' endid='n_4' dis='0' vibrato-bar='true'/>
+<pitchInflection startid='#n_1' endid='#n_2' dis='-2' vibrato-bar='true'>Full</pitchInflection>
+<pitchInflection startid='#n_3' endid='#n_4' dis='0' vibrato-bar='true'/>
 ```
 
 ## Miscellaneous performance techniques
