@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="3.0.0">
+	<meiHead>
+		<fileDesc>
+			<titleStmt>
+				<title>Excerpt from: Joan Maria Intabolatura De Lauto</title>
+			</titleStmt>
+			<pubStmt>
+				<respStmt>
+					<persName>Richard Lewis</persName>
+					<resp>Transcription</resp>
+					<resp>Encoding</resp>
+				</respStmt>
+			</pubStmt>
+			<sourceDesc>
+				<source>
+					<titleStmt>
+						<title>Joan Maria Intabolatura De Lauto di recercari canzon francese motetti madrigali padoane é saltarelli</title>
+					</titleStmt>
+					<pubStmt>
+						<pubPlace>Venice</pubPlace>
+						<respStmt>
+							<persName>Alessandro Gardane</persName>
+							<resp>Printer</resp>
+						</respStmt>
+						<respStmt>
+							<persName>Giovanni Maria da Crema</persName>
+							<resp>Compiler</resp>
+						</respStmt>
+						<date>1546</date>
+					</pubStmt>
+					<physDesc>
+						<physMedium>Paper</physMedium>
+						<dimensions unit="cm">15x22</dimensions>
+					</physDesc>
+					<physLoc>
+						<provenance>
+							<repository>
+								<name>British Library</name>
+								<identifier
+									authURI="http://search.bl.uk/primo_library/libweb/action/display.do?dscnt=1&amp;doc=BLL01004361063&amp;dstmp=1431608397714&amp;vid=BLVU1"
+									>K.1.c.10</identifier>
+							</repository>
+						</provenance>
+					</physLoc>
+				</source>
+			</sourceDesc>
+		</fileDesc>
+		<workDesc>
+			<work>
+				<titleStmt>
+					<title>Recercar sexto</title>
+					<composer>
+						<name>
+							<persName>Giovanni Maria da Crema</persName>
+						</name>
+					</composer>
+				</titleStmt>
+			</work>
+		</workDesc>
+	</meiHead>
+	<music>
+		<facsimile>
+			<surface>
+				<graphic target="daCrema_1546-10,no.6.png"/>
+			</surface>
+		</facsimile>
+		<body>
+			<mdiv n="1">
+				<score>
+					<scoreDef>
+						<staffGrp>
+							<staffDef lines="6" notationtype="tab.lute.italian" n="1">
+								<tuning tuning.standard="lute-renaissance-6"/>
+							</staffDef>
+							<staffDef n="2" clef.line="3" clef.shape="C" lines="5">
+							</staffDef>
+						</staffGrp>
+					</scoreDef>
+					<section n="1">
+						<measure n="1">
+							<staff n="1">
+								<layer n="1">
+									<tabGrp xml:id="tc-792c9994-fa32-11e4-ba0d-0021ccd2abe3" dur="2">
+										<tabRhythm xml:id="rg-84e019c6-fa34-11e4-887e-0021ccd2abe3"/>
+										<note xml:id="tn-c76746c2-fa32-11e4-a617-0021ccd2abe3" tab.course="6" tab.fret="0"/>
+										<note xml:id="tn-a972520a-fa33-11e4-b3fa-0021ccd2abe3" tab.course="4" tab.fret="2"/>
+									</tabGrp>
+									<tabGrp xml:id="tc-bd24fa5a-fa33-11e4-9216-0021ccd2abe3" dur="4" dots="1">
+										<tabRhythm xml:id="rg-8a44a968-fa34-11e4-9d79-0021ccd2abe3" dots="1"/>
+										<note xml:id="tn-d3d636ce-fa33-11e4-91c7-0021ccd2abe3" tab.course="6" tab.fret="0"/>
+										<note xml:id="tn-e42503a2-fa33-11e4-8d00-0021ccd2abe3" tab.course="4" tab.fret="2"/>
+									</tabGrp>
+									<tabGrp xml:id="tc-101a82ac-fa34-11e4-a3f5-0021ccd2abe3" dur="8">
+										<tabRhythm xml:id="rg-8ee70146-fa34-11e4-a471-0021ccd2abe3"/>
+										<note xml:id="tn-9af03764-fa34-11e4-9e34-0021ccd2abe3" tab.course="6" tab.fret="2"/>
+									</tabGrp>
+								</layer>
+							</staff>
+							<staff n="2">
+								<layer n="1">
+									<note dur="minima" pname="c" oct="4"/>
+									<note dur="semiminima" pname="c" oct="4" dots="1"/>
+									<note dur="fusa" pname="c" oct="4"/>							
+								</layer>
+							</staff>
+						</measure>
+						<measure n="2">
+							<staff n="1">
+								<layer n="1">
+									<tabGrp xml:id="tc-16c81d3e-fa35-11e4-a798-0021ccd2abe3" dur="4">
+										<tabRhythm xml:id="rg-2b8e919e-fa35-11e4-89dd-0021ccd2abe3"/>
+										<note xml:id="tn-b07da376-fa36-11e4-905d-0021ccd2abe3" tab.course="6" tab.fret="3"/>
+										<note xml:id="tn-c62ade46-fa36-11e4-b703-0021ccd2abe3" tab.course="4" tab.fret="2"/>
+									</tabGrp>
+									<tabGrp xml:id="tc-d7828e32-fa36-11e4-bc18-0021ccd2abe3" dur="4">
+										<note xml:id="tn-e406d83e-fa36-11e4-865e-0021ccd2abe3" tab.course="5" tab.fret="0"/>
+									</tabGrp>
+									<tabGrp xml:id="tc-f50f2c8a-fa36-11e4-a0b3-0021ccd2abe3" dur="4">
+										<note xml:id="tn-fed6cb1a-fa36-11e4-a04b-0021ccd2abe3" tab.course="6" tab.fret="3"/>
+										<note xml:id="tn-0c72ab40-fa37-11e4-96aa-0021ccd2abe3" tab.course="4" tab.fret="2"/>
+									</tabGrp>
+									<tabGrp xml:id="tc-3521b8ce-fa37-11e4-9ab3-0021ccd2abe3" dur="4">
+										<note xml:id="tn-49a77f36-fa37-11e4-9547-0021ccd2abe3" tab.course="5" tab.fret="3"/>
+									</tabGrp>
+								</layer>
+							</staff>
+							<staff n="2">
+								<layer n="1">
+									<note dur="semiminima" pname="c" oct="4"/>
+									<note dur="semiminima" pname="c" oct="4"/>
+									<note dur="semiminima" pname="c" oct="4"/>
+									<note dur="semiminima" pname="c" oct="4"/>
+								</layer>
+							</staff>
+						</measure>
+						<measure n="3">
+							<staff n="1">
+								<layer n="1">
+									<tabGrp xml:id="tc-39f38c16-fa3b-11e4-9223-0021ccd2abe3" dur="4">
+										<note xml:id="tn-48d7bb30-fa3b-11e4-9f4e-0021ccd2abe3" tab.course="5" tab.fret="2"/>
+										<note xml:id="tn-6888742e-fa3b-11e4-9112-0021ccd2abe3" tab.course="3" tab.fret="0"/>
+									</tabGrp>
+									<tabGrp xml:id="tc-75c17370-fa3b-11e4-8099-0021ccd2abe3" dur="4">
+										<note xml:id="tn-83bb56f8-fa3b-11e4-b238-0021ccd2abe3" tab.course="5" tab.fret="0"/>
+									</tabGrp>
+									<tabGrp xml:id="tc-8f1f84e2-fa3b-11e4-80c4-0021ccd2abe3" dur="4">
+										<note xml:id="tn-9fe852d6-fa3b-11e4-ac13-0021ccd2abe3" tab.course="3" tab.fret="0"/>
+									</tabGrp>
+									<tabGrp xml:id="tc-b30d6a86-fa3b-11e4-be72-0021ccd2abe3" dur="16">
+										<tabRhythm xml:id="rg-07df24c8-fa3c-11e4-a05b-0021ccd2abe3"/>
+										<note xml:id="tn-c5b396e2-fa3b-11e4-88d7-0021ccd2abe3" tab.course="5" tab.fret="2"/>
+									</tabGrp>
+									<tabGrp xml:id="tc-10e106b8-fa3c-11e4-8c89-0021ccd2abe3" dur="16">
+										<note xml:id="tn-2a79fae4-fa3c-11e4-99eb-0021ccd2abe3" tab.course="5" tab.fret="0"/>
+										<fing playingHand="right" playingFinger="1" startid="tn-2a79fae4-fa3c-11e4-99eb-0021ccd2abe3"/>
+									</tabGrp>
+									<tabGrp xml:id="tc-2120328c-fa4c-11e4-8b82-0021ccd2abe3" dur="16">
+										<note xml:id="tn-2b188db6-fa4c-11e4-925b-0021ccd2abe3" tab.course="6" tab.fret="3"/>
+									</tabGrp>
+									<tabGrp xml:id="tc-3b69dc24-fa4c-11e4-bb00-0021ccd2abe3" dur="16">
+										<note xml:id="tn-4311232e-fa4c-11e4-ad0e-0021ccd2abe3" tab.course="6" tab.fret="2"/>
+										<fing playingHand="right" playingFinger="1" startid="tn-4311232e-fa4c-11e4-ad0e-0021ccd2abe3"/>
+									</tabGrp>
+								</layer>
+							</staff>
+							<staff n="2">
+								<layer n="1">
+									<note dur="semiminima" pname="c" oct="4"/>
+									<note dur="semiminima" pname="c" oct="4"/>
+									<note dur="semiminima" pname="c" oct="4"/>
+									<note dur="semifusa" pname="c" oct="4"/>
+									<note dur="semifusa" pname="c" oct="4"/>
+									<note dur="semifusa" pname="c" oct="4"/>
+									<note dur="semifusa" pname="c" oct="4"/>
+								</layer>
+							</staff>
+						</measure>
+						<measure n="4">
+							<staff n="1">
+								<layer n="1">
+									<tabGrp xml:id="tc-cd7c92fc-fa81-11e4-96f4-0021ccd2abe3" dur="4">
+										<tabRhythm xml:id="rg-04959dd8-fa82-11e4-82b0-0021ccd2abe3"/>
+										<note xml:id="tn-1fb39430-fa82-11e4-ae53-0021ccd2abe3" tab.course="6" tab.fret="0"/>
+										<note xml:id="tn-3d64689c-fa82-11e4-8bbe-0021ccd2abe3" tab.course="3" tab.fret="1"/>
+									</tabGrp>
+									<tabGrp xml:id="tc-559acf6e-fa82-11e4-a408-0021ccd2abe3" dur="4">
+										<note xml:id="tn-638cb236-fa82-11e4-8cd3-0021ccd2abe3" tab.course="5" tab.fret="3"/>
+									</tabGrp>
+									<tabGrp xml:id="tc-74c8d00c-fa82-11e4-a26b-0021ccd2abe3" dur="4">
+										<note xml:id="tn-8102e830-fa82-11e4-be6f-0021ccd2abe3" tab.course="5" tab.fret="2"/>
+										<note xml:id="tn-97f91550-fa82-11e4-819b-0021ccd2abe3" tab.course="3" tab.fret="1"/>
+									</tabGrp>
+									<tabGrp xml:id="tc-a7edc6cc-fa82-11e4-ae87-0021ccd2abe3" dur="4">
+										<note xml:id="tn-b12e86ae-fa82-11e4-a3fa-0021ccd2abe3" tab.course="6" tab.fret="3"/>
+									</tabGrp>
+								</layer>
+							</staff>
+							<staff n="2">
+								<layer n="1">
+									<note dur="semiminima" pname="c" oct="4"/>
+									<note dur="semiminima" pname="c" oct="4"/>
+									<note dur="semiminima" pname="c" oct="4"/>
+									<note dur="semiminima" pname="c" oct="4"/>
+								</layer>
+							</staff>
+						</measure>
+						<measure n="5">
+							<staff n="1">
+								<layer n="1">
+									<tabGrp xml:id="tc-d52b15e0-fa82-11e4-bd39-0021ccd2abe3" dur="4">
+										<note xml:id="tn-e39548b2-fa82-11e4-9103-0021ccd2abe3" tab.course="6" tab.fret="0"/>
+										<note xml:id="tn-ffbfd0c0-fa82-11e4-961f-0021ccd2abe3" tab.course="3" tab.fret="0"/>
+									</tabGrp>
+									<tabGrp xml:id="tc-0d824616-fa83-11e4-a584-0021ccd2abe3" dur="4">
+										<note xml:id="tn-14b554f0-fa83-11e4-9f30-0021ccd2abe3" tab.course="5" tab.fret="2"/>
+									</tabGrp>
+									<tabGrp xml:id="tc-2e15bf7a-fa83-11e4-87e7-0021ccd2abe3" dur="4">
+										<note xml:id="tn-3b7ec576-fa83-11e4-b2c5-0021ccd2abe3" tab.course="5" tab.fret="3"/>
+										<note xml:id="tn-62e52196-fa83-11e4-83f2-0021ccd2abe3" tab.course="4" tab.fret="2"/>
+									</tabGrp>
+									<tabGrp xml:id="tc-7120cc88-fa83-11e4-8d5c-0021ccd2abe3" dur="8">
+										<tabRhythm xml:id="rg-7d69bf54-fa83-11e4-b3b2-0021ccd2abe3"/>
+										<note xml:id="tn-8e921736-fa83-11e4-9607-0021ccd2abe3" tab.course="3" tab.fret="1"/>
+										<fing playingHand="right" playingFinger="1" startid="tn-8e921736-fa83-11e4-9607-0021ccd2abe3"/>
+									</tabGrp>
+									<tabGrp xml:id="tc-b6cda936-fa83-11e4-9b47-0021ccd2abe3" dur="8">
+										<note xml:id="tn-c04779b0-fa83-11e4-973b-0021ccd2abe3" tab.course="5" tab.fret="2"/>
+									</tabGrp>
+								</layer>
+							</staff>
+							<staff n="2">
+								<layer n="1">
+									<note dur="semiminima" pname="c" oct="4"/>
+									<note dur="semiminima" pname="c" oct="4"/>
+									<note dur="semiminima" pname="c" oct="4"/>
+									<note dur="fusa" pname="c" oct="4"/>
+									<note dur="fusa" pname="c" oct="4"/>
+								</layer>
+							</staff>
+						</measure>
+						<measure n="6">
+							<staff n="1">
+								<layer n="1">
+									<tabGrp xml:id="tc-d77baaf2-fa83-11e4-a157-0021ccd2abe3" dur="4">
+										<tabRhythm xml:id="rg-e23e1de4-fa83-11e4-889e-0021ccd2abe3"/>
+										<note xml:id="tn-86c74444-fa84-11e4-b540-0021ccd2abe3" tab.course="5" tab.fret="0"/>
+										<note xml:id="tn-9352dfca-fa84-11e4-9dff-0021ccd2abe3" tab.course="3" tab.fret="0"/>
+									</tabGrp>
+									<tabGrp xml:id="tc-a0f64784-fa84-11e4-9342-0021ccd2abe3" dur="4">
+										<note xml:id="tn-a9fd8fae-fa84-11e4-9e5b-0021ccd2abe3" tab.course="6" tab.fret="3"/>
+										<note xml:id="tn-b7c2f71e-fa84-11e4-a0db-0021ccd2abe3" tab.course="4" tab.fret="2"/>
+									</tabGrp>
+									<tabGrp xml:id="tc-c685d2e4-fa84-11e4-b204-0021ccd2abe3" dur="4">
+										<note xml:id="tn-cff1e52a-fa84-11e4-8afe-0021ccd2abe3" tab.course="6" tab.fret="2"/>
+									</tabGrp>
+									<tabGrp xml:id="tc-dde8536c-fa84-11e4-897e-0021ccd2abe3" dur="4">
+										<note xml:id="tn-e50dd176-fa84-11e4-9e02-0021ccd2abe3" tab.course="4" tab.fret="1"/>
+									</tabGrp>
+								</layer>
+							</staff>
+							<staff n="2">
+								<layer n="1">
+									<note dur="semiminima" pname="c" oct="4"/>
+									<note dur="semiminima" pname="c" oct="4"/>
+									<note dur="semiminima" pname="c" oct="4"/>
+									<note dur="semiminima" pname="c" oct="4"/>
+								</layer>
+							</staff>
+						</measure>
+						<measure n="7">
+							<staff n="1">
+								<layer n="1">
+									<tabGrp xml:id="tc-0687c834-fa85-11e4-a486-0021ccd2abe3" dur="4" dots="1">
+										<tabRhythm xml:id="rg-10f70424-fa85-11e4-8c5c-0021ccd2abe3" dots="1"/>
+										<note xml:id="tn-5496c246-fa85-11e4-a24a-0021ccd2abe3" tab.course="6" tab.fret="0"/>
+										<note xml:id="tn-5e79db9a-fa85-11e4-b06a-0021ccd2abe3" tab.course="4" tab.fret="2"/>
+										<note xml:id="tn-6a972252-fa85-11e4-8e7e-0021ccd2abe3" tab.course="1" tab.fret="0"/>
+									</tabGrp>
+									<tabGrp xml:id="tc-7ad57290-fa85-11e4-8df3-0021ccd2abe3" dur="8">
+										<tabRhythm xml:id="rg-86c5d9b4-fa85-11e4-8ad1-0021ccd2abe3"/>
+										<note xml:id="tn-94af61c6-fa85-11e4-b655-0021ccd2abe3" tab.course="3" tab.fret="0"/>
+									</tabGrp>
+									<tabGrp xml:id="tc-a26107ac-fa85-11e4-880d-0021ccd2abe3" dur="4">
+										<tabRhythm xml:id="rg-abe01be2-fa85-11e4-a78d-0021ccd2abe3"/>
+										<note xml:id="tn-b5d03362-fa85-11e4-aac2-0021ccd2abe3" tab.course="3" tab.fret="1"/>
+										<note xml:id="tn-c05348ce-fa85-11e4-bfa4-0021ccd2abe3" tab.course="1" tab.fret="0"/>
+									</tabGrp>
+									<tabGrp xml:id="tc-cf52c2aa-fa85-11e4-9761-0021ccd2abe3" dur="4">
+										<note xml:id="tn-de4fbede-fa85-11e4-a364-0021ccd2abe3" tab.course="3" tab.fret="3"/>
+									</tabGrp>
+								</layer>
+							</staff>
+							<staff n="2">
+								<layer n="1">
+									<note dur="semiminima" pname="c" oct="4" dots="1"/>
+									<note dur="fusa" pname="c" oct="4"/>
+									<note dur="semiminima" pname="c" oct="4"/>
+									<note dur="semiminima" pname="c" oct="4"/>
+								</layer>
+							</staff>
+						</measure>
+						<measure n="8">
+							<staff n="1">
+								<layer n="1">
+									<tabGrp xml:id="tc-120f0c52-fa86-11e4-a31a-0021ccd2abe3" dur="4">
+										<note xml:id="tn-21de9792-fa86-11e4-9440-0021ccd2abe3" tab.course="3" tab.fret="1"/>
+										<note xml:id="tn-30826256-fa86-11e4-874a-0021ccd2abe3" tab.course="1" tab.fret="0"/>
+									</tabGrp>
+									<tabGrp xml:id="tc-3d47a1ea-fa86-11e4-a774-0021ccd2abe3" dur="4">
+										<note xml:id="tn-435306a6-fa86-11e4-b0f8-0021ccd2abe3" tab.course="4" tab.fret="2"/>
+									</tabGrp>
+									<tabGrp xml:id="tc-54022270-fa86-11e4-a332-0021ccd2abe3" dur="4">
+										<note xml:id="tn-5d094718-fa86-11e4-8fb4-0021ccd2abe3" tab.course="3" tab.fret="1"/>
+										<note xml:id="tn-68869fbe-fa86-11e4-af87-0021ccd2abe3" tab.course="1" tab.fret="0"/>
+									</tabGrp>
+									<tabGrp xml:id="tc-74d00422-fa86-11e4-833b-0021ccd2abe3" dur="4">
+										<note xml:id="tn-7c3e49f8-fa86-11e4-ad8e-0021ccd2abe3" tab.course="2" tab.fret="1"/>
+									</tabGrp>
+								</layer>
+							</staff>
+							<staff n="2">
+								<layer n="1">
+									<note dur="semiminima" pname="c" oct="4"/>
+									<note dur="semiminima" pname="c" oct="4"/>
+									<note dur="semiminima" pname="c" oct="4"/>
+									<note dur="semiminima" pname="c" oct="4"/>
+								</layer>
+							</staff>
+						</measure>
+						<measure n="9">
+							<staff n="1">
+								<layer n="1">
+									<tabGrp xml:id="tc-cfee357c-fa86-11e4-b6d8-0021ccd2abe3" dur="4">
+										<note xml:id="tn-d823e9ee-fa86-11e4-a778-0021ccd2abe3" tab.course="2" tab.fret="0"/>
+										<note xml:id="tn-e27db96a-fa86-11e4-952d-0021ccd2abe3" tab.course="1" tab.fret="2"/>
+									</tabGrp>
+									<tabGrp xml:id="tc-edc6cc1c-fa86-11e4-98c1-0021ccd2abe3" dur="4">
+										<note xml:id="tn-f52b5202-fa86-11e4-bd92-0021ccd2abe3" tab.course="3" tab.fret="3"/>
+									</tabGrp>
+									<tabGrp xml:id="tc-009e9004-fa87-11e4-80fe-0021ccd2abe3" dur="4">
+										<note xml:id="tn-0d26830e-fa87-11e4-b634-0021ccd2abe3" tab.course="1" tab.fret="2"/>
+										<fing playingHand="right" playingFinger="1" startid="tn-0d26830e-fa87-11e4-b634-0021ccd2abe3"/>
+									</tabGrp>
+									<tabGrp xml:id="tc-45541a5c-fa87-11e4-adab-0021ccd2abe3" dur="8">
+										<tabRhythm xml:id="rg-4bbc47fc-fa87-11e4-ac9e-0021ccd2abe3"/>
+										<note xml:id="tn-5febb0fa-fa87-11e4-b38d-0021ccd2abe3" tab.course="3" tab.fret="1"/>
+									</tabGrp>
+									<tabGrp xml:id="tc-702e06de-fa87-11e4-b2e8-0021ccd2abe3" dur="8">
+										<note xml:id="tn-810c7882-fa87-11e4-8065-0021ccd2abe3" tab.course="3" tab.fret="0"/>
+										<fing playingHand="right" playingFinger="1" startid="tn-810c7882-fa87-11e4-8065-0021ccd2abe3"/>
+									</tabGrp>
+								</layer>
+							</staff>
+							<staff n="2">
+								<layer n="1">
+									<note dur="semiminima" pname="c" oct="4"/>
+									<note dur="semiminima" pname="c" oct="4"/>
+									<note dur="semiminima" pname="c" oct="4"/>
+									<note dur="fusa" pname="c" oct="4"/>
+									<note dur="fusa" pname="c" oct="4"/>
+								</layer>
+							</staff>
+						</measure>
+					</section>
+				</score>
+			</mdiv>
+		</body>
+	</music>
+</mei>

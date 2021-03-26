@@ -141,7 +141,7 @@
                 </layer>
               </staff>
               <gliss startid='#m3.n3' slide.to='upwards' show.dirmark='true'/>
-              <vibrato startid='#m3.n5' technique='vibrato-arm' show.dirmark='true'/>
+              <vibrato startid='#m3.n5' technique='vibrato-bar' show.dirmark='true'/>
             </measure>
             <measure n='4'>
               <staff n='1'>

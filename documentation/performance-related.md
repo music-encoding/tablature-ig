@@ -12,7 +12,7 @@ Slides are techniques in which notes are sounded by means of a position change (
 * `<gliss>` has a tablature-specific attribute `@slide`, with possible values 'legato' and 'shift'.
 * `@startid` and `@endid` are used to indicate the start and target note.
 * Both the slide-to and the slide-from have no `@endid`.
-* In case of a slide-to or slide-from, `@slide.to` and `@slide.from` can take values 'upwards' and downwards' to indicate the slide direction.
+* In case of a slide-to or slide-from, `@slide.to` and `@slide.from` can take values 'upwards' and 'downwards' to indicate the slide direction.
 * @show.dirmark indicates whether the 'sl.' abbreviation is shown.
 
 ### Examples:
