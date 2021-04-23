@@ -142,10 +142,10 @@ German notation symbols or alternatives for frets above 9 in Italian tabs.
 
 ### Rhythm flags for lute tablatures
 In lute tablatures, a rhythm indication may be present or absent in any
-given `<tabGrp>`. This can be reflected using the `<tabRhythm>' element:
+given `<tabGrp>`. This can be reflected using the `<tabDurSym>' element:
 ```xml
 <tabGrp dur.ges="4">
-  <tabRhythm/>
+  <tabDurSym/>
   <note tab.course="2" tab.fret="3">
   <note tab.course="3" tab.fret="0">
   <note tab.course="5" tab.fret="2">
@@ -155,14 +155,14 @@ given `<tabGrp>`. This can be reflected using the `<tabRhythm>' element:
 Where the rhythm sign is absent, it is usually played as if
 the previous indication had been repeated. Where there is no preceding
 indication or the music requires a different interpretation of rhythm,
-editorial markup should be used to add a tabRhythm (replaces **rhythmGlyph**).
+editorial markup should be used to add a tabDurSym (replaces **tabRhythm**).
 
-Where a `<tabRhythm>` is the only element of `<tabGrp>`, the result has the
+Where a `<tabDurSym>` is the only element of `<tabGrp>`, the result has the
 same effect as a rest in CMN.
 
 Given the presence of a rhythm symbol, the form can be inferred from '@dur' or
 '@dur.ges' (*which?*) on `<tabGrp>`. Where the editor wishes to specify the
-form of the rhythm symbol, the following attributes can be used on `<tabRhythm>`:
+form of the rhythm symbol, the following attributes can be used on `<tabDurSym>`:
 
 att | description
 ---|---
