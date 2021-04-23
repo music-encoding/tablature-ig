@@ -95,7 +95,7 @@
               <staff n='1'>
                 <layer n='1'>
                   <tabGrp dur.ges='2'>
-                    <tabRhythm/>
+                    <tabDurSym/>
                     <note tab.course='6' tab.fret='0' xml:id='m1.n1'>
                       <fretGlyph symbol='1' symbol.mod='strikethrough'/>
                     </note>
@@ -106,13 +106,13 @@
                   <choice>
                     <sic>
                       <tabGrp dur.ges='4' dots='1'>
-                        <tabRhythm/>
+                        <tabDurSym/>
                         <note tab.course='4' tab.fret='2' xml:id='m1.n3'>
                           <fretGlyph symbol='g'/>
                         </note>
                       </tabGrp>
                       <tabGrp dur.ges='8'>
-                        <tabRhythm/>
+                        <tabDurSym/>
                         <note tab.course='6' tab.fret='0' xml:id='m1.n4'>
                           <fretGlyph symbol='1' symbol.mod='strikethrough'/>
                         </note>
@@ -123,7 +123,7 @@
                     </sic>
                     <corr>
                       <tabGrp dur.ges='4' dots='1'>
-                        <tabRhythm/>
+                        <tabDurSym/>
                         <note tab.course='6' tab.fret='0' xml:id='m1.n3'>
                           <fretGlyph symbol='1' symbol.mod='strikethrough'/>
                         </note>
@@ -132,7 +132,7 @@
                         </note>
                       </tabGrp>
                       <tabGrp dur.ges='8'>
-                        <tabRhythm/>
+                        <tabDurSym/>
                         <note tab.course='6' tab.fret='2' xml:id='m1.n5'>
                           <fretGlyph symbol='3' symbol.mod='strikethrough'/>
                         </note>
@@ -146,7 +146,7 @@
               <staff n='1'>
                 <layer n='1'>
                   <tabGrp dur.ges='4'>
-                    <tabRhythm/>
+                    <tabDurSym/>
                     <note tab.course='6' tab.fret='3' xml:id='m2.n1'>
                       <fretGlyph symbol='4' symbol.mod='strikethrough'/>
                     </note>
@@ -155,13 +155,13 @@
                     </note>
                   </tabGrp>
                   <tabGrp dur.ges='4'>
-                    <tabRhythm/>
+                    <tabDurSym/>
                     <note tab.course='5' tab.fret='0' xml:id='m2.n3'>
                       <fretGlyph symbol='1'/>
                     </note>
                   </tabGrp>
                   <tabGrp dur.ges='4'>
-                    <tabRhythm/>
+                    <tabDurSym/>
                     <note tab.course='6' tab.fret='3' xml:id='m2.n4'>
                       <fretGlyph symbol='4' symbol.mod='strikethrough'/>
                     </note>
@@ -170,7 +170,7 @@
                     </note>
                   </tabGrp>
                   <tabGrp dur.ges='4'>
-                    <tabRhythm/>
+                    <tabDurSym/>
                     <note tab.course='5' tab.fret='3' xml:id='m2.n6'>
                       <fretGlyph symbol='l'/>
                     </note>
@@ -182,7 +182,7 @@
               <staff n='1'>
                 <layer n='1'>
                   <tabGrp dur.ges='4'>
-                    <tabRhythm/>
+                    <tabDurSym/>
                     <note tab.course='5' tab.fret='2' xml:id='m3.n1'>
                       <fretGlyph symbol='f'/>
                     </note>
@@ -191,37 +191,37 @@
                     </note>
                   </tabGrp>
                   <tabGrp dur.ges='4'>
-                    <tabRhythm/>
+                    <tabDurSym/>
                     <note tab.course='5' tab.fret='0' xml:id='m3.n3'>
                       <fretGlyph symbol='1'/>
                     </note>
                   </tabGrp>
                   <tabGrp dur.ges='4'>
-                    <tabRhythm/>
+                    <tabDurSym/>
                     <note tab.course='3' tab.fret='0' xml:id='m3.n4'>
                       <fretGlyph symbol='3'/>
                     </note>
                   </tabGrp>
                   <tabGrp dur.ges='16'>
-                    <tabRhythm/>
+                    <tabDurSym/>
                     <note tab.course='5' tab.fret='2' xml:id='m3.n5'>
                       <fretGlyph symbol='f'/>
                     </note>
                   </tabGrp>
                   <tabGrp dur.ges='16'>
-                    <tabRhythm/>
+                    <tabDurSym/>
                     <note tab.course='5' tab.fret='0' xml:id='m3.n6'>
                       <fretGlyph symbol='1'/>
                     </note>
                   </tabGrp>
                   <tabGrp dur.ges='16'>
-                    <tabRhythm/>
+                    <tabDurSym/>
                     <note tab.course='6' tab.fret='3' xml:id='m3.n7'>
                       <fretGlyph symbol='4' symbol.mod='strikethrough'/>
                     </note>
                   </tabGrp>
                   <tabGrp dur.ges='16'>
-                    <tabRhythm/>
+                    <tabDurSym/>
                     <note tab.course='6' tab.fret='2' xml:id='m3.n8'>
                       <fretGlyph symbol='3' symbol.mod='strikethrough'/>
                     </note>
@@ -233,7 +233,7 @@
               <staff n='1'>
                 <layer n='1'>
                   <tabGrp dur.ges='4'>
-                    <tabRhythm/>
+                    <tabDurSym/>
                     <note tab.course='6' tab.fret='0' xml:id='m4.n1'>
                       <fretGlyph symbol='1' symbol.mod='strikethrough'/>
                     </note>
@@ -242,13 +242,13 @@
                     </note>
                   </tabGrp>
                   <tabGrp dur.ges='4'>
-                    <tabRhythm/>
+                    <tabDurSym/>
                     <note tab.course='5' tab.fret='3' xml:id='m4.n3'>
                       <fretGlyph symbol='l'/>
                     </note>
                   </tabGrp>
                   <tabGrp dur.ges='4'>
-                    <tabRhythm/>
+                    <tabDurSym/>
                     <note tab.course='5' tab.fret='2' xml:id='m4.n4'>
                       <fretGlyph symbol='f'/>
                     </note>
@@ -257,7 +257,7 @@
                     </note>
                   </tabGrp>
                   <tabGrp dur.ges='4'>
-                    <tabRhythm/>
+                    <tabDurSym/>
                     <note tab.course='6' tab.fret='3' xml:id='m4.n6'>
                       <fretGlyph symbol='4' symbol.mod='strikethrough'/>
                     </note>
@@ -271,7 +271,7 @@
               <staff n='1'>
                 <layer n='1'>
                   <tabGrp dur.ges='4'>
-                    <tabRhythm/>
+                    <tabDurSym/>
                     <note tab.course='5' tab.fret='0' xml:id='m5.n1'>
                       <fretGlyph symbol='1'/>
                     </note>
@@ -280,13 +280,13 @@
                     </note>
                   </tabGrp>
                   <tabGrp dur.ges='4'>
-                    <tabRhythm/>
+                    <tabDurSym/>
                     <note tab.course='5' tab.fret='2' xml:id='m5.n3'>
                       <fretGlyph symbol='f'/>
                     </note>
                   </tabGrp>
                   <tabGrp dur.ges='4'>
-                    <tabRhythm/>
+                    <tabDurSym/>
                     <note tab.course='5' tab.fret='3' xml:id='m5.n4'>
                       <fretGlyph symbol='l'/>
                     </note>
@@ -295,13 +295,13 @@
                     </note>
                   </tabGrp>
                   <tabGrp dur.ges='8'>
-                    <tabRhythm/>
+                    <tabDurSym/>
                     <note tab.course='3' tab.fret='1' xml:id='m5.n6'>
                       <fretGlyph symbol='c'/>
                     </note>
                   </tabGrp>
                   <tabGrp dur.ges='8'>
-                    <tabRhythm/>
+                    <tabDurSym/>
                     <note tab.course='5' tab.fret='2' xml:id='m5.n7'>
                       <fretGlyph symbol='f'/>
                     </note>
@@ -313,7 +313,7 @@
               <staff n='1'>
                 <layer n='1'>
                   <tabGrp dur.ges='4'>
-                    <tabRhythm/>
+                    <tabDurSym/>
                     <note tab.course='5' tab.fret='0' xml:id='m6.n1'>
                       <fretGlyph symbol='1'/>
                     </note>
@@ -322,7 +322,7 @@
                     </note>
                   </tabGrp>
                   <tabGrp dur.ges='4'>
-                    <tabRhythm/>
+                    <tabDurSym/>
                     <note tab.course='6' tab.fret='3' xml:id='m6.n3'>
                       <fretGlyph symbol='4' symbol.mod='strikethrough'/>
                     </note>
@@ -331,7 +331,7 @@
                     </note>
                   </tabGrp>
                   <tabGrp dur.ges='4'>
-                    <tabRhythm/>
+                    <tabDurSym/>
                     <note tab.course='6' tab.fret='2' xml:id='m6.n5'>
                       <fretGlyph symbol='3' symbol.mod='strikethrough'/>
                     </note>
@@ -339,7 +339,7 @@
                   <choice>
                     <sic>
                       <tabGrp dur.ges='2'>
-                        <tabRhythm/>
+                        <tabDurSym/>
                         <note tab.course='4' tab.fret='1' xml:id='m6.n6'>
                           <fretGlyph symbol='b'/>
                         </note>
@@ -347,7 +347,7 @@
                     </sic>
                     <corr>
                       <tabGrp dur.ges='4'>
-                        <tabRhythm/>
+                        <tabDurSym/>
                         <note tab.course='4' tab.fret='1' xml:id='m6.n6'>
                           <fretGlyph symbol='b'/>
                         </note>
