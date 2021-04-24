@@ -78,11 +78,11 @@
               <staff n='1'>
                 <layer n='1'>
                   <tabGrp dur.ges='2'>
-                    <tabRhythm/>
+                    <tabDurSym/>
                     <note tab.course='1' tab.fret='5' xml:id='m1.n1'/>
                   </tabGrp>
                   <tabGrp dur.ges='4'>
-                    <tabRhythm/>
+                    <tabDurSym/>
                     <note tab.course='1' tab.fret='7' xml:id='m1.n2'/>
                   </tabGrp>
                   <tabGrp dur.ges='4'>
@@ -148,14 +148,14 @@
                     <note tab.course='1' tab.fret='3' xml:id='m4.n2'/>
                   </tabGrp>
                   <tabGrp dur.ges='8'>
-                    <tabRhythm/>
+                    <tabDurSym/>
                     <note tab.course='1' tab.fret='2' xml:id='m4.n3'/>
                   </tabGrp>
                   <tabGrp dur.ges='8'>
                     <note tab.course='1' tab.fret='0' xml:id='m4.n4'/>
                   </tabGrp>
                   <tabGrp dur.ges='4'>
-                    <tabRhythm/>
+                    <tabDurSym/>
                     <note tab.course='2' tab.fret='3' xml:id='m4.n5'/>
                     <note tab.course='1' tab.fret='2' xml:id='m4.n6'/>
                   </tabGrp>
@@ -175,7 +175,7 @@
                     <note tab.course='1' tab.fret='0' xml:id='m5.n2'/>
                   </tabGrp>
                   <tabGrp dur.ges='8'>
-                    <tabRhythm/>
+                    <tabDurSym/>
                     <choice>
                       <sic>
                         <note tab.course='2' tab.fret='4' xml:id='m5.n3'/>
@@ -196,7 +196,7 @@
                     <note tab.course='1' tab.fret='3' xml:id='m5.n7'/>
                   </tabGrp>
                   <tabGrp dur.ges='4'>
-                    <tabRhythm/>
+                    <tabDurSym/>
                     <note tab.course='2' tab.fret='2' xml:id='m5.n8'/>
                     <note tab.course='1' tab.fret='0' xml:id='m5.n9'/>
                   </tabGrp>
