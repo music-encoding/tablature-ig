@@ -78,9 +78,9 @@
               <staff n='1'>
                 <layer n='1'>
                   <tabGrp dur='2'>
-                    <note tab.course='5' tab.fret='0' tie='t' xml:id='m1.n1'/>
-                    <note tab.course='4' tab.fret='2' tie='t' xml:id='m1.n2'/>
-                    <note tab.course='3' tab.fret='2' tie='t' xml:id='m1.n3'/>
+                    <note tab.course='5' tab.fret='0' tie='t' show.fret='true' show.fret.enclose='paren' xml:id='m1.n1'/>
+                    <note tab.course='4' tab.fret='2' tie='t' show.fret='true' show.fret.enclose='paren' xml:id='m1.n2'/>
+                    <note tab.course='3' tab.fret='2' tie='t' show.fret='true' show.fret.enclose='paren' xml:id='m1.n3'/>
                   </tabGrp>
                   <tabGrp dur='8'/>
                   <beam>
@@ -96,7 +96,7 @@
                   </beam>
                 </layer>
               </staff>
-              <dir technique='tap-fing' startid='#m1.n4'>T</dir>
+              <dir technique='tap-fing' startid='#m1.n4' show.dirmark='true'/>
               <slur startid='#m1.n4' endid='#m1.n6' show.dirmark='true'/>
             </measure>
             <measure n='2'>
@@ -157,13 +157,13 @@
                   </beam>
                 </layer>
               </staff>
-              <dir technique='tap-fing' startid='#m2.n1'>T</dir>
+              <dir technique='tap-fing' startid='#m2.n1' show.dirmark='true'/>
               <slur startid='#m2.n1' endid='#m2.n4' show.dirmark='true'/>
               <slur startid='#m2.n5' show.dirmark='true'/>
-              <dir technique='tap-fing' startid='#m2.n6'>T</dir>
+              <dir technique='tap-fing' startid='#m2.n6' show.dirmark='true'/>
               <slur startid='#m2.n6' endid='#m2.n9' show.dirmark='true'/>
               <slur startid='#m2.n10' show.dirmark='true'/>
-              <dir technique='tap-fing' startid='#m2.n11'>T</dir>
+              <dir technique='tap-fing' startid='#m2.n11' show.dirmark='true'/>
               <slur startid='#m2.n11' endid='#m2.n14' show.dirmark='true'/>
               <slur startid='#m2.n15' show.dirmark='true'/>
             </measure>
@@ -172,7 +172,7 @@
                 <layer n='1'>
                   <beam>
                     <tabGrp dur='16'>
-                      <note tab.course='4' tab.fret='8' tie='t' xml:id='m3.n1'/>
+                      <note tab.course='4' tab.fret='8' tie='t' show.fret='true' show.fret.enclose='paren' xml:id='m3.n1'/>
                     </tabGrp>
                     <tabGrp dur='16'>
                       <note tab.course='4' tab.fret='12' xml:id='m3.n2'/>
@@ -219,10 +219,10 @@
                   </beam>
                 </layer>
               </staff>
-              <dir technique='tap-fing' startid='#m3.n2'>T</dir>
+              <dir technique='tap-fing' startid='#m3.n2' show.dirmark='true'/>
               <slur startid='#m3.n2' endid='#m3.n5' show.dirmark='true'/>
               <slur startid='#m3.n6' show.dirmark='true'/>
-              <dir technique='tap-fing' startid='#m3.n7'>T</dir>
+              <dir technique='tap-fing' startid='#m3.n7' show.dirmark='true'/>
               <slur startid='#m3.n7' endid='#m3.n11' show.dirmark='true'/>
               <pitchInflection startid='#m3.n13' endid='#m3.n13+1' dis='2'>Full</pitchInflection>
             </measure>

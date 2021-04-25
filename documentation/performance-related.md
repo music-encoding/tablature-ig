@@ -154,7 +154,7 @@ In total, there are four basic combinations (where a bend can be a bend, an unme
 <tabGrp dur='8'>
   <note xml:id='n_2' tie='t' pitchInflection.startid='#n_1'/>
 </tabGrp>
-<pitchInflection startid='#n_1' endid='#n_2 dis='2'>Full</pitchInflection>
+<pitchInflection startid='#n_1' endid='#n_2' dis='2'>Full</pitchInflection>
 ```
 
 * Unmeasured bend (ex. 2a)/pre-bend (ex. 3) (for pre-bend, add `@prebend='true'` on `<pitchInflection>`)
@@ -358,19 +358,6 @@ The points on elements and attributes, as also listed for bends above, apply for
 ```
 
 ## Miscellaneous performance techniques
-### Harmonics
-#### Natural harmonic
-TODO
-
-#### Artificial harmonic
-TODO
-
-#### Tap harmonic
-TODO
-
-#### Harp harmonic
-TODO
-
 ### Ornamental and effect techniques
 A fair share of these techniques can be encoded using existing elements (and attributes), but for some, new ones are introduced.
 
@@ -383,14 +370,18 @@ A new element `<vibrato>` is introduced, which will be a regular control event, 
 #### Pick slide
 Pick slides, where the edge of the pick is slid across one of the wound strings to create a non-pitched, scraping effect (indicated with an X in the tablature, as for muted/muffled strings), are a special form of slide-froms, and can therefore be encoded using the existing element `<gliss>`. A pick slide requires the addition of the attribute `@pick-slide='true'` on `<gliss>`.
 
-#### Palm muting, let ring, tap, rake, feedback
+#### Palm muting, let ring, tap, rake, feedback, various harmonics
 These techniques can be specified by means of the existing element `<dir>`, on which an attribute `@technique`, which itself contains a semi-open list of the techniques to choose from, is used. The proposed values for this list are:
-* `palm-muting`
+* `palm-muting` TODO: for consistency, change into `palm-mute`?
 * `let-ring`
 * `tap-fing`
 * `tap-pick`
 * `rake`
 * `feedback`
+* `natural-harmonic`
+* `artificial-harmonic`
+* `tap-harmonic`
+* `harp-harmonic`
 
 #### Arpeggio, trill, tremolo picking, volume swell
 For these techniques, the existing elements `<arpeg>`, `<trill>`, `<btrem>`, and `<dynam>`, respectively, are used.
@@ -412,3 +403,36 @@ The attribute `@tab.muted`, to be placed on `<note>`, is introduced to indicate 
 * Rhythm slashes
 * Rhythm slashes (single notes)
 * Chord names
+
+### Latest (TODO: clean up)
+* If '`@show.fret='true'` `@show.fret.enclose='paren'`' is necessary:
+    * In case of a tied note: place on the `<note>` or `<tabGrp>` element.
+    * In case of a technique (e.g., `<pitch-inflection>` or `<vibrato>`: place on the technique element.
+* We must make sure that tied notes that are not repeated between parentheses in the tablature (which are usually found in the middle of the bar, and have the attribute `@tie='m'` or `@tie='t'`) are not shown.
+
+* There should be a default dirmark (default text for a technique) that is shown when `@show.dirmark='true'`. Candidates:
+    * sl. 		for `<gliss>`
+    * pick sl.	for `<gliss>` with `@pick-slide='true'`
+    * H or P 	for `<slur>` (hammer-on or pull-off)
+    * T 		for `<dir>` with `@technique='tap-fing'` / `@technique='tap-pick'`
+    * P.M. 		for `<dir>` with `@technique='palm-muting'`; followed by a dashed line in case of multiple notes
+    * let ring 	for `<dir>` with `@technique='let-ring'`; followed by a dashed line in case of multiple notes
+    * rake 		for `<dir>` with `@technique='rake'`
+    * Fdbk. 		for `<dir>` with `@technique='feedback'`
+    * w/ bar		for `<vibrato>` with `@technique='vibrato-arm'`
+    * Harm.		for `<dir>` with `@technique='natural-harmonic'`; followed by a dashed line in case of multiple notes
+    * A.H.		for `<dir>` with `@technique='artificial-harmonic'`
+    * T.H.		for `<dir>` with `@technique='tap-harmonic'`
+    * H.H.		for `<dir>` with `@technique='harp-harmonic'`
+
+* Bends are always indicated with text only rather than with `@show.dirmark='true'`, as the `@dis` is indicated in semitones
+but the text may differs (additionally, at `@dis='2'`, there is the option for either 'Full' or '1'). 
+
+* Additional information can be added as text, e.g.
+`<dir technique='feedback' startid='#ID' show.dirmark='true'>Fdbk. pitch: D</dir>`
+
+* On Using `@show.dirmark='true'` in combination with text:
+    * `@show.dirmark='true'` in combination with text results in the default dirmark and the additional text.
+    * @show.dirmark='false' in combination with text results in the provided text as dirmark. (TODO: Problem in `van_halen-panama.mei` at notes m4.n6-7: <pitchInflection>` takes disposition as text, so what to do with the 'trem. bar' in the source? 
+
+
