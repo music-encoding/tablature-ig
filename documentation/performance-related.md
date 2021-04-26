@@ -405,25 +405,28 @@ The attribute `@tab.muted`, to be placed on `<note>`, is introduced to indicate 
 * Chord names
 
 ### Latest (TODO: clean up)
-* If '`@show.fret='true'` `@show.fret.enclose='paren'`' is necessary:
-    * In case of a tied note: place on the `<note>` or `<tabGrp>` element.
-    * In case of a technique (e.g., `<pitch-inflection>` or `<vibrato>`: place on the technique element.
+* Place attributes as 'high' as possible. E.g., on the `<tabGrp>` should go
+    * `@dur`
+    * `@dot`
+    * `@tie`
+    * `@show.fret='true' @show.fret.enclose='paren'`
+
 * We must make sure that tied notes that are not repeated between parentheses in the tablature (which are usually found in the middle of the bar, and have the attribute `@tie='m'` or `@tie='t'`) are not shown.
 
 * There should be a default dirmark (default text for a technique) that is shown when `@show.dirmark='true'`. Candidates:
-    * sl. 		for `<gliss>`
-    * pick sl.	for `<gliss>` with `@pick-slide='true'`
-    * H or P 	for `<slur>` (hammer-on or pull-off)
-    * T 		for `<dir>` with `@technique='tap-fing'` / `@technique='tap-pick'`
-    * P.M. 		for `<dir>` with `@technique='palm-muting'`; followed by a dashed line in case of multiple notes
-    * let ring 	for `<dir>` with `@technique='let-ring'`; followed by a dashed line in case of multiple notes
-    * rake 		for `<dir>` with `@technique='rake'`
-    * Fdbk. 		for `<dir>` with `@technique='feedback'`
-    * w/ bar		for `<vibrato>` with `@technique='vibrato-arm'`
-    * Harm.		for `<dir>` with `@technique='natural-harmonic'`; followed by a dashed line in case of multiple notes
-    * A.H.		for `<dir>` with `@technique='artificial-harmonic'`
-    * T.H.		for `<dir>` with `@technique='tap-harmonic'`
-    * H.H.		for `<dir>` with `@technique='harp-harmonic'`
+    * `sl.` 		for `<gliss>`
+    * `pick sl.`		for `<gliss>` with `@pick-slide='true'`
+    * `H` or `P`		for `<slur>` (hammer-on or pull-off)
+    * `T` 			for `<dir>` with `@technique='tap-fing'` / `@technique='tap-pick'`
+    * `P.M.` 		for `<dir>` with `@technique='palm-muting'`; followed by a dashed line in case of multiple notes
+    * `let ring`		for `<dir>` with `@technique='let-ring'`; followed by a dashed line in case of multiple notes
+    * `rake` 		for `<dir>` with `@technique='rake'`
+    * `Fdbk.` 		for `<dir>` with `@technique='feedback'`
+    * `w/ bar`		for `<vibrato>` with `@technique='vibrato-arm'`
+    * `Harm.`		for `<dir>` with `@technique='natural-harmonic'`; followed by a dashed line in case of multiple notes
+    * `A.H.`		for `<dir>` with `@technique='artificial-harmonic'`
+    * `T.H.`		for `<dir>` with `@technique='tap-harmonic'`
+    * `H.H.`		for `<dir>` with `@technique='harp-harmonic'`
 
 * Bends are always indicated with text only rather than with `@show.dirmark='true'`, as the `@dis` is indicated in semitones
 but the text may differs (additionally, at `@dis='2'`, there is the option for either 'Full' or '1'). 
@@ -433,6 +436,6 @@ but the text may differs (additionally, at `@dis='2'`, there is the option for e
 
 * On Using `@show.dirmark='true'` in combination with text:
     * `@show.dirmark='true'` in combination with text results in the default dirmark and the additional text.
-    * @show.dirmark='false' in combination with text results in the provided text as dirmark. (TODO: Problem in `van_halen-panama.mei` at notes m4.n6-7: <pitchInflection>` takes disposition as text, so what to do with the 'trem. bar' in the source? 
+    * @show.dirmark='false' in combination with text results in the provided text as dirmark. (TODO: Problem in `van_halen-panama.mei` at notes m4.n6-7: `<pitchInflection>` takes disposition as text, so what to do with the 'trem. bar' in the source? 
 
 

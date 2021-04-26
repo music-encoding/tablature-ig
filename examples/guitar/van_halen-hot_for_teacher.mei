@@ -77,10 +77,10 @@
             <measure n='1'>
               <staff n='1'>
                 <layer n='1'>
-                  <tabGrp dur='2'>
-                    <note tab.course='5' tab.fret='0' tie='t' show.fret='true' show.fret.enclose='paren' xml:id='m1.n1'/>
-                    <note tab.course='4' tab.fret='2' tie='t' show.fret='true' show.fret.enclose='paren' xml:id='m1.n2'/>
-                    <note tab.course='3' tab.fret='2' tie='t' show.fret='true' show.fret.enclose='paren' xml:id='m1.n3'/>
+                  <tabGrp dur='2' tie='t' show.fret='true' show.fret.enclose='paren'>
+                    <note tab.course='5' tab.fret='0' xml:id='m1.n1'/>
+                    <note tab.course='4' tab.fret='2' xml:id='m1.n2'/>
+                    <note tab.course='3' tab.fret='2' xml:id='m1.n3'/>
                   </tabGrp>
                   <tabGrp dur='8'/>
                   <beam>
@@ -151,8 +151,8 @@
                     <tabGrp dur='16'>
                       <note tab.course='3' tab.fret='5' xml:id='m2.n14'/>
                     </tabGrp>
-                    <tabGrp dur='16'>
-                      <note tab.course='4' tab.fret='8' tie='i' xml:id='m2.n15'/>
+                    <tabGrp dur='16' tie='i'>
+                      <note tab.course='4' tab.fret='8' xml:id='m2.n15'/>
                     </tabGrp>
                   </beam>
                 </layer>
@@ -171,8 +171,8 @@
               <staff n='1'>
                 <layer n='1'>
                   <beam>
-                    <tabGrp dur='16'>
-                      <note tab.course='4' tab.fret='8' tie='t' show.fret='true' show.fret.enclose='paren' xml:id='m3.n1'/>
+                    <tabGrp dur='16' tie='t' show.fret='true' show.fret.enclose='paren'>
+                      <note tab.course='4' tab.fret='8' xml:id='m3.n1'/>
                     </tabGrp>
                     <tabGrp dur='16'>
                       <note tab.course='4' tab.fret='12' xml:id='m3.n2'/>
@@ -205,16 +205,16 @@
                     <tabGrp dur='16'>
                       <note tab.course='5' tab.fret='5' xml:id='m3.n10'/>
                     </tabGrp>
-                    <tabGrp dur='16'>
-                      <note tab.course='5' tab.fret='0' tie='i' xml:id='m3.n11'/>
+                    <tabGrp dur='16' tie='i'>
+                      <note tab.course='5' tab.fret='0' xml:id='m3.n11'/>
                     </tabGrp>
                   </beam>
                   <beam>
-                    <tabGrp dur='8'>
-                      <note tab.course='5' tab.fret='0' tie='t' xml:id='m3.n12'/>
+                    <tabGrp dur='8' tie='t'>
+                      <note tab.course='5' tab.fret='0' xml:id='m3.n12'/>
                     </tabGrp>
-                    <tabGrp dur='8'>
-                      <note tab.course='3' tab.fret='4' tie='i' xml:id='m3.n13'/>
+                    <tabGrp dur='8' tie='i'>
+                      <note tab.course='3' tab.fret='4' xml:id='m3.n13'/>
                     </tabGrp>
                   </beam>
                 </layer>

@@ -115,11 +115,10 @@
               <dir technique='palm-muting' startid='#m1.n4' endid='#m1.n5' show.dirmark='true'/>
               <dir technique='palm-muting' startid='#m1.n9' endid='#m1.n10' show.dirmark='true'/>
             </measure>
-
             <measure n='2'>
               <staff n='1'>
-                <layer n='1'>  
-                  <beam>  
+                <layer n='1'>
+                  <beam>
                     <tabGrp dur='8' xml:id='m2.c1'>
                       <note tab.course='5' tab.fret='7' xml:id='m2.n1'/>
                     </tabGrp>
@@ -134,8 +133,8 @@
                     <tabGrp dur='8' xml:id='m2.c4'>
                       <note tab.course='5' tab.fret='7' xml:id='m2.n6'/>
                     </tabGrp>
-                  </beam>   
-                  <beam>  
+                  </beam>
+                  <beam>
                     <tabGrp dur='8' xml:id='m2.c5'>
                       <note tab.course='5' tab.fret='7' xml:id='m2.n7'/>
                     </tabGrp>
@@ -159,10 +158,9 @@
               <dir technique='palm-muting' startid='#m2.n6' endid='#m2.n7' show.dirmark='true'/>
               <dir technique='palm-muting' startid='#m2.n11' endid='#m2.c8' show.dirmark='true'/>
             </measure>
-            
             <measure n='3'>
               <staff n='1'>
-                <layer n='1'>    
+                <layer n='1'>
                   <tabGrp dur='8' grace='acc'>
                     <note tab.course='5' tab.fret='7' xml:id='m3.n1'/>
                   </tabGrp>
@@ -206,12 +204,10 @@
               <dir technique='palm-muting' startid='#m3.n6' endid='#m3.n7' show.dirmark='true'/>
               <dir technique='palm-muting' startid='#m3.n11' endid='#m3.n12' show.dirmark='true'/>
             </measure>
-
             <sb>
-
             <measure n='4'>
               <staff n='1'>
-                <layer n='1'> 
+                <layer n='1'>
                   <beam>
                     <tabGrp dur='8' dot='1' tie='t' show.fret='true' show.fret.enclose='paren'>
                       <note tab.course='4' tab.fret='7' xml:id='m4.n1'/>
@@ -233,19 +229,18 @@
                   </tabGrp>
                   <tabGrp dur='8' tie='i' >
                     <note tab.course='6' tab.fret='0' xml:id='m4.n8'/>
-                  </tabGrp>  
+                  </tabGrp>
                 </layer>
               </staff>
               <dir technique='rake' startid='#m4.n4' endid='#m4.n6' show.dirmark='true'/>
               <pitchInflection startid='#m4.n6' endid='#m4.n7' dis='-6' vibrato-bar='true'>trem. bar 3</pitchInflection>
             </measure>
-
             <measure n='5'>
               <staff n='1'>
                 <layer n='1'>
                  <beam>
-                    <tabGrp dur='8' tie='t' >
-                      <note tab.course='6' tab.fret='0' show.fret='true' show.fret.enclose='paren' xml:id='m5.n1'/>
+                    <tabGrp dur='8' tie='t' show.fret='true' show.fret.enclose='paren'>
+                      <note tab.course='6' tab.fret='0' xml:id='m5.n1'/>
                     </tabGrp>
                     <tabGrp dur='8' >
                       <note tab.course='4' tab.fret='9' xml:id='m5.n2'/>
@@ -280,12 +275,11 @@
               </staff>
               <dir technique='palm-muting' startid='#m5.n5' endid='#m5.n6' show.dirmark='true'/>
               <dir technique='palm-muting' startid='#m5.n10' endid='#m5.n11' show.dirmark='true'/>
-            </measure> 
-
+            </measure>
             <measure n='6'>
               <staff n='1'>
-                <layer n='1'>   
-                  <beam>  
+                <layer n='1'>
+                  <beam>
                     <tabGrp dur='8' xml:id='m6.c1'>
                       <note tab.course='5' tab.fret='7' xml:id='m6.n1'/>
                     </tabGrp>
@@ -301,7 +295,7 @@
                       <note tab.course='5' tab.fret='7' xml:id='m6.n6'/>
                     </tabGrp>
                   </beam>
-                  <beam>  
+                  <beam>
                     <tabGrp dur='8' xml:id='m6.c5'>
                       <note tab.course='5' tab.fret='7' xml:id='m6.n7'/>
                     </tabGrp>
@@ -325,9 +319,7 @@
               <dir technique='palm-muting' startid='#m6.n6' endid='#m6.n7' show.dirmark='true'/>
               <dir technique='palm-muting' startid='#m6.n11' endid='#m6.c8' show.dirmark='true'/>    
             </measure>
-
             <sb>
-
             <measure n='7'>
               <staff n='1'>
                 <layer n='1'>
@@ -374,10 +366,9 @@
               <dir technique='palm-muting' startid='#m7.n6' endid='#m7.n7' show.dirmark='true'/>
               <dir technique='palm-muting' startid='#m7.n11' endid='#m7.n12' show.dirmark='true'/>
             </measure>
-
             <measure n='8'>
               <staff n='1'>
-                <layer n='1'>    
+                <layer n='1'>
                   <tabGrp dur='8' tie='t' show.fret='true' show.fret.enclose='paren' xml:id='m8.c1' >
                     <note tab.course='4' tab.fret='7' xml:id='m8.n1'/>
                     <note tab.course='3' tab.fret='6' xml:id='m8.n2'/>
@@ -406,16 +397,15 @@
                       <note tab.course='2' tab.fret='5' xml:id='m8.n16'/>
                       <note tab.course='1' tab.fret='0' xml:id='m8.n17'/>
                     </tabGrp>
-                  </beam>  
+                  </beam>
                 </layer>
               </staff>
               <gliss startid='#m8.c2' endid='#m8.c3' slide='legato' pick-slide='true' show.dirmark='true'/>
               <gliss startid='#m8.c3' slide.from='downwards' pick-slide='true' show.dirmark='false'/>
             </measure>
-
             <measure n='9'>
               <staff n='1'>
-                <layer n='1'> 
+                <layer n='1'>
                     <tabGrp dur='2' dots='1' xml:id='m9.c1'>
                       <note tab.course='5' tab.fret='4' xml:id='m9.n1'/>
                       <note tab.course='4' tab.fret='6' xml:id='m9.n2'/>
@@ -429,15 +419,13 @@
                       </tabGrp>
                       <tabGrp dur='8' xml:id='m8.c3'>
                         <note tab.course='5' tab.fret='4' xml:id='m9.n7'/>
-                      </tabGrp>  
-                    </beam>  
+                      </tabGrp>
+                    </beam>
                 </layer>
               </staff>
               <dir technique='let-ring' startid='#m9.c1' show.dirmark='true'/>
             </measure>
-
             <sb>
-
             <measure n='10'>
               <staff n='1'>
                 <layer n='1'>
@@ -455,8 +443,8 @@
                       <note tab.course='4' tab.fret='4' xml:id='m10.n4'/>
                       <note tab.course='3' tab.fret='4' xml:id='m10.n5'/>
                       <note tab.course='2' tab.fret='4' xml:id='m10.n6'/>
-                    </tabGrp>                    
-                  </beam>  
+                    </tabGrp>
+                  </beam>
                   <beam>
                     <tabGrp dur='8' tie='t'>
                       <note tab.course='4' tab.fret='4' xml:id='m10.n7'/> 
@@ -475,18 +463,17 @@
                     </tabGrp>
                     <tabGrp dur='8'>
                       <note tab.course='5' tab.fret='0' xml:id='m10.n16'/>
-                    </tabGrp>                    
-                  </beam>  
+                    </tabGrp>
+                  </beam>
                 </layer>
               </staff>
               <dir technique='palm-muting' startid='#m9.n6' endid='#m10.n3' show.dirmark='true'/> 
               <slur startid='#m10.n12' endid='#m10.n15' show.dirmark='true'/>
               <dir technique='palm-muting' startid='#m10.n16' show.dirmark='true'/>
             </measure>
-
             <measure n='11'>
               <staff n='1'>
-                <layer n='1'> 
+                <layer n='1'>
                   <beam>
                     <tabGrp dur='8' xml:id='m11.c1'>
                       <note tab.course='3' tab.fret='4' xml:id='m11.n1'/>
@@ -515,7 +502,6 @@
               </staff>
               <gliss startid='#m11.c1' endid='#m11.c2' slide='legato' show.dirmark='true'/>
             </measure> 
-
             <measure n='12'>
               <staff n='1'>
                 <layer n='1'>
@@ -554,8 +540,7 @@
               <pitchInflection startid='#m12.n6' dis='0'/>
               <dir technique='artificial-harmonic' startid='#m12.n6' show.dirmark='true'>A.H. pitch: A</dir>
               <vibrato startid='#m12.n6' technique='left-hand' wide='true'/>
-            </measure>            
-
+            </measure>
             <measure n='13'>
               <staff n='1'>
                 <layer n='1'>
@@ -574,217 +559,196 @@
                     </tabGrp>
                     <tabGrp dur='8' xml:id='m13.c4'>
                       <note tab.course='4' tab.fret='6' xml:id='m13.n6'/>
-                    </tabGrp>                    
+                    </tabGrp>
                   </beam>
                 </layer>
               </staff>
-            </measure>           
-
+            </measure>
             <sb>
-
             <measure n='14'>
               <staff n='1'>
                 <layer n='1'>
-                
                   <tabGrp dur='8'>
-                    <note tab.course='2' tab.fret='4' hammerOn='i' />
+                    <note tab.course='2' tab.fret='4' hammerOn='i' xml:id='m14.n1'/>
                   </tabGrp>
-
                   <tabGrp dur='4'>
-                    <note tab.course='2' tab.fret='5' hammerOn='t' />
+                    <note tab.course='2' tab.fret='5' hammerOn='t' xml:id='m14.n2'/>
                   </tabGrp>
-
                   <tabGrp dur='8'>
-                    <note tab.course='4' tab.fret='4' />
-                    <note tab.course='3' tab.fret='4' />
-                    <note tab.course='2' tab.fret='4' />
+                    <note tab.course='4' tab.fret='4' xml:id='m14.n3'/>
+                    <note tab.course='3' tab.fret='4' xml:id='m14.n4'/>
+                    <note tab.course='2' tab.fret='4' xml:id='m14.n5'/>
                   </tabGrp>
-
                   <beam>
                     <tabGrp dur='8'>
-                      <note tab.course='4' tab.fret='4' />
-                      <note tab.course='3' tab.fret='4' />
-                      <note tab.course='2' tab.fret='4' />
-                    </tabGrp>
-                    <tabGrp dur='8' tie='i'>
-                      <note tab.course='4' tab.fret='5' pullOff='i' />
-                      <note tab.course='3' tab.fret='4' tie='i' />
-                      <note tab.course='2' tab.fret='4' tie='i' />
-                    </tabGrp>
-                    <tabGrp dur='8' tie='t'>
-                      <note tab.course='4' tab.fret='4' pullOff='t' />
-                      <note tab.course='3' tab.fret='4' tie='t' />
-                      <note tab.course='2' tab.fret='4' tie='t' />
+                      <note tab.course='4' tab.fret='4' xml:id='m14.n6'/>
+                      <note tab.course='3' tab.fret='4' xml:id='m14.n7'/>
+                      <note tab.course='2' tab.fret='4' xml:id='m14.n8'/>
                     </tabGrp>
                     <tabGrp dur='8'>
-                      <note tab.course='5' tab.fret='0' />
+                      <note tab.course='4' tab.fret='4' tie='i' xml:id='m14.n9'/>
+                      <note tab.course='3' tab.fret='4' tie='i' xml:id='m14.n10'/>
+                      <note tab.course='2' tab.fret='5' xml:id='m14.n11'/>
+                    </tabGrp>
+                    <tabGrp dur='8'>
+                      <note tab.course='4' tab.fret='4' tie='t' xml:id='m14.n12'/>
+                      <note tab.course='3' tab.fret='4' tie='t' xml:id='m14.n13'/>
+                      <note tab.course='2' tab.fret='4' xml:id='m14.n14'/>
+                    </tabGrp>
+                    <tabGrp dur='8'>
+                      <note tab.course='5' tab.fret='0' xml:id='m14.n15'/>
                     </tabGrp>
                   </beam>
-
                 </layer>
               </staff>
               <dir technique='let-ring' startid='#m13.c1' endid='#m14.n2' show.dirmark='true'/>
+              <slur startid='#m14.n1' endid='#m14.n2' show.dirmark='true'/>
+              <slur startid='#m14.n11' endid='#m14.n14' show.dirmark='true'/>
+              <dir technique='palm-muting' startid='#m14.n15' show.dirmark='true'/>
             </measure>
-
             <measure n='15'>
               <staff n='1'>
                 <layer n='1'>
-                 
                   <beam>
                     <tabGrp dur='8'>
-                      <note tab.course='3' tab.fret='4' />
-                      <note tab.course='2' tab.fret='4' />
+                      <note tab.course='3' tab.fret='4' xml:id='m15.n1'/>
+                      <note tab.course='2' tab.fret='4' xml:id='m15.n2'/>
                     </tabGrp>
                     <tabGrp dur='8'>
-                      <note tab.course='3' tab.fret='2' />
-                      <note tab.course='2' tab.fret='2' />
+                      <note tab.course='3' tab.fret='2' xml:id='m15.n3'/>
+                      <note tab.course='2' tab.fret='2' xml:id='m15.n4'/>
                     </tabGrp>
                   </beam>
-
                   <rest dur='8'/>
-
                   <tabGrp dur='8'>
-                    <note tab.course='5' tab.fret='0' />
-                    <note tab.course='4' tab.fret='2' />
-                    <note tab.course='3' tab.fret='2' />
-                    <note tab.course='2' tab.fret='2' />
+                    <note tab.course='5' tab.fret='0' xml:id='m15.n5'/>
+                    <note tab.course='4' tab.fret='2' xml:id='m15.n6'/>
+                    <note tab.course='3' tab.fret='2' xml:id='m15.n7'/>
+                    <note tab.course='2' tab.fret='2' xml:id='m15.n8'/>
                   </tabGrp>
-
                   <rest dur='8'/>
-
                   <tabGrp dur='4' dots='1' tie='i'>
-                    <note tab.course='5' tab.fret='0' />
-                    <note tab.course='4' tab.fret='2' />
-                    <note tab.course='3' tab.fret='2' />
-                    <note tab.course='2' tab.fret='2' />
+                    <note tab.course='5' tab.fret='0' xml:id='m15.n9'/>
+                    <note tab.course='4' tab.fret='2' xml:id='m15.n10'/>
+                    <note tab.course='3' tab.fret='2' xml:id='m15.n11'/>
+                    <note tab.course='2' tab.fret='2' xml:id='m15.n12'/>
                   </tabGrp>
-
                 </layer>
               </staff>
-            </measure> 
-
+              <gliss startid='#m15.c1' endid='#m15.c2' slide='legato' show.dirmark='true'/>
+            </measure>
             <measure n='16'>
               <staff n='1'>
                 <layer n='1'>
-                 
-                  <tabGrp dur='4' tie='t'>
-                    <note tab.course='5' tab.fret='0' />
-                    <note tab.course='4' tab.fret='2' />
-                    <note tab.course='3' tab.fret='2' />
-                    <note tab.course='2' tab.fret='2' />
+                  <tabGrp dur='4' tie='t' show.fret='true' show.fret.enclose='paren'>
+                    <note tab.course='5' tab.fret='0' xml:id='m16.n1'/>
+                    <note tab.course='4' tab.fret='2' xml:id='m16.n2'/>
+                    <note tab.course='3' tab.fret='2' xml:id='m16.n3'/>
+                    <note tab.course='2' tab.fret='2' xml:id='m16.n4'/>
                   </tabGrp>
-
                   <beam>
                     <tabGrp dur='8'>
-                      <note tab.course='5' tab.fret='0' />
+                      <note tab.course='5' tab.fret='0' xml:id='m16.n5'/>
                     </tabGrp>
                     <tabGrp dur='8'>
-                      <note tab.course='5' tab.fret='0' />
+                      <note tab.course='5' tab.fret='0' xml:id='m16.n6'/>
                     </tabGrp>
                   </beam>
-
                   <beam>
                     <tabGrp dur='8'>
-                      <note tab.course='5' tab.fret='0' />
+                      <note tab.course='5' tab.fret='0' xml:id='m16.n7'/>
                     </tabGrp>
                     <tabGrp dur='8'>
-                      <note tab.course='5' tab.fret='0' />
+                      <note tab.course='5' tab.fret='0' xml:id='m16.n8'/>
                     </tabGrp>
                     <tabGrp dur='8'>
-                      <note tab.course='5' tab.fret='0' />
+                      <note tab.course='5' tab.fret='0' xml:id='m16.n9'/>
                     </tabGrp>
                     <tabGrp dur='8'>
-                      <note tab.course='5' tab.fret='2' />
-                      <note tab.course='4' tab.fret='4' />
-                      <note tab.course='3' tab.fret='4' />
-                      <note tab.course='2' tab.fret='4' />
+                      <note tab.course='5' tab.fret='2' xml:id='m16.n10'/>
+                      <note tab.course='4' tab.fret='4' xml:id='m16.n11'/>
+                      <note tab.course='3' tab.fret='4' xml:id='m16.n12'/>
+                      <note tab.course='2' tab.fret='4' xml:id='m16.n13'/>
                     </tabGrp>
-                  </beam>                  
+                  </beam>
                 </layer>
               </staff>
-            </measure>            
-
+              <dir technique='palm-muting' startid='#m16.n5' endid='#m16.n9' show.dirmark='true'/>
+            </measure>
             <measure n='17'>
               <staff n='1'>
                 <layer n='1'>
-                 
                   <rest dur='8'/>
-                  
                   <beam>
                     <tabGrp dur='8'>
-                      <note tab.course='1' tab.fret='0' />
+                      <note tab.course='1' tab.fret='0' xml:id='m17.n1'/>
                     </tabGrp>
                     <tabGrp dur='8'>
-                      <note tab.course='2' tab.fret='4' />
+                      <note tab.course='2' tab.fret='4' xml:id='m17.n2'/>
                     </tabGrp>
                     <tabGrp dur='8'>
-                      <note tab.course='3' tab.fret='4' />
+                      <note tab.course='3' tab.fret='4' xml:id='m17.n3'/>
                     </tabGrp>
                   </beam>
-
                   <beam>
                     <tabGrp dur='8'>
-                      <note tab.course='1' tab.fret='0' />
+                      <note tab.course='1' tab.fret='0' xml:id='m17.n4'/>
                     </tabGrp>
                     <tabGrp dur='8'>
-                      <note tab.course='2' tab.fret='4' />
+                      <note tab.course='2' tab.fret='4' xml:id='m17.n5'/>
                     </tabGrp>
                     <tabGrp dur='8'>
-                      <note tab.course='3' tab.fret='4' />
+                      <note tab.course='3' tab.fret='4' xml:id='m17.n6'/>
                     </tabGrp>
                     <tabGrp dur='8'>
-                      <note tab.course='1' tab.fret='5' />
+                      <note tab.course='1' tab.fret='5' xml:id='m17.n7'/>
                     </tabGrp>
                   </beam>
-
                 </layer>
               </staff>
+              <dir technique='natural-harmonic' startid='#m17.n7' show.dirmark='true'/>
             </measure>
-
             <pb>
-
-            <measure n='18'>
+            <measure n='18' right='dbl'>
               <staff n='1'>
                 <layer n='1'>
-
                   <beam>
-                    <tabGrp dur='8'>
-                      <note tab.course='2' tab.fret='4' />
+                    <tabGrp dur='8' xml:id='m18.c1'>
+                      <note tab.course='2' tab.fret='4' xml:id='m18.n1'/>
                     </tabGrp>
-                    <tabGrp dur='8'>
-                      <note tab.course='3' tab.fret='4' />
+                    <tabGrp dur='8' xml:id='m18.c2'>
+                      <note tab.course='3' tab.fret='4' xml:id='m18.n2'/>
                     </tabGrp>
-                    <tabGrp dur='8'>
-                      <note tab.course='1' tab.fret='5' />
+                    <tabGrp dur='8' xml:id='m18.c3'>
+                      <note tab.course='1' tab.fret='5' xml:id='m18.n3'/>
                     </tabGrp>
-                    <tabGrp dur='8'>
-                      <note tab.course='3' tab.fret='4' />
-                      <note tab.course='2' tab.fret='0' />
+                    <tabGrp dur='8' xml:id='m18.c4'>
+                      <note tab.course='3' tab.fret='4' xml:id='m18.n4'/>
+                      <note tab.course='2' tab.fret='0' xml:id='m18.n5'/>
                     </tabGrp>
                   </beam>
-                 
                   <beam>
-                    <tabGrp dur='8'>
-                      <note tab.course='3' tab.fret='4' />
-                      <note tab.course='2' tab.fret='0' />                      
+                    <tabGrp dur='8' xml:id='m18.c5'>
+                      <note tab.course='3' tab.fret='4' xml:id='m18.n6'/>
+                      <note tab.course='2' tab.fret='0' xml:id='m18.n7'/>
                     </tabGrp>
-                    <tabGrp dur='8'>
-                      <note tab.course='3' tab.fret='4' />
-                      <note tab.course='2' tab.fret='0' />
+                    <tabGrp dur='8' xml:id='m18.c6'>
+                      <note tab.course='3' tab.fret='4' xml:id='m18.n8'/>
+                      <note tab.course='2' tab.fret='0' xml:id='m18.n9'/>
                     </tabGrp>
-                    <tabGrp dur='8'>
-                      <note tab.course='3' tab.fret='4' />
-                      <note tab.course='2' tab.fret='0' />
+                    <tabGrp dur='8' xml:id='m18.c7'>
+                      <note tab.course='3' tab.fret='4' xml:id='m18.n10'/>
+                      <note tab.course='2' tab.fret='0' xml:id='m18.n11'/>
                     </tabGrp>
-                    <tabGrp dur='8' tie='i'>
-                      <note tab.course='6' tab.fret='0' />
+                    <tabGrp dur='8' tie='i' xml:id='m18.c8'>
+                      <note tab.course='6' tab.fret='0' xml:id='m18.n12'/>
                     </tabGrp>
                   </beam>
-
                 </layer>
               </staff>
-            </measure>              
-
+              <dir technique='natural-harmonic' startid='#m18.n1' endid='m18.n3' show.dirmark='true'/>
+              <dir technique='natural-harmonic' startid='#m18.c4' endid='m18.c7' show.dirmark='false'>*Harm. on 3rd stg., 4th fret.</dir>
+            </measure>
           </section>
         </score>
       </mdiv>
