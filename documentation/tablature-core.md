@@ -142,7 +142,7 @@ German notation symbols or alternatives for frets above 9 in Italian tabs.
 
 ### Rhythm flags for lute tablatures
 In lute tablatures, a rhythm indication may be present or absent in any
-given `<tabGrp>`. This can be reflected using the `<tabDurSym>' element:
+given `<tabGrp>`. This can be reflected using the `<tabDurSym>` element:
 ```xml
 <tabGrp dur.ges="4">
   <tabDurSym/>
