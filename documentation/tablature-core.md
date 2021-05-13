@@ -160,8 +160,8 @@ editorial markup should be used to add a tabDurSym (replaces **tabRhythm**).
 Where a `<tabDurSym>` is the only element of `<tabGrp>`, the result has the
 same effect as a rest in CMN.
 
-Given the presence of a rhythm symbol, the form can be inferred from '@dur' or
-'@dur.ges' (*which?*) on `<tabGrp>`. Where the editor wishes to specify the
+Given the presence of a rhythm symbol, the form can be inferred from `@dur` or
+`@dur.ges` (*which?*) on `<tabGrp>`. Where the editor wishes to specify the
 form of the rhythm symbol, the following attributes can be used on `<tabDurSym>`:
 
 att | description
