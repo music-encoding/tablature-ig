@@ -14,8 +14,8 @@ Documentation covers areas discussed in IG meetings. It is not yet complete or s
 
 ### Schemata
 
-This will contain ODD customisations of the MEI schema for our recommendations. 
-Currently, they are customisations from previous work on this as part of the Transforming Musicology](http://www.transforming-musicology.org/) project.
+Contains ODD customisations of the MEI schema for our recommendations. 
+Originally, these were customisations from previous work on this as part of the [Transforming Musicology](https://github.com/TransformingMusicology) project.
 
 Comprising of:
 
@@ -42,15 +42,32 @@ changing them to the absolute paths to the two files. E.g.:
     <specGrpRef target="file:///path/to/tmus-mei/schemata/instruments.odd#instruments" />
     <specGrpRef target="file:///path/to/tmus-mei/schemata/frettab.odd#frettab" />
 
-In order
-to compile these into a schema file (XSD, RNG, etc.) you need to use
+In order to compile these into a schema file (XSD, RNG, etc.) you need to use
 the 7.17.0 release (or later) of the
-[TEI stylesheets](https://github.com/TEIC/Stylesheets). The build
-process goes something like:
+[TEI stylesheets](https://github.com/TEIC/Stylesheets).
+
+Roma uses saxon, an XSLT processor, which must be installed, version >= 10.
+[Saxon](http://saxon.sourceforge.net/).
+
+Saxon does not handle XIncludes, one solution is to use xmllint as a preprocessor.  Other solutions are
+discussed here [DocBook XSL](http://www.sagehill.net/docbookxsl/Xinclude.html).
+
+The build process goes something like:
 
     $ git clone https://github.com/TEIC/Roma.git
     $ ln -s Roma/roma2.sh /path/to/bin/roma   # e.g. /usr/local/bin
+    $
     $ git clone https://github.com/TEIC/Stylesheets.git tei-xsl
-    $ cd tei-xsl && make
+    $ cd tei-xsl
+    $ make
+    $ cd ..
+    $
     $ git clone https://github.com/music-encoding/music-encoding.git mei
-    $ roma --xsl=/path/to/tei-xsl/ --localsource=/path/to/mei/source/driver.xml /absolute/path/to/mei-tmus/schemata/mei-frettab.odd
+    $ # to specify version, e.g. v4.0.1, otherwise defaults to latest development version
+    $ cd mei
+    $ git checkout v4.0.1
+    $ cd ..
+    $
+    $ xmllint --xinclude -o /path/to/mei/mei-source.xml /path/to/mei/source/mei-source-included.xml
+    $ roma --xsl=/path/to/tei-xsl/ --localsource=/path/to/mei/source/mei-source-included.xml /absolute/path/to/mei-tmus/schemata/mei-frettab.odd
+

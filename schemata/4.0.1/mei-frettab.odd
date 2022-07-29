@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Music Encoding Initiative Guidelines: <title type="sub">Fretted String Instrument Tablature Customisation</title></title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Goldsmiths College</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Born digital</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <divGen type="toc"/>
+    </front>
+    <body>
+      <schemaSpec ident="mei" start="mei meiHead meiCorpus music" ns="http://www.music-encoding.org/ns/mei">
+        <moduleRef key="MEI"/>
+        <moduleRef key="MEI.analytical"/>
+        <moduleRef key="MEI.cmn"/>
+        <moduleRef key="MEI.cmnOrnaments"/>
+        <moduleRef key="MEI.corpus"/>
+        <moduleRef key="MEI.critapp"/>
+        <moduleRef key="MEI.drama"/>
+        <moduleRef key="MEI.edittrans"/>
+        <moduleRef key="MEI.externalsymbols"/>
+        <moduleRef key="MEI.facsimile"/>
+        <moduleRef key="MEI.figtable"/>
+        <moduleRef key="MEI.fingering"/>
+        <moduleRef key="MEI.frbr"/>
+        <moduleRef key="MEI.genetic"/>
+        <moduleRef key="MEI.gestural"/>
+        <moduleRef key="MEI.harmony"/>
+        <moduleRef key="MEI.header"/>
+        <moduleRef key="MEI.lyrics"/>
+        <moduleRef key="MEI.mensural"/>
+        <moduleRef key="MEI.midi"/>
+        <moduleRef key="MEI.msDesc"/>
+        <moduleRef key="MEI.namesdates"/>
+        <moduleRef key="MEI.neumes"/>
+        <moduleRef key="MEI.performance"/>
+        <moduleRef key="MEI.ptrref"/>
+        <moduleRef key="MEI.shared"/>
+        <moduleRef key="MEI.stringtab"/>
+        <moduleRef key="MEI.text"/>
+        <moduleRef key="MEI.usersymbols"/>
+        <moduleRef key="MEI.visual"/>
+	    <specGrpRef target="file:///home/paul/Documents/github/schema-play/instruments.odd#instruments"/>
+        <specGrpRef target="file:///home/paul/Documents/github/schema-play/frettab.odd#frettab"/>
+      </schemaSpec>
+    </body>
+  </text>
+</TEI>

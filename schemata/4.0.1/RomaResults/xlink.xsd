@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://www.w3.org/1999/xlink" xmlns:mei="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <xs:import namespace="http://www.music-encoding.org/ns/mei" schemaLocation="mei.xsd"/>
+  <xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="xml.xsd"/>
+  <xs:attribute name="actuate">
+    <xs:annotation>
+      <xs:documentation>Defines whether a link occurs automatically or must be requested by the user.</xs:documentation>
+    </xs:annotation>
+    <xs:simpleType>
+      <xs:restriction base="xs:token">
+        <xs:enumeration value="onLoad">
+          <xs:annotation>
+            <xs:documentation>Load the target resource(s) immediately.</xs:documentation>
+          </xs:annotation>
+        </xs:enumeration>
+        <xs:enumeration value="onRequest">
+          <xs:annotation>
+            <xs:documentation>Load the target resource(s) upon user request.</xs:documentation>
+          </xs:annotation>
+        </xs:enumeration>
+        <xs:enumeration value="none">
+          <xs:annotation>
+            <xs:documentation>Do not permit loading of the target resource(s).</xs:documentation>
+          </xs:annotation>
+        </xs:enumeration>
+        <xs:enumeration value="other">
+          <xs:annotation>
+            <xs:documentation>Behavior other than allowed by the other values of this attribute.</xs:documentation>
+          </xs:annotation>
+        </xs:enumeration>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:attribute>
+  <xs:attribute name="role" type="mei:data.URI">
+    <xs:annotation>
+      <xs:documentation>Characterization of the relationship between resources. The value of the role attribute must be a URI.</xs:documentation>
+    </xs:annotation>
+  </xs:attribute>
+  <xs:attribute name="show">
+    <xs:annotation>
+      <xs:documentation>Defines how a remote resource is rendered.</xs:documentation>
+    </xs:annotation>
+    <xs:simpleType>
+      <xs:restriction base="xs:token">
+        <xs:enumeration value="new">
+          <xs:annotation>
+            <xs:documentation>Open in a new window.</xs:documentation>
+          </xs:annotation>
+        </xs:enumeration>
+        <xs:enumeration value="replace">
+          <xs:annotation>
+            <xs:documentation>Load the referenced resource in the same window.</xs:documentation>
+          </xs:annotation>
+        </xs:enumeration>
+        <xs:enumeration value="embed">
+          <xs:annotation>
+            <xs:documentation>Embed the referenced resource at the point of the link.</xs:documentation>
+          </xs:annotation>
+        </xs:enumeration>
+        <xs:enumeration value="none">
+          <xs:annotation>
+            <xs:documentation>Do not permit traversal to the referenced resource.</xs:documentation>
+          </xs:annotation>
+        </xs:enumeration>
+        <xs:enumeration value="other">
+          <xs:annotation>
+            <xs:documentation>Behavior other than permitted by the other values of this attribute.</xs:documentation>
+          </xs:annotation>
+        </xs:enumeration>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:attribute>
+</xs:schema>
