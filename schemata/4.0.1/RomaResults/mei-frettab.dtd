@@ -1,6 +1,6 @@
 
 <!--
-DTD generated from ODD source 2022-07-29T12:48:25Z. .
+DTD generated from ODD source 2022-07-31T18:41:24Z. .
 TEI Edition: Version 4.0.0
 TEI Edition Location: https://www.tei-c.org/Vault/P5//
 
@@ -2129,7 +2129,7 @@ medium CDATA #IMPLIED'>
 <!ENTITY % att.medium.attributes '
  %att.medium.attribute.medium;'> 
 <!ENTITY % att.meiVersion.attribute.meiversion '
-meiversion (4.0.0|4.0.1) "4.0.1" '>
+meiversion (4.0.0) "4.0.0" '>
 <!ENTITY % att.meiVersion.attributes '
  %att.meiVersion.attribute.meiversion;'> 
 <!ENTITY % att.mensur.log.attribute.dot '
@@ -3396,6 +3396,10 @@ num.format (count|ratio) #IMPLIED'>
 <!ENTITY % model.instrdescPart_sequenceOptional "instrName?, courseCount?, tuning?"> 
 <!ENTITY % model.instrdescPart_sequenceOptionalRepeatable "instrName*, courseCount*, tuning*"> 
 <!ENTITY % model.instrdescPart_sequenceRepeatable "instrName+, courseCount+, tuning+"> 
+<!ENTITY % att.instrdesc.attribute.family '
+family CDATA #IMPLIED'>
+<!ENTITY % att.instrdesc.attributes '
+ %att.instrdesc.attribute.family;'> 
 <!ENTITY % model.instrconfigPart ""> 
 <!ENTITY % model.instrconfigPart_sequence ""> 
 <!ENTITY % model.instrconfigPart_sequenceOptional ""> 
@@ -4550,7 +4554,8 @@ corrlevel (high|medium|low|unknown) #IMPLIED >
 <!ATTLIST course xmlns CDATA "http://www.music-encoding.org/ns/mei">
 <!ATTLIST course
  %att.common.attributes;
- %att.pitched.attributes; >
+ %att.pitched.attributes;
+ %att.accidental.attributes; >
 <!--doc:(number of courses) The number of courses on a lute. -->
 <!ELEMENT courseCount  (#PCDATA)>
 <!ATTLIST courseCount xmlns CDATA "http://www.music-encoding.org/ns/mei">
@@ -5418,7 +5423,8 @@ form NMTOKEN #IMPLIED >
 <!ELEMENT instrName  (#PCDATA)>
 <!ATTLIST instrName xmlns CDATA "http://www.music-encoding.org/ns/mei">
 <!ATTLIST instrName
- %att.common.attributes; >
+ %att.common.attributes;
+ %att.instrdesc.attributes; >
 <!--doc:Describes the scope of any analytic or interpretive information added to the transcription of the music. -->
 <!ELEMENT interpretation ,(%model.pLike;)+)>
 <!ATTLIST interpretation xmlns CDATA "http://www.music-encoding.org/ns/mei">
@@ -7081,7 +7087,8 @@ align (left|right|center|rightdigit) #IMPLIED >
 <!ATTLIST string xmlns CDATA "http://www.music-encoding.org/ns/mei">
 <!ATTLIST string
  %att.common.attributes;
- %att.pitched.attributes; >
+ %att.pitched.attributes;
+ %att.accidental.attributes; >
 <!--doc:Strophicus. -->
 <!ELEMENT strophicus  EMPTY>
 <!ATTLIST strophicus xmlns CDATA "http://www.music-encoding.org/ns/mei">
@@ -7215,14 +7222,14 @@ fret %data.FRETNUMBER;  #IMPLIED >
 <!ATTLIST tabDurSym xmlns CDATA "http://www.music-encoding.org/ns/mei">
 <!ATTLIST tabDurSym
  %att.common.attributes;
+ %att.augmentDots.attributes;
  %att.facsimile.attributes;
 symbol %data.DURATION.tablature;  #IMPLIED
 head %data.HEADSHAPE;  #IMPLIED
 flags CDATA #IMPLIED
 flagDir (left|right) #IMPLIED
 serif %data.BOOLEAN;  #IMPLIED
-serifDir (left|right) #IMPLIED
-dots CDATA #IMPLIED >
+serifDir (left|right) #IMPLIED >
 <!--doc:(tablature stack of rhythm sign and notes) The primary rhythm and pitch information in guitar and lute tablature is contained in vertically-aligned stacks of symbols. The main components of these stacks are rhythm symbols, which indicate the inter-onset time between the current and the next stack, and fret/course symbols which indicate what, if anything, should be sounded.  -->
 <!ELEMENT tabGrp (%model.chordPart;|%model.appLike;|%model.editLike;|%model.sylLike;|%model.transcriptionLike;|%model.verseLike;)*>
 <!ATTLIST tabGrp xmlns CDATA "http://www.music-encoding.org/ns/mei">

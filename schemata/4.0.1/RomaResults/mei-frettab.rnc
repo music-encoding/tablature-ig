@@ -9,7 +9,7 @@ namespace teix = "http://www.tei-c.org/ns/Examples"
 namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2022-07-29T12:48:22Z. .
+# Schema generated from ODD source 2022-07-31T18:41:20Z. .
 # TEI Edition: Version 4.0.0
 # TEI Edition Location: https://www.tei-c.org/Vault/P5//
 #
@@ -12668,14 +12668,11 @@ att.meiVersion.attributes = att.meiVersion.attribute.meiversion
 att.meiVersion.attribute.meiversion =
   
   ## Specifies a generic MEI version label.
-  [ a:defaultValue = "4.0.1" ]
+  [ a:defaultValue = "4.0.0" ]
   attribute meiversion {
     
-    ## First release of MEI 4
+    ## This version of MEI.
     "4.0.0"
-    | 
-      ## Bugfix Release 4.0.1
-      "4.0.1"
   }?
 att.mensur.log.attributes =
   att.duration.ratio.attributes,
@@ -19678,10 +19675,17 @@ instrDesc =
     att.pointing.attributes,
     empty
   }
+att.instrdesc.attributes = att.instrdesc.attribute.family
+att.instrdesc.attribute.family =
+  
+  ## The instrument family of this instrument
+  attribute family { text }?
 instrName =
   
   ## (instrument name) The name of an instrument
-  element instrName { text, att.common.attributes, empty }
+  element instrName {
+    text, att.common.attributes, att.instrdesc.attributes, empty
+  }
 model.instrconfigPart = notAllowed
 instrConfig =
   
@@ -19741,6 +19745,7 @@ tabDurSym =
   element tabDurSym {
     text,
     att.common.attributes,
+    att.augmentDots.attributes,
     att.facsimile.attributes,
     
     ## The duration symbol.
@@ -19774,9 +19779,6 @@ tabDurSym =
         ## Right pointing
         "right"
     }?,
-    
-    ## The number of dots on the rhythm sign.
-    attribute dots { xsd:integer }?,
     empty
   }
 abzug =
@@ -19836,13 +19838,21 @@ course =
   
   ## (course tuning information) Describes the tuning of a course on a lute.
   element course {
-    \string*, att.common.attributes, att.pitched.attributes, empty
+    \string*,
+    att.common.attributes,
+    att.pitched.attributes,
+    att.accidental.attributes,
+    empty
   }
 \string =
   
   ## (a string of a course) Describes the tuning of a single string of a course on a lute.
   element string {
-    empty, att.common.attributes, att.pitched.attributes, empty
+    empty,
+    att.common.attributes,
+    att.pitched.attributes,
+    att.accidental.attributes,
+    empty
   }
 att.fing.tablature.attributes =
   att.fing.tablature.attribute.playingHand,

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <grammar xmlns="http://relaxng.org/ns/structure/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:teix="http://www.tei-c.org/ns/Examples" xmlns:xlink="http://www.w3.org/1999/xlink" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes" ns="http://www.music-encoding.org/ns/mei">
   <!--
-Schema generated from ODD source 2022-07-29T12:48:22Z. .
+Schema generated from ODD source 2022-07-31T18:41:20Z. .
 TEI Edition: Version 4.0.0
 TEI Edition Location: https://www.tei-c.org/Vault/P5//
   
@@ -14888,13 +14888,11 @@ Suggested values include: 1] byte; 2] char; 3] cm; 4] deg; 5] in; 6] issue; 7] f
   </define>
   <define name="att.meiVersion.attribute.meiversion">
     <optional>
-      <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0" name="meiversion" a:defaultValue="4.0.1">
+      <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0" name="meiversion" a:defaultValue="4.0.0">
         <a:documentation>Specifies a generic MEI version label.</a:documentation>
         <choice>
           <value>4.0.0</value>
-          <a:documentation>First release of MEI 4</a:documentation>
-          <value>4.0.1</value>
-          <a:documentation>Bugfix Release 4.0.1</a:documentation>
+          <a:documentation>This version of MEI.</a:documentation>
         </choice>
       </attribute>
     </optional>
@@ -23923,11 +23921,23 @@ Suggested values include: 1] coloration; 2] ligature; 3] unknown</a:documentatio
       <empty/>
     </element>
   </define>
+  <define name="att.instrdesc.attributes">
+    <ref name="att.instrdesc.attribute.family"/>
+  </define>
+  <define name="att.instrdesc.attribute.family">
+    <optional>
+      <attribute name="family">
+        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">The instrument family of this instrument</a:documentation>
+        <text/>
+      </attribute>
+    </optional>
+  </define>
   <define name="instrName">
     <element name="instrName" ns="http://www.music-encoding.org/ns/mei">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(instrument name) The name of an instrument</a:documentation>
       <text/>
       <ref name="att.common.attributes"/>
+      <ref name="att.instrdesc.attributes"/>
       <empty/>
     </element>
   </define>
@@ -24043,6 +24053,7 @@ Suggested values include: 1] coloration; 2] ligature; 3] unknown</a:documentatio
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(tablature rhythm sign) The durational sign associated with a tablature chord. The intended use of &lt;tabDurSym&gt; is to encode the rhythmic sign found in the source (if any) while the actual duration of the associated tablature chord is encoded using the &lt;tabGrp&gt;'s @dur attribute.</a:documentation>
       <text/>
       <ref name="att.common.attributes"/>
+      <ref name="att.augmentDots.attributes"/>
       <ref name="att.facsimile.attributes"/>
       <optional>
         <attribute name="symbol">
@@ -24088,12 +24099,6 @@ Suggested values include: 1] coloration; 2] ligature; 3] unknown</a:documentatio
             <value>right</value>
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Right pointing</a:documentation>
           </choice>
-        </attribute>
-      </optional>
-      <optional>
-        <attribute name="dots">
-          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">The number of dots on the rhythm sign.</a:documentation>
-          <data type="integer"/>
         </attribute>
       </optional>
       <empty/>
@@ -24182,6 +24187,7 @@ Suggested values include: 1] coloration; 2] ligature; 3] unknown</a:documentatio
       </zeroOrMore>
       <ref name="att.common.attributes"/>
       <ref name="att.pitched.attributes"/>
+      <ref name="att.accidental.attributes"/>
       <empty/>
     </element>
   </define>
@@ -24191,6 +24197,7 @@ Suggested values include: 1] coloration; 2] ligature; 3] unknown</a:documentatio
       <empty/>
       <ref name="att.common.attributes"/>
       <ref name="att.pitched.attributes"/>
+      <ref name="att.accidental.attributes"/>
       <empty/>
     </element>
   </define>

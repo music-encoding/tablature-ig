@@ -27,7 +27,7 @@
             <desc>Groups elements that may be be part of a structured instrument definition.</desc>
           </classSpec>
 
-          <elementSpec ident="perfRes" module="TEI.header" mode="change" ns="http://www.music-encoding.org/ns/mei">
+          <elementSpec ident="perfRes" module="MEI.header" mode="change" ns="http://www.music-encoding.org/ns/mei">
             <classes mode="change">
               <memberOf mode="add" key="model.perfResPart"/>
             </classes>
@@ -66,9 +66,6 @@
           </elementSpec>
 
           <classSpec ident="att.instrdesc" module="MEI.instruments" type="atts" mode="add">
-            <classes>
-              <memberOf key="att.typed"/>
-            </classes>
             <attList>
               <attDef ident="family" usage="opt">
                 <desc>The instrument family of this instrument</desc>
@@ -84,6 +81,7 @@
             <desc>The name of an instrument</desc>
             <classes>
               <memberOf key="att.common"/>
+              <memberOf key="att.instrdesc"/>
               <memberOf key="model.instrdescPart"/>
               <memberOf key="model.editorialLike"/>
             </classes>

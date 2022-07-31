@@ -49,8 +49,9 @@
         <moduleRef key="MEI.text"/>
         <moduleRef key="MEI.usersymbols"/>
         <moduleRef key="MEI.visual"/>
-	    <specGrpRef target="file:///home/paul/Documents/github/schema-play/instruments.odd#instruments"/>
-        <specGrpRef target="file:///home/paul/Documents/github/schema-play/frettab.odd#frettab"/>
+        <!-- fix pathto -->
+        <specGrpRef target="file:///pathto/tablature-ig/schemata/4.0.1/instruments.odd#instruments"/>
+        <specGrpRef target="file:///pathto/tablature-ig/schemata/4.0.1/frettab.odd#frettab"/>
       </schemaSpec>
     </body>
   </text>
