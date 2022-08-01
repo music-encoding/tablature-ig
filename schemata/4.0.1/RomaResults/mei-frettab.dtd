@@ -1,6 +1,6 @@
 
 <!--
-DTD generated from ODD source 2022-07-31T18:41:24Z. .
+DTD generated from ODD source 2022-08-01T11:47:36Z. .
 TEI Edition: Version 4.0.0
 TEI Edition Location: https://www.tei-c.org/Vault/P5//
 
@@ -723,16 +723,16 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5//
 <!ENTITY % model.perfResPart_sequenceOptional "perfRes?, instrDesc?, instrConfig?"> 
 <!ENTITY % model.perfResPart_sequenceOptionalRepeatable "perfRes*, instrDesc*, instrConfig*"> 
 <!ENTITY % model.perfResPart_sequenceRepeatable "perfRes+, instrDesc+, instrConfig+"> 
-<!ENTITY % model.instrdescPart "instrName |courseCount |tuning"> 
-<!ENTITY % model.instrdescPart_sequence "instrName, courseCount, tuning"> 
-<!ENTITY % model.instrdescPart_sequenceOptional "instrName?, courseCount?, tuning?"> 
-<!ENTITY % model.instrdescPart_sequenceOptionalRepeatable "instrName*, courseCount*, tuning*"> 
-<!ENTITY % model.instrdescPart_sequenceRepeatable "instrName+, courseCount+, tuning+"> 
-<!ENTITY % model.instrconfigPart ""> 
-<!ENTITY % model.instrconfigPart_sequence ""> 
-<!ENTITY % model.instrconfigPart_sequenceOptional ""> 
-<!ENTITY % model.instrconfigPart_sequenceOptionalRepeatable ""> 
-<!ENTITY % model.instrconfigPart_sequenceRepeatable ""> 
+<!ENTITY % model.instrdescPart "instrName |courseCount"> 
+<!ENTITY % model.instrdescPart_sequence "instrName, courseCount"> 
+<!ENTITY % model.instrdescPart_sequenceOptional "instrName?, courseCount?"> 
+<!ENTITY % model.instrdescPart_sequenceOptionalRepeatable "instrName*, courseCount*"> 
+<!ENTITY % model.instrdescPart_sequenceRepeatable "instrName+, courseCount+"> 
+<!ENTITY % model.instrconfigPart "tuning"> 
+<!ENTITY % model.instrconfigPart_sequence "tuning"> 
+<!ENTITY % model.instrconfigPart_sequenceOptional "tuning?"> 
+<!ENTITY % model.instrconfigPart_sequenceOptionalRepeatable "tuning*"> 
+<!ENTITY % model.instrconfigPart_sequenceRepeatable "tuning+"> 
 <!ENTITY % model.fretGlyphLike "fretGlyph"> 
 <!ENTITY % model.fretGlyphLike_sequence "fretGlyph"> 
 <!ENTITY % model.fretGlyphLike_sequenceOptional "fretGlyph?"> 
@@ -2129,7 +2129,7 @@ medium CDATA #IMPLIED'>
 <!ENTITY % att.medium.attributes '
  %att.medium.attribute.medium;'> 
 <!ENTITY % att.meiVersion.attribute.meiversion '
-meiversion (4.0.0) "4.0.0" '>
+meiversion (4.0.0|4.0.1) "4.0.1" '>
 <!ENTITY % att.meiVersion.attributes '
  %att.meiVersion.attribute.meiversion;'> 
 <!ENTITY % att.mensur.log.attribute.dot '
@@ -3391,20 +3391,20 @@ num.format (count|ratio) #IMPLIED'>
 <!ENTITY % model.perfResPart_sequenceOptional "perfRes?, instrDesc?, instrConfig?"> 
 <!ENTITY % model.perfResPart_sequenceOptionalRepeatable "perfRes*, instrDesc*, instrConfig*"> 
 <!ENTITY % model.perfResPart_sequenceRepeatable "perfRes+, instrDesc+, instrConfig+"> 
-<!ENTITY % model.instrdescPart "instrName |courseCount |tuning"> 
-<!ENTITY % model.instrdescPart_sequence "instrName, courseCount, tuning"> 
-<!ENTITY % model.instrdescPart_sequenceOptional "instrName?, courseCount?, tuning?"> 
-<!ENTITY % model.instrdescPart_sequenceOptionalRepeatable "instrName*, courseCount*, tuning*"> 
-<!ENTITY % model.instrdescPart_sequenceRepeatable "instrName+, courseCount+, tuning+"> 
+<!ENTITY % model.instrdescPart "instrName |courseCount"> 
+<!ENTITY % model.instrdescPart_sequence "instrName, courseCount"> 
+<!ENTITY % model.instrdescPart_sequenceOptional "instrName?, courseCount?"> 
+<!ENTITY % model.instrdescPart_sequenceOptionalRepeatable "instrName*, courseCount*"> 
+<!ENTITY % model.instrdescPart_sequenceRepeatable "instrName+, courseCount+"> 
 <!ENTITY % att.instrdesc.attribute.family '
 family CDATA #IMPLIED'>
 <!ENTITY % att.instrdesc.attributes '
  %att.instrdesc.attribute.family;'> 
-<!ENTITY % model.instrconfigPart ""> 
-<!ENTITY % model.instrconfigPart_sequence ""> 
-<!ENTITY % model.instrconfigPart_sequenceOptional ""> 
-<!ENTITY % model.instrconfigPart_sequenceOptionalRepeatable ""> 
-<!ENTITY % model.instrconfigPart_sequenceRepeatable ""> 
+<!ENTITY % model.instrconfigPart "tuning"> 
+<!ENTITY % model.instrconfigPart_sequence "tuning"> 
+<!ENTITY % model.instrconfigPart_sequenceOptional "tuning?"> 
+<!ENTITY % model.instrconfigPart_sequenceOptionalRepeatable "tuning*"> 
+<!ENTITY % model.instrconfigPart_sequenceRepeatable "tuning+"> 
 <!ENTITY % att.note.ges.tablature.attribute.tab.course '
 tab.course %data.COURSENUMBER;  #IMPLIED'>
 
@@ -4722,6 +4722,7 @@ form NMTOKEN #REQUIRED >
 <!ATTLIST dir xmlns CDATA "http://www.music-encoding.org/ns/mei">
 <!ATTLIST dir
  %att.technique.tablature.attributes;
+ %att.dirmark.tablature.attributes;
  %att.common.attributes;
  %att.facsimile.attributes;
  %att.lang.attributes;
@@ -5393,7 +5394,7 @@ form NMTOKEN #IMPLIED >
  %att.bibl.attributes;
  %att.lang.attributes; >
 <!--doc:(instrument configuration) Specifies how an instrument is required to be configured by this score. -->
-<!ELEMENT instrConfig (#PCDATA|_DUMMY_model.instrconfigPart)*>
+<!ELEMENT instrConfig (#PCDATA|%model.instrconfigPart;)*>
 <!ATTLIST instrConfig xmlns CDATA "http://www.music-encoding.org/ns/mei">
 <!ATTLIST instrConfig
  %att.common.attributes; >

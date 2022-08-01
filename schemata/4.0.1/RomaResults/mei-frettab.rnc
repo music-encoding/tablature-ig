@@ -9,7 +9,7 @@ namespace teix = "http://www.tei-c.org/ns/Examples"
 namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2022-07-31T18:41:20Z. .
+# Schema generated from ODD source 2022-08-01T11:47:32Z. .
 # TEI Edition: Version 4.0.0
 # TEI Edition Location: https://www.tei-c.org/Vault/P5//
 #
@@ -12668,11 +12668,14 @@ att.meiVersion.attributes = att.meiVersion.attribute.meiversion
 att.meiVersion.attribute.meiversion =
   
   ## Specifies a generic MEI version label.
-  [ a:defaultValue = "4.0.0" ]
+  [ a:defaultValue = "4.0.1" ]
   attribute meiversion {
     
-    ## This version of MEI.
+    ## First release of MEI 4
     "4.0.0"
+    | 
+      ## Bugfix Release 4.0.1
+      "4.0.1"
   }?
 att.mensur.log.attributes =
   att.duration.ratio.attributes,
@@ -15542,6 +15545,7 @@ dir =
          "         "
        ],
     att.technique.tablature.attributes,
+    att.dirmark.tablature.attributes,
     att.common.attributes,
     att.facsimile.attributes,
     att.lang.attributes,
@@ -19663,7 +19667,7 @@ att.volta.vis.attributes =
   att.visualOffset.vo.attributes,
   att.xy.attributes
 model.perfResPart = perfRes | instrDesc | instrConfig
-model.instrdescPart = instrName | courseCount | tuning
+model.instrdescPart = instrName | courseCount
 instrDesc =
   
   ## (description of an instrument) A detailed and structured description of an instrument.
@@ -19686,7 +19690,7 @@ instrName =
   element instrName {
     text, att.common.attributes, att.instrdesc.attributes, empty
   }
-model.instrconfigPart = notAllowed
+model.instrconfigPart = tuning
 instrConfig =
   
   ## (instrument configuration) Specifies how an instrument is required to be configured by this score.

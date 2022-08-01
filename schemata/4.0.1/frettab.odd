@@ -413,7 +413,6 @@
             </content>
           </elementSpec>
 
-          <!-- Is this needed? -->
           <elementSpec ident="courseCount" module="MEI.frettab" mode="add" ns="http://www.music-encoding.org/ns/mei">
             <gloss>number of courses</gloss>
             <desc>The number of courses on a lute.</desc>
@@ -466,7 +465,7 @@
             </desc>
             <classes>
               <memberOf key="att.common"/>
-              <memberOf key="model.instrdescPart"/>
+              <memberOf key="model.instrconfigPart"/>
               <memberOf key="model.staffDefPart"/>
             </classes>
             <content>
@@ -706,6 +705,7 @@
           <elementSpec ident="dir" module="MEI.shared" mode="change">
             <classes mode="change">
               <memberOf key="att.technique.tablature" mode="add"/>
+              <memberOf key="att.dirmark.tablature" mode="add"/>
             </classes>
             <content>
               <rng:zeroOrMore>
