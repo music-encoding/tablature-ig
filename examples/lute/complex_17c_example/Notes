@@ -1,0 +1,49 @@
+This example page comes from <i>Instrumentälischer Bettlermantl</i>, c 1650 (Edinburgh Univ Library, Special Collections MS Dc.6.100, page 28).
+This is a Bavarian (?) encyclopaedic treatise on musical instruments of the time.
+(Source can be viewed - but apparently not downloaded - at: http://images.is.ed.ac.uk/luna/servlet/s/ytvdf9 )
+Below I have transcribed the text to the best of my abilities; this is in German <i>schrift</i> except where enclosed by <rom></rom> tags.
+(Please feel free to improve the transcription!)
+
+This shows the same passage of music in German, French and Italian ('Welsche') lute tablature,
+together with a transcription in staff notation (described as 'Musicalische Tabulatur')
+
+Page 28:
+
+Die Welsche Tabulatur fiehrt[??] ihr quint Andern, und nimblin[??] der linges handt ihre Ziffer von Unden hinauf.
+Die <rom>Musici</rom>, wo dernn mangl[??], braushen[??] sie den gmain[??] <rom>Bass</rom>, merers aber des den <rom>General</rom>, oder aigentlich darzue <rom>comp</rom>onierten <rom>Bass</rom>.
+
+<rom>Exempla</rom>, iezt volgente werden auch was hierin erleitlern.
+
+[Example 1: German tablature]
+[Issues:
+	small note-names next to each tab symbol
+	unusual pairs of dots - function of these is not yet clear to me
+]
+
+[Example 2: French tablature]
+	Französischer Tabulatur
+[Issues:
+	small note-names next to each tab symbol
+	labels to staff-lines representing strings/courses given in two styles (left end: Latin; right end: German)
+	faulty alignment at end of bar 6
+]
+
+[Example 3: Italian tablature]
+	Welsche Tabulatur
+[Issues:
+	small note-names next to each tab symbol
+	labels to staff-lines representing strings/courses are given in two styles (left end: German; right end: Latin)
+	faulty alignment at end of bar 6
+]
+
+[Example 4: 'Musical' tablature (i.e. Staff notation)]
+	<rom>Musicali</rom>sche Tabulatur
+[Issues:
+	right-hand staff (clef C2) has five lines
+	left-hand staff (doubled clefs: C6 and F4) has seven lines;
+	inconsistent voices
+	this 'transcription' does not entirely agree with Ex 1-3
+]
+	
+Die Teütsh darbey gesüzten[??] Buechstaben züngen[??] nüer[??], und berichten[??] mich was ich nach iedene Tabulatur greiffe &c.
+
