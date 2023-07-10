@@ -26,17 +26,6 @@
             <desc>Marking up of tablatures for fretted string instruments.</desc>
           </moduleSpec>
 
-          <!-- German lute tablature doesn't use a staff, allow 0 lines -->
-          <classSpec mode="change" ident="att.staffDef.log" module="MEI.shared" type="atts">
-            <attList>
-              <attDef ident="lines" mode="change">
-                <datatype>
-                  <rng:data type="nonNegativeInteger"/>
-                </datatype>
-              </attDef>
-            </attList>
-          </classSpec>
-
           <!-- What is a 'dead' note? Do we need it? -->
           <macroSpec ident="data.FRETNUMBER" module="MEI" type="dt" mode="replace">
             <desc>In string tablature, the fret number. The value '0' (zero) indicates the open string and 'x' indicates a 'dead' note.</desc>
@@ -265,6 +254,7 @@
               <memberOf key="att.common"/>
               <memberOf key="att.augmentDots"/>
               <memberOf key="att.facsimile"/>
+              <memberOf key="att.staffLoc"/>
               <memberOf key="model.chordPart"/>
             </classes>
             <content>
@@ -585,6 +575,13 @@
             </content>
           </elementSpec>
 
+         <!-- Add German lute tablature specific attribute -->
+           <elementSpec ident="staffDef" module="MEI.shared" mode="change" ns="http://www.music-encoding.org/ns/mei">
+            <classes mode="change">
+              <memberOf mode="add" key="att.verticalAlign"/>
+            </classes>
+          </elementSpec>
+ 
           <!-- add tablature specifics to &lt;note&gt; -->
           <elementSpec ident="note" module="MEI.shared" mode="change" ns="http://www.music-encoding.org/ns/mei">
             <classes mode="change">
