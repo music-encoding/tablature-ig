@@ -3,7 +3,7 @@
   <xs:import namespace="http://www.w3.org/1999/xlink" schemaLocation="xlink.xsd"/>
   <xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="http://www.w3.org/2004/10/xml.xsd"/>
   <!--
-    Schema generated from ODD source 2022-08-01T11:47:32Z. .
+    Schema generated from ODD source 2023-07-10T18:30:34Z. .
     TEI Edition: Version 4.0.0
     TEI Edition Location: https://www.tei-c.org/Vault/P5//
     
@@ -17091,7 +17091,7 @@ Suggested values include: 1] byte; 2] char; 3] cm; 4] deg; 5] in; 6] issue; 7] f
     <xs:attributeGroup ref="mei:att.staffDef.log.attribute.lines"/>
   </xs:attributeGroup>
   <xs:attributeGroup name="att.staffDef.log.attribute.lines">
-    <xs:attribute name="lines" type="xs:nonNegativeInteger">
+    <xs:attribute name="lines" type="xs:positiveInteger">
       <xs:annotation>
         <xs:documentation>Indicates the number of staff lines.</xs:documentation>
       </xs:annotation>
@@ -21662,6 +21662,7 @@ Suggested values include: 1] person; 2] corporation; 3] location; 4] process; 5]
         </xs:choice>
         <xs:element minOccurs="0" ref="mei:ambitus"/>
       </xs:sequence>
+      <xs:attributeGroup ref="mei:att.verticalAlign.attributes"/>
       <xs:attributeGroup ref="mei:att.basic.attributes"/>
       <xs:attributeGroup ref="mei:att.labelled.attributes"/>
       <xs:attributeGroup ref="mei:att.linking.attributes"/>
@@ -24737,6 +24738,7 @@ Suggested values include: 1] coloration; 2] ligature; 3] unknown</xs:documentati
       <xs:attributeGroup ref="mei:att.common.attributes"/>
       <xs:attributeGroup ref="mei:att.augmentDots.attributes"/>
       <xs:attributeGroup ref="mei:att.facsimile.attributes"/>
+      <xs:attributeGroup ref="mei:att.staffLoc.attributes"/>
       <xs:attribute name="symbol" type="mei:data.DURATION.tablature">
         <xs:annotation>
           <xs:documentation>The duration symbol.</xs:documentation>

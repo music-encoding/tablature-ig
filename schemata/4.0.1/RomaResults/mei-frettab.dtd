@@ -1,6 +1,6 @@
 
 <!--
-DTD generated from ODD source 2022-08-01T11:47:36Z. .
+DTD generated from ODD source 2023-07-10T18:30:38Z. .
 TEI Edition: Version 4.0.0
 TEI Edition Location: https://www.tei-c.org/Vault/P5//
 
@@ -7026,6 +7026,7 @@ align (left|right|center|rightdigit) #IMPLIED >
 <!ELEMENT staffDef ((%model.labelLike;)*,(%model.instrDefLike;|%model.layerDefLike;|%model.staffDefPart;)*,(ambitus)?)>
 <!ATTLIST staffDef xmlns CDATA "http://www.music-encoding.org/ns/mei">
 <!ATTLIST staffDef
+ %att.verticalAlign.attributes;
  %att.basic.attributes;
  %att.labelled.attributes;
  %att.linking.attributes;
@@ -7225,6 +7226,7 @@ fret %data.FRETNUMBER;  #IMPLIED >
  %att.common.attributes;
  %att.augmentDots.attributes;
  %att.facsimile.attributes;
+ %att.staffLoc.attributes;
 symbol %data.DURATION.tablature;  #IMPLIED
 head %data.HEADSHAPE;  #IMPLIED
 flags CDATA #IMPLIED

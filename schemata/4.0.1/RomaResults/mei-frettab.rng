@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <grammar xmlns="http://relaxng.org/ns/structure/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:teix="http://www.tei-c.org/ns/Examples" xmlns:xlink="http://www.w3.org/1999/xlink" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes" ns="http://www.music-encoding.org/ns/mei">
   <!--
-Schema generated from ODD source 2022-08-01T11:47:32Z. .
+Schema generated from ODD source 2023-07-10T18:30:34Z. .
 TEI Edition: Version 4.0.0
 TEI Edition Location: https://www.tei-c.org/Vault/P5//
   
@@ -15935,7 +15935,7 @@ Suggested values include: 1] smufl</a:documentation>
     <optional>
       <attribute name="lines">
         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Indicates the number of staff lines.</a:documentation>
-        <data type="nonNegativeInteger"/>
+        <data type="positiveInteger"/>
       </attribute>
     </optional>
   </define>
@@ -21101,7 +21101,7 @@ Suggested values include: 1] person; 2] corporation; 3] location; 4] process; 5]
     </element>
   </define>
   <define name="staffDef">
-    <element name="staffDef">
+    <element name="staffDef" ns="http://www.music-encoding.org/ns/mei">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(staff definition) – Container for staff meta-information.</a:documentation>
       <zeroOrMore>
         <ref name="model.labelLike"/>
@@ -21202,6 +21202,7 @@ Suggested values include: 1] person; 2] corporation; 3] location; 4] process; 5]
               the value of ppq on a preceding scoreDef.</sch:assert>
         </sch:rule>
       </sch:pattern>
+      <ref name="att.verticalAlign.attributes"/>
       <ref name="att.basic.attributes"/>
       <ref name="att.labelled.attributes"/>
       <ref name="att.linking.attributes"/>
@@ -24059,6 +24060,7 @@ Suggested values include: 1] coloration; 2] ligature; 3] unknown</a:documentatio
       <ref name="att.common.attributes"/>
       <ref name="att.augmentDots.attributes"/>
       <ref name="att.facsimile.attributes"/>
+      <ref name="att.staffLoc.attributes"/>
       <optional>
         <attribute name="symbol">
           <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">The duration symbol.</a:documentation>

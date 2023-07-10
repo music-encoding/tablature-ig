@@ -9,7 +9,7 @@ namespace teix = "http://www.tei-c.org/ns/Examples"
 namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2022-08-01T11:47:32Z. .
+# Schema generated from ODD source 2023-07-10T18:30:34Z. .
 # TEI Edition: Version 4.0.0
 # TEI Edition Location: https://www.tei-c.org/Vault/P5//
 #
@@ -13561,7 +13561,7 @@ att.staffDef.log.attributes =
 att.staffDef.log.attribute.lines =
   
   ## Indicates the number of staff lines.
-  attribute lines { xsd:nonNegativeInteger }?
+  attribute lines { xsd:positiveInteger }?
 att.staffGroupingSym.attributes = att.staffGroupingSym.attribute.symbol
 att.staffGroupingSym.attribute.symbol =
   
@@ -17467,6 +17467,7 @@ staffDef =
          "\x{a}" ~
          "         "
        ],
+    att.verticalAlign.attributes,
     att.basic.attributes,
     att.labelled.attributes,
     att.linking.attributes,
@@ -19751,6 +19752,7 @@ tabDurSym =
     att.common.attributes,
     att.augmentDots.attributes,
     att.facsimile.attributes,
+    att.staffLoc.attributes,
     
     ## The duration symbol.
     attribute symbol { data.DURATION.tablature }?,
