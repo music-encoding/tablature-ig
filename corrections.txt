@@ -1,0 +1,48 @@
+changes made:
+- guitar pieces: added artist name and song name in <workDesc> 
+- lute pieces: replaced all <sic>s with <choice> + <sic>, <corr>
+- both: removed all XML commments and resolved the issue if possible, or added as a question
+- resolved questions on the google doc
+
+remarks:
+- instead of as a <slur>, we can also do single-note hammer-ons (see below) as a @technique attribute on <dir>: @technique='hammer-on'
+- I am using @dur (rather than @dur.ges) in the <tabGrp> - the duration is unambiguous here
+- in the case of muted notes in the guitar pieces, the tab.fret value is deduced from the CMN staff above
+- I left @startids referring to non-visible notes (i.e., notes just before or after the fragment) in for now 
+  (I assume that they won't break the parsing but just give a warning). (applies to ice_9 and hot_for_teacher) 
+
+remaining questions:
+da_crema-1546_10-no_6
+- m. 1, 7: not sure if the dots='1' should go to the tabGrp, the tabRhythm, or both
+- m. 2: is the serif encoded correctly like this? is it even a serif?
+
+gerle-1552_1-no_4
+- throughout the piece: actually not strikethrough, but line above symbols. is this an issue?
+- m. 1: not sure if the dots='1' should go to the tabGrp, the tabRhythm, or both
+- m. 4 (2x), 6: how to indicate the tenuto sign preceding the glyph? does it need some sort of position indicator as well?
+
+milano-1546_6-no_8
+- n/a
+ 
+phalese-1546_20-no_2
+- <staffDef>: Phalèse uses a five-line staff - should we encode this using lines='5'?
+- <staffDef>: I am not sure if <mensur sign='C' slash='1'/> is correct
+
+satriani-ice_9
+- m. 1: the three slurs have a slide in them, as part of the slur. did I encode this correctly by nesting <gliss> in <slur>? one 
+  problem that I see here is that the 'H' dirmark that <slur> gives should be overridden with a 'sl.' dirmark that <gliss> gives
+
+satriani-not_of_this_earth
+- m. 2: this is a bit of an exceptional thing: all five notes are slid using the LH hammering (or RH tapping) finger. wrapping 
+  <gliss> in <slur> (or <dir>) should reflect that. is this done correctly?
+- m. 2: all <slur> notes have no @endid (cf. one-note slides) because they are 'single-note hammer-ons': notes not played with the RH
+  but sounded by hammering 'out of nothing' a LH finger onto the fretboard.  @show.dirmark='true' must in these cases always give 'H'.
+- m. 2: I am not sure if the syntax for <dir>, with the indication of the 'T' (for 'tap') before the <gliss/>, is done correctly here.
+- m. 3, 4: is this the correct encoding of a rest: <tabGrp dur='8' xml:id=''/>
+- m. 4: I wrapped the <vibrato> element in a <dir @technique='feedback'> element
+- m. 4: same <dir> syntax issue as in m. 2
+
+van_halen-hot_for_teacher
+- m. 1: is this the correct encoding of a rest: <tabGrp dur='8' xml:id=''/>
+- m. 2, 3: all <slur> notes have no @endid (cf. one-note slides) because they are 'single-note hammer-ons': notes not played with the
+  RH but sounded by hammering 'out of nothing' a LH finger onto the fretboard.  @show.dirmark='true' must in these cases always give 'H'.
